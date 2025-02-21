@@ -68,6 +68,6 @@ An “advantage” is a useful trait that gives you a mental, physical, or socia
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

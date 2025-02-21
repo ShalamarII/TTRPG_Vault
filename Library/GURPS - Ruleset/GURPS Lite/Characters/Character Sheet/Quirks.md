@@ -42,6 +42,6 @@ A “quirk” is a minor personality trait. It’s not an advantage and it’s n
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

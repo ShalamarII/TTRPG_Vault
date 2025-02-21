@@ -50,6 +50,6 @@ A disadvantage is anything with a negative cost, including low attributes, reduc
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

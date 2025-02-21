@@ -75,6 +75,6 @@ Damage is sometimes abbreviated “Dmg.” On your character sheet, list thrust 
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

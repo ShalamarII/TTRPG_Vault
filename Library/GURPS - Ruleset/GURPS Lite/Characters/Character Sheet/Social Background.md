@@ -78,6 +78,6 @@ Your written comprehension level determines your degree of literacy in that lang
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

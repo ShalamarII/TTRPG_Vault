@@ -60,7 +60,7 @@ Muscle-powered ranged weapons are hurled weapons (axes, spears, etc.) and low-te
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]
 

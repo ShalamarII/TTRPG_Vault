@@ -6,5 +6,3 @@
 ---
 
 Tunda is a human/kathali hybrid man known for his Bold, Loud, and Virtuous personality. He is hairier than a normal human, with features that are similar to a Lion. Despite his looks, he is clever, often taking a unexpected path to get results. He can be cruel, but only those who know him extremely well know that.
-
-He petitioned for the children to be sent on an expedition instead of killed.

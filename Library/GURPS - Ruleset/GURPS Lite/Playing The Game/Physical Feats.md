@@ -172,6 +172,6 @@ Thrown objects inflict thrust damage for your ST (see Damage Table, p. 6), modif
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]

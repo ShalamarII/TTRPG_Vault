@@ -69,7 +69,7 @@ A “firearm” is any gun, rocket, or beam weapon that does not rely on muscle 
 ### Playing The Game
 [[Physical Feats]]
 [[Mental Feats]]
-[[Combat]]
+[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
 [[Injury, Illness, and Fatigue]]
 [[Game Worlds]]
 
