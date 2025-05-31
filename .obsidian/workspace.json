@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,12 +242,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3436e19352a3bc19",
+  "active": "aafc5db036311253",
   "lastOpenFiles": [
+    "Library/Alrathion - The End's Fall/Magic's Core/Magic.md",
+    "conflict-files-obsidian-git.md",
+    "Library/GURPS Resources/Quick Ref/Notes/Combat Quick Ref.md",
+    "Library/GURPS Resources/Quick Ref/DM Screen.md",
+    "Library/GURPS Resources/Quick Ref/Notes",
+    "Library/GURPS Resources/Quick Ref",
     "Library/GCS General/User Created/Created Templates/TaughtSkillsAlrathion.gct",
     "Library/Alrathion - The End's Fall/Magic's Core/Spells/Share Vitality.md",
     "Library/Player Screen/Player Screen.md",
-    "Library/Alrathion - The End's Fall/Magic's Core/Magic.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Spells/Spells Overview.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Spells/Recover Energy.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Spells/Floating Disk.md",
@@ -274,12 +279,7 @@
     "Library/Alrathion - The End's Fall/Magic's Core/Impulses/Sense.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Impulses/Reveal & Conceal.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Impulses/Protect.md",
-    "Library/Alrathion - The End's Fall/Magic's Core/Impulses/Imbue.md",
-    "Library/Alrathion - The End's Fall/Magic's Core/Impulses/Dominate.md",
     "Library/Alrathion - The End's Fall/Magic's Core/Impulses",
-    "Library/Alrathion - The End's Fall/Magic's Core/Aspects",
-    "Library/GURPS Resources/GURPS Book PDFs/GURPS 4th - Basic Set - Campaigns.pdf",
-    "Library/Player Screen/Notes",
     "Library/Alrathion - The End's Fall/Maps/Alrathion/Alrathion.png",
     "Library/Alrathion/Maps/Alrathion.png",
     "Library/Alrathion - The End's Fall/Maps/World Maps/WorldwithTectonicPlates.png",
