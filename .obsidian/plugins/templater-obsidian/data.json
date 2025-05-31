@@ -17,6 +17,18 @@
     {
       "folder": "Library/Alrathion - The End's Fall/Sessions",
       "template": "Templates/Session Template.md"
+    },
+    {
+      "folder": "Library/Alrathion - The End's Fall/Magic's Core/Spells",
+      "template": "Templates/Spells Template.md"
+    },
+    {
+      "folder": "Library/Alrathion - The End's Fall/Magic's Core/Aspects",
+      "template": "Templates/Aspect Template.md"
+    },
+    {
+      "folder": "Library/Alrathion - The End's Fall/Magic's Core/Impulses",
+      "template": "Templates/Impulse Template.md"
     }
   ],
   "enable_file_templates": false,

@@ -1,30 +1,298 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "GiSheep",
+      "RaBarrier",
+      "🔥",
       "FarChessKnight",
-      "TiTemplate",
-      "FasBookmark",
-      "LiHeadphones",
-      "FasBookJournalWhills"
+      "TiTemplate"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "icon": "LiPi",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiSmartphoneLine",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Social Media\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiTv",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Videos\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiBook",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Books\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbNews",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Articles\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasGuitar",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Music\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPen",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Productivity\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 6,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPi",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 7,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiPigMoney",
+        "rule": "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Business\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 8,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasPerson",
+        "rule": "Our Brain/Our Zettelkasten/Practical Notes/People\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 9,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasHammer",
+        "rule": "Our Brain/Our Zettelkasten/Practical Notes/Projects\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 10,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarCalendarDays",
+        "rule": "Our Brain/Our Zettelkasten/Practical Notes/Meetings\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 11,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbNews",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Articles\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 12,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiTv",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Videos\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 13,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiSmartphoneLine",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Social Media\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 14,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasGuitar",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Music\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 15,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiBook",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Books\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 16,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPen",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Productivity\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 17,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPi",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 18,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPi",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 19,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiPigMoney",
+        "rule": "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Business\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 20,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasHammer",
+        "rule": "Rodrico's Brain/My Zettelkasten/Practical Notes/Projects\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 21,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasPerson",
+        "rule": "Rodrico's Brain/My Zettelkasten/Practical Notes/People\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 22,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarCalendarDays",
+        "rule": "Rodrico's Brain/My Zettelkasten/Practical Notes/Meetings\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 23,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPi",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 24,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiTv",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Videos\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 25,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiSmartphoneLine",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Social Media\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 26,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiBook",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Books\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 27,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbNews",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Articles\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 28,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasGuitar",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Music\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 29,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPen",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Productivity\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 30,
+        "useFilePath": true
+      },
+      {
+        "icon": "TiPigMoney",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Business\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 31,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiPi",
+        "rule": "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 32,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasHammer",
+        "rule": "Our Brain/My Zettelkasten/Practical Notes/Projects\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 33,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasPerson",
+        "rule": "Our Brain/My Zettelkasten/Practical Notes/People\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 34,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarCalendarDays",
+        "rule": "Our Brain/My Zettelkasten/Practical Notes/Meetings\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 35,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiGem",
+        "rule": "Marriage Document\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 36,
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
-  },
-  "Marriage Document": {
-    "iconName": "LiGem",
-    "inheritanceIcon": "LiGem"
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Marriage Document/Beliefs.md": "LiGem",
   "Attachments": "TiGif",
@@ -35,151 +303,32 @@
   "Our Brain/My Zettelkasten": "FarChessKnight",
   "Our Brain/Templates": "TiTemplate",
   "Our Brain/Studying": "FasBookmark",
-  "Our Brain/My Zettelkasten/Practical Notes/Meetings": {
-    "iconName": "FarCalendarDays",
-    "inheritanceIcon": "FarCalendarDays"
-  },
-  "Our Brain/My Zettelkasten/Practical Notes/People": {
-    "iconName": "FasPerson",
-    "inheritanceIcon": "FasPerson"
-  },
-  "Our Brain/My Zettelkasten/Practical Notes/Projects": {
-    "iconName": "FasHammer",
-    "inheritanceIcon": "FasHammer"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics": {
-    "iconName": "LiPi",
-    "inheritanceIcon": "LiPi"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Business": {
-    "iconName": "TiPigMoney",
-    "inheritanceIcon": "TiPigMoney"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Productivity": {
-    "iconName": "LiPen",
-    "inheritanceIcon": "LiPen"
-  },
   "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Audiobooks": "LiHeadphones",
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Music": {
-    "iconName": "FasGuitar",
-    "inheritanceIcon": "FasGuitar"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Articles": {
-    "iconName": "IbNews",
-    "inheritanceIcon": "IbNews"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Books": {
-    "iconName": "TiBook",
-    "inheritanceIcon": "TiBook"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Social Media": {
-    "iconName": "RiSmartphoneLine",
-    "inheritanceIcon": "RiSmartphoneLine"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Videos": {
-    "iconName": "LiTv",
-    "inheritanceIcon": "LiTv"
-  },
-  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically": {
-    "iconName": "LiPi",
-    "inheritanceIcon": "LiPi"
-  },
-  "Rodrico's Brain/My Zettelkasten/Practical Notes/Meetings": {
-    "iconName": null,
-    "inheritanceIcon": "FarCalendarDays"
-  },
-  "Rodrico's Brain/My Zettelkasten/Practical Notes/People": {
-    "iconName": null,
-    "inheritanceIcon": "FasPerson"
-  },
-  "Rodrico's Brain/My Zettelkasten/Practical Notes/Projects": {
-    "iconName": null,
-    "inheritanceIcon": "FasHammer"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Business": {
-    "iconName": null,
-    "inheritanceIcon": "TiPigMoney"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics": {
-    "iconName": null,
-    "inheritanceIcon": "LiPi"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically": {
-    "iconName": null,
-    "inheritanceIcon": "LiPi"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Topics/Productivity": {
-    "iconName": null,
-    "inheritanceIcon": "LiPen"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Books": {
-    "iconName": null,
-    "inheritanceIcon": "TiBook"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Music": {
-    "iconName": null,
-    "inheritanceIcon": "FasGuitar"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Social Media": {
-    "iconName": null,
-    "inheritanceIcon": "RiSmartphoneLine"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Videos": {
-    "iconName": null,
-    "inheritanceIcon": "LiTv"
-  },
-  "Rodrico's Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Articles": {
-    "iconName": null,
-    "inheritanceIcon": "IbNews"
-  },
   "Our Brain/Our Zettelkasten": "FarChessKnight",
-  "Our Brain/Our Zettelkasten/Practical Notes/Meetings": {
-    "iconName": "FarCalendarDays",
-    "inheritanceIcon": "FarCalendarDays"
-  },
-  "Our Brain/Our Zettelkasten/Practical Notes/Projects": {
-    "iconName": "FasHammer",
-    "inheritanceIcon": "FasHammer"
-  },
-  "Our Brain/Our Zettelkasten/Practical Notes/People": {
-    "iconName": "FasPerson",
-    "inheritanceIcon": "FasPerson"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Business": {
-    "iconName": "TiPigMoney",
-    "inheritanceIcon": "TiPigMoney"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics": {
-    "iconName": "LiPi",
-    "inheritanceIcon": "LiPi"
-  },
   "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Audiobooks": "LiHeadphones",
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Productivity": {
-    "iconName": "LiPen",
-    "inheritanceIcon": "LiPen"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Music": {
-    "iconName": "FasGuitar",
-    "inheritanceIcon": "FasGuitar"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Articles": {
-    "iconName": "IbNews",
-    "inheritanceIcon": "IbNews"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Books": {
-    "iconName": "TiBook",
-    "inheritanceIcon": "TiBook"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Videos": {
-    "iconName": "LiTv",
-    "inheritanceIcon": "LiTv"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Social Media": {
-    "iconName": "RiSmartphoneLine",
-    "inheritanceIcon": "RiSmartphoneLine"
-  },
-  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically": {
-    "iconName": "LiPi",
-    "inheritanceIcon": "LiPi"
-  }
+  "Marriage Document": "LiGem",
+  "Our Brain/My Zettelkasten/Practical Notes/Meetings": "FarCalendarDays",
+  "Our Brain/My Zettelkasten/Practical Notes/People": "FasPerson",
+  "Our Brain/My Zettelkasten/Practical Notes/Projects": "FasHammer",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics": "LiPi",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Business": "TiPigMoney",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Productivity": "LiPen",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Music": "FasGuitar",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Articles": "IbNews",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Books": "TiBook",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Social Media": "RiSmartphoneLine",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Readwise/Videos": "LiTv",
+  "Our Brain/My Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically": "LiPi",
+  "Our Brain/Our Zettelkasten/Practical Notes/Meetings": "FarCalendarDays",
+  "Our Brain/Our Zettelkasten/Practical Notes/Projects": "FasHammer",
+  "Our Brain/Our Zettelkasten/Practical Notes/People": "FasPerson",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Business": "TiPigMoney",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics": "LiPi",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Productivity": "LiPen",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Music": "FasGuitar",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Articles": "IbNews",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Books": "TiBook",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Videos": "LiTv",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Readwise/Social Media": "RiSmartphoneLine",
+  "Our Brain/Our Zettelkasten/Literature and Topic Notes/Topics/Mathematics/Speaking Mathematically": "LiPi"
 }

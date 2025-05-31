@@ -1,13 +1,17 @@
+---
+PageNum: 18.1
+---
+
 ### Table of Contents
 [[#General Overview]]
 [[#Armor Table]]
 [[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 Armor is very useful in combat. A single sword blow or bullet can incapacitate or kill you . . . but armor might give you a second chance. Your armor’s Damage Resistance, or DR, subtracts directly from the damage inflicted by your enemies’ weapons. Armor requires no skill to use – you just wear it! Effective armor is heavy, though. Its weight can hinder you (see Encumbrance and Move, p. 22), reducing your Dodge and Karate Parry.
 
 ---
-### Armor Table
+## Armor Table
 The armor table that follows includes an article of light, common clothing to wear underneath – or padding, if this is usual for the armor. The statistics already reflect this; you do not have to buy clothing or padding separately, or account for its DR and weight. 
 
 The tables give the following information for each item of armor: 
@@ -30,41 +34,10 @@ Weight: The item’s weight, in pounds.
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

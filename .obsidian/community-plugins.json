@@ -10,5 +10,9 @@
   "obsidian-excalidraw-plugin",
   "aprils-automatic-timelines",
   "merge-notes",
-  "dynamic-outline"
+  "dynamic-outline",
+  "global-search-and-replace",
+  "obsidian-meta-bind-plugin",
+  "js-engine",
+  "obsidian-icon-folder"
 ]

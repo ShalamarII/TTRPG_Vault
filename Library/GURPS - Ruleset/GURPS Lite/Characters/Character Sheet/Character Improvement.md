@@ -1,11 +1,14 @@
-### Table of Contents
+---
+PageNum: 17
+---
 
+## Table of Contents
 [[#General Overview]]
 [[#Bonus Character Points]]
 [[#Links to other Pages (In Order)]]
 
 ---
-### General Overview
+## General Overview
 At the end of each session, the GM may award bonus character points for good play; these are the same kind of points you used to create your character. Bonus points are used to develop and improve your character. Record them as “unspent” on your character sheet. Then spend them the same way as during character creation, as follows: 
 
 To improve one of your basic attributes, you must spend character points equal to the point-cost difference between the old score and the new one. Note that improving basic attributes will also affect secondary characteristics! 
@@ -17,47 +20,16 @@ A character may get rid of most beginning disadvantages by buying them off with 
 Earned character points can be used to increase your skills or add new ones. When you improve a skill, the cost is the difference between your current skill level and the cost of the new skill level.
 
 ---
-### Bonus Character Points
+## Bonus Character Points
 At the end of each play session, the GM should award bonus character points for good play. “Good play” is anything that advances the heroes’ mission or shows good roleplaying – preferably both. But roleplaying trumps mission success! If a player did something totally outside his character’s personality (for instance, if a total coward performed a brave act), this should not be worth any points, even if it saved the day for the rest of the group! 
 
 The GM is free to award any number of points . . . but in general, they should give each player between zero and five points, averaging two or three points, per session. The GM might also wish to give an award – perhaps equal to that for a successful play session – upon the conclusion of a lengthy adventure, story arc, or major plot thread.
 
 ---
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

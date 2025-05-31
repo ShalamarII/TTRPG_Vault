@@ -1,4 +1,8 @@
-### Table of Contents
+---
+PageNum: 7
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#Technology Level (TL)]]
 [[#Language]]
@@ -6,11 +10,11 @@
 [[#Literacy]]
 [[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 These sections discuss your society’s level of Technological Development, Cultures, and Languages. It is an [Advantage](https://gurps4e.fandom.com/wiki/Advantages "Advantages") to be technologically advanced, culturally literate, or linguistically talented. Inadequacy in these areas can be a crippling [Disadvantage](https://gurps4e.fandom.com/wiki/Disadvantages "Disadvantages").
 
 ---
-### Technology Level (TL)
+## Technology Level (TL)
 “Technology level” (or “tech level”) is a number that rates technological development. The more advanced the society, the higher its TL. The GM will tell you the TL of his world. Characters also have a TL, equal to that of the technology with which they are most familiar. Unless you are especially primitive or advanced, your personal TL will be the same as the world. In some game worlds, your personal TL may differ from the campaign average. A world might be TL8 on average, but the citizens of one advanced nation might be TL9 while those from an underdeveloped region might be TL7.
 
 | TL Level | Description                                                                                                                                                                                                                                                                                                                             | Points                         |
@@ -19,9 +23,10 @@ These sections discuss your society’s level of Technological Development, Cult
 | High TL  | Your personal TL is above that of the campaign world. You may enter play with skills relating to equipment up to your personal TL. This is most useful if you also have access to high-TL equipment, but the knowledge of a high-tech doctor or scientist can be very useful in a low-tech setting, even without specialized equipment! | 5 points/TL above campaign TL  |
 
 ---
-### Language
+## Language
 GURPS assumes that most characters can read and write their “native” language. This ability costs no points, but you should note your native language on your character sheet; e.g., “English (Native) \[0].”
-##### Comprehension Levels
+
+### Comprehension Levels
 The point cost to learn an additional language depends on your “comprehension level”: a measure of how well you function in that language overall. There are four comprehension levels (See the table below):
 
 | Language Proficiency | Description                                                                                                 | Points                                    |
@@ -43,41 +48,10 @@ Your written comprehension level determines your degree of literacy in that lang
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

@@ -1,12 +1,17 @@
-### Table of Contents
+---
+PageNum: 19.2
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#Melee Weapons Table]]
+[[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 Melee weapons are grouped under the skills required to use them. Skill names appear in capital letters, with defaults in parentheses; e.g., “AXE/MACE (DX-5).” If there is more than one way to use a weapon, each method gets its own line. If multiple skills let you use a weapon, the weapon appears under each skill. For example, both Staff skill and Two-Handed Sword skill let you wield a quarterstaff – and either lets you swing the staff or thrust with it.
 
 ---
-### Melee Weapons Table
+## Melee Weapons Table
 
 | Category                | TL     | Weapon                      | Damage                  | Cost       | Weight   | ST          | Notes                                                        |
 | ----------------------- | ------ | --------------------------- | ----------------------- | ---------- | -------- | ----------- | ------------------------------------------------------------ |
@@ -28,42 +33,9 @@ Melee weapons are grouped under the skills required to use them. Skill names app
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
-
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library"E PageNum > 0 
+SORT PageNum ASC
+```

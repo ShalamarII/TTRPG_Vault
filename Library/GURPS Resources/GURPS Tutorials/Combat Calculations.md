@@ -1,4 +1,10 @@
 
+# Disclaimer
+INJURY IS NOT THE SAME THING AS DAMAGE
+
+DAMAGE IS THE TOTAL YOU DO BEFORE DR
+INJURY IS AFTER YOU SUBTRACT DR
+
 
 ### Situation Modifiers (Added to Combat)
 
@@ -56,12 +62,12 @@ Leader for each side rolls 1d (+2 w/Combat Reflexes or +1 if anyone has Combat R
 
 ### Posture Table
 
-| Posture   | Defense | Melee  | Ranged | Move     |
-| --------- | ------- | ------ | ------ | -------- |
-| Standing  | +0      | +0     | +0     | Move     |
-| Crouch    | +0      | -2     | -2     | ½ move   |
-| Kneel/Sit | -2      | -2     | +0     | ½ move   |
-| Prone     | -3      | -4 (C) | -2     | 1 yd/hex |
+| Posture   | Defense | Melee (Hit Mod) | Ranged (Hit Mod) | Move     |
+| --------- | ------- | --------------- | ---------------- | -------- |
+| Standing  | +0      | +0              | +0               | Move     |
+| Crouch    | +0      | -2              | -2               | ½ move   |
+| Kneel/Sit | -2      | -2              | +0               | ½ move   |
+| Prone     | -3      | -4 (C)          | -2               | 1 yd/hex |
 
 ---
 
@@ -70,15 +76,15 @@ Leader for each side rolls 1d (+2 w/Combat Reflexes or +1 if anyone has Combat R
 | Roll  | Location    | Penalty | Penalty Restrictions | Effects                                                                                                                                                                                                                                                                        |
 | ----- | ----------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 3-4   | Skull       | -7      | -5 from behind       | 2 DR; if not tox: x4 inj; if not tox: any injury causing shock requires<br><br>stun/knockdown roll, major wound roll -10 vs stun/knockdown; bleed at 30 seconds not 1 minute                                                                                                   |
-| 5     | Face        | -5      | -7 from behind       | Roll on [sub-table A](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_A:_The_Face); Cor x1.5 inj; any injury causing shock requires<br><br>stun/knockdown roll, major wound roll -5 stun/knockdown                                                       |
-| 6-7   | Leg (Right) | -2      |                      | Roll on [sub-table B](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_B:_The_Leg); pi+, pi++, imp: x1 inj; cripple over 1/2 HP                                                                                                                           |
-| 8     | Arm (Right) | -2      | -4 with shield       | Roll on sub-table C; pi+, pi++, imp: x1 inj; cripple over 1/2 HP                                                                                                                                                                                                               |
-| 9-10  | Chest       | 0       |                      | Default location. Roll on sub table D; injury can't exceed 2xHP (1xHP if using<br><br>bleeding); any excess is lost                                                                                                                                                            |
-| 11    | Abdomen     | -1      |                      | Roll on sub-table E; Injury can't exceed 2xHP (1xHP if using bleeding); any<br><br>excess is lost                                                                                                                                                                              |
-| 12    | Arm (Left)  | -2      | -4 with shield       | Roll on sub-table C; pi+, pi++, imp: x1 inj; cripple over 1/2 HP                                                                                                                                                                                                               |
-| 13-14 | Leg (Left)  | -2      |                      | Roll on [sub-table B](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_B:_The_Leg); pi+, pi++, imp: x1 inj; cripple over 1/2 HP                                                                                                                           |
-| 15    | Hand        | -4      | -8 with shield       | Roll on sub-table F; pi+, pi++, imp: x1 inj; cripple over 1/3 HP                                                                                                                                                                                                               |
-| 16    | Foot        | -4      |                      | Roll on sub-table F; pi+, pi++, imp: x1 inj; cripple over 1/3 HP                                                                                                                                                                                                               |
+| 5     | Face        | -5      | -7 from behind       | -  Roll on [sub-table A](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_A:_The_Face); <br>- Cor x1.5 inj; any injury causing shock requires stun/knockdown roll, major wound roll -5 stun/knockdown                                                     |
+| 6-7   | Leg (Right) | -2      |                      | - Roll on [sub-table B](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_B:_The_Leg); <br>- pi+, pi++, imp: x1 inj; <br>- cripple over 1/2 HP                                                                                                             |
+| 8     | Arm (Right) | -2      | -4 with shield       | -  Roll on sub-table C; <br>-  pi+, pi++, imp: x1 inj;<br>- cripple over 1/2 HP                                                                                                                                                                                                |
+| 9-10  | Chest       | 0       |                      | -  Default location. <br>-  Roll on sub table D;<br>-  injury can't exceed 2xHP (1xHP if using<br>bleeding); any excess is lost                                                                                                                                                |
+| 11    | Abdomen     | -1      |                      | -  Roll on sub-table E; <br>-  Injury can't exceed 2xHP (1xHP if using bleeding); any excess is lost                                                                                                                                                                           |
+| 12    | Arm (Left)  | -2      | -4 with shield       | - Roll on sub-table C; <br>- pi+, pi++, imp: x1 inj;<br>- cripple over 1/2 HP                                                                                                                                                                                                  |
+| 13-14 | Leg (Left)  | -2      |                      | - Roll on [sub-table B](https://gurps.fandom.com/wiki/Grand_Unified_Hit_Location_Tables#Table_B:_The_Leg); <br>- pi+, pi++, imp: x1 inj;<br>- cripple over 1/2 HP                                                                                                              |
+| 15    | Hand        | -4      | -8 with shield       | - Roll on sub-table F; <br>- pi+, pi++, imp: x1 inj;  <br>- cripple over 1/3 HP                                                                                                                                                                                                |
+| 16    | Foot        | -4      |                      | - Roll on sub-table F; <br>- pi+, pi++, imp: x1 inj;<br>- cripple over 1/3 HP                                                                                                                                                                                                  |
 | 17-18 | Neck        | -5      |                      | Roll on sub-table G; Miss by 1 hit chest; Cr, corr: x1.5 inj; cut x2 inj; bleed at 30 seconds not 1 minute; -2 bleed penalty; optional: treat any crushing injury over HP/2 to the neck hit location as a crippling injury which crushes the<br><br>windpipe, causing choking. |
 
 ##### Table A: The Face

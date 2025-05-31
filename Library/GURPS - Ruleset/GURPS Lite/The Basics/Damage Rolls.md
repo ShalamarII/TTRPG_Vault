@@ -1,10 +1,14 @@
-# Table of Contents
+---
+PageNum: 4.1
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#Damage (Dmg)]]
 [[#Links to other Pages (In Order)]]
 
 ---
-# General Overview
+## General Overview
 A “damage roll” is a roll made in a fight, to see how much harm you did to your foe. Damage rolls use the “dice+modifier” system (see p. 2). Many things can affect the final injury inflicted by your attack. Armor reduces the damage received by the wearer. Certain attacks do extra damage if they get through armor. All these things are explained in the combat rules – for more information, see [[Combat Rules]].
 
 ---
@@ -40,41 +44,10 @@ Damage is sometimes abbreviated “Dmg.” On your character sheet, list thrust 
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

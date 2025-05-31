@@ -1,6 +1,9 @@
+---
+PageNum: 1.1
+---
+
 GURPS is a roleplaying game (RPG). Like any hobby, gaming has its own unique language. To help you understand the concepts and terms used in this game (and other RPGs), we’ll start with a few definitions: 
 
-### Glossary Definitions
 ##### Roleplaying Game (RPG)
 A game in which players take on the personalities of imaginary individuals, or characters, in a fictional or historical setting, and try to act as those characters would. 
 
@@ -36,41 +39,10 @@ The species to which you belong. Nonhuman characters (elves, dwarves, halflings,
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

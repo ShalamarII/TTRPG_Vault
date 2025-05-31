@@ -1,5 +1,4 @@
-# Table of Contents
-
+## Table of Contents
 [[#Table of Contents]]
 [[#General Overview]]
 [[#Injuries]]
@@ -7,11 +6,11 @@
 [[#Fatigue]]
 [[#Other Hazards]]
 [[#Links to other Pages (In Order)]]
-# General Overview
 
+## General Overview
 The life of an adventurer is not all song and glory. You get tired. You get your clothes dirty. You might actually get hurt – or even worse, killed! Fortunately, all these problems can be cured. Even death.
 
-# Injuries
+## Injuries
 
 Wounds and ailments cause “injury”: a (usually) temporary loss of Hit Points. Thus, your HP score measures your ability to sustain injury; see [[Basic Attributes#Hit Points (HP) |Hit Points (p. 6)]]. If any injury reduces you to 0 or fewer HP, you will soon fall unconscious. You can even go to negative HP . . . but if you go too far, you risk death. For the average man, the difference between full HP and negative HP is one or two sword blows or bullets.
 
@@ -73,7 +72,7 @@ Wounds and ailments cause “injury”: a (usually) temporary loss of Hit Points
 > When a PC or important NPC is killed in any but the most sudden and thorough fashion, the GM should allow a “dying action.” If this is a final blow at the enemy, it should take no more than a turn. If it’s a deathbed speech, the GM should stretch time a little bit for dramatic purposes! This has nothing to do with realism, but it’s fun.
 
 ---
-# Recovery
+## Recovery
 
 The Injuries rules may seem harsh, but don’t despair . . . you can get better!
 
@@ -113,7 +112,7 @@ The Injuries rules may seem harsh, but don’t despair . . . you can get better!
 | 9+         | 10 minutes           | 1d+1               |
 
 ---
-# Fatigue
+## Fatigue
 
 Running or swimming long distances, being suffocated, and many other things can cause “fatigue”: a temporary loss of Fatigue Points. Your Fatigue Points (FP) score starts out equal to your HT. Just as injury represents physical trauma and comes off of HP, fatigue represents lost energy and reduces FP. When you lose FP, keep track of it on your character sheet.
 
@@ -171,7 +170,7 @@ Running or swimming long distances, being suffocated, and many other things can 
 %% ^aad2ed %%
 
 ---
-# Other Hazards
+## Other Hazards
 
 >[!Cold Hazard] Cold
 > Cold can be deadly. Armor must be insulated or heated to shield against prolonged exposure to ambient cold. 
@@ -292,41 +291,9 @@ Running or swimming long distances, being suffocated, and many other things can 
 > If you went without air for more than two minutes, roll vs. HT to avoid permanent brain damage: -1 to IQ.
 
 ---
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library"E PageNum > 0 
+SORT PageNum ASC
+```

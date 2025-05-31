@@ -1,10 +1,14 @@
-### Table of Contents
+---
+PageNum: 3
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#Reaction Table]]
 [[#Links to other Pages (In Order)]]
 
 ---
-### General Overview
+## General Overview
 When the PCs meet an NPC whose reaction to them is not predetermined (see below), the GM makes a “reaction roll” on 3d. The higher the roll, the better the reaction. The GM then plays the NPC according to the guidelines on the Reaction Table. The GM should keep this roll secret from the players. They don’t know, for instance, whether that friendly-looking old farmer is giving them straight advice or sending them into a trap. ***A reaction roll is not a success roll.*** 
 There are three important differences: 
 1. There is no “target number” to roll against. 
@@ -38,41 +42,10 @@ Roll 3 dice and apply any reaction modifiers, then choose the reaction based on 
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

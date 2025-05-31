@@ -1,5 +1,8 @@
-### Table of Contents
+---
+PageNum: 12.1
+---
 
+## Table of Contents
 [[#General Overview]]
 [[#Controlling Attribute]]
 [[#Difficulty Level]]
@@ -12,7 +15,7 @@
 [[#Links to other Pages (In Order)]]
 
 ---
-### General Overview
+## General Overview
 A “skill” is a particular kind of knowledge; for instance, karate, physics, auto mechanics, or a death spell. Every skill is separate, though some skills help you to learn others. Just as in real life, you start your career with some skills and can learn more if you spend time training. A number called “skill level” measures your ability with each of your skills: the higher the number, the greater your skill. For instance, “Shortsword-17” means a skill level of 17 with the shortsword. When you try to do something, you (or the GM) roll 3d against the appropriate skill, modified for that particular situation. If the number you roll is less than or equal to your modified score for that skill, you succeed! But a roll of 17 or 18 is an automatic failure. For more on skill rolls, modifiers, success, and failure, see p. 2.
 
 ---
@@ -51,6 +54,18 @@ In order to learn or improve a skill, you must spend character points. When you 
 
 The point cost of a skill depends on two things: its difficulty and the final skill level you wish to attain. Use the Skill Cost Table (above) to calculate a skill’s point cost. The first column shows the skill level you are trying to attain, relative to the skill’s controlling attribute – DX for DX-based skills, IQ for IQ-based skills, and so forth. For instance, if your DX were 12, a level of “Attribute-1” would be DX-1, or 11; “Attribute+0” would be DX, or 12; and “Attribute+1” would be DX+1, or 13. The next three columns show the character point costs to learn skills of different difficulties – Easy, Average, and Hard – at the desired skill level. Harder skills cost more points to learn!
 
+### Skill Cost Table
+| **Final Difficulty of Skill** | **Easy** | **Average** | **Hard** |
+| ----------------------------- | -------- | ----------- | -------- |
+| **Attribute-3**               | –        | –           | –        |
+| **Attribute-2**               | –        | –           | 1        |
+| **Attribute-1**               | –        | 1           | 2        |
+| **Attribute+0**               | 1        | 2           | 4        |
+| **Attribute+1**               | 2        | 4           | 8        |
+| **Attribute+2**               | 4        | 8           | 12       |
+| **Attribute+3**               | 8        | 12          | 16       |
+| **Extra +1**                  | +4       | +4          | +4       |
+
 ---
 ## Skill Defaults: Using Skills You Don't Know
 Most skills have a “default level”: the level at which you use the skill if you have no training. A skill has a default level if it is something that everybody can do . . . a little bit. As a general rule, a skill defaults to its controlling attribute at -4 if Easy, -5 if Average, or -6 if Hard. Some skills have no default level. For instance, Karate is complex enough that you cannot use it at all without training.
@@ -61,7 +76,7 @@ If a skill defaults to a basic attribute that is higher than 20, treat that attr
 ##### Who Gets a Default?
 Only individuals from a society where a skill is known may attempt a default roll against that skill. For instance, the default for Scuba skill assumes you are from a world where scuba gear exists and where most people would have some idea – if only from TV – of how to use it. A medieval knight transported to the 21st century would not get a default roll to use scuba gear the first time he saw it!
 
-# Skill List
+## Skill List
 ### General Overview
 The skill list is sorted alphabetically by skill name. Each entry gives the following information: Name: The skill’s name. 
 Technological skills are noted as such; e.g., “Mechanic/TL.” 
@@ -140,41 +155,9 @@ Description: An explanation of what the skill is for and how it works in play.
 | Writing                  | IQ/A            | IQ-5    | This is the ability to write in a clear or entertaining manner. A successful roll means the work is readable and accurate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ---
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library"Num > 0 
+SORT PageNum ASC
+```

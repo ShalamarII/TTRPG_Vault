@@ -1,4 +1,8 @@
-### Table of Contents
+---
+PageNum: 22
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#Climbing]]
 [[#Hiking]]
@@ -10,17 +14,17 @@
 [[#Links to other Pages (In Order)]]
 
 ---
-### General Overview
+## General Overview
  Below are rules for common physical tasks of importance to adventurers. For tasks not listed here, make DX rolls for matters of precision and HT rolls for feats of endurance. To determine weight moved or work done, use Basic Lift. Movement speed should generally be proportional to Basic Move.
 
 ---
-### Climbing
+## Climbing
 To climb anything more difficult than a ladder, roll against Climbing skill (p. 14). This defaults to DX-5. Modifiers to the roll depend on the difficulty of the climb (see below). In all cases, subtract your encum- brance level from your roll as well. Combat speed on the table below costs 1 FP per Climbing roll. 
 Make one roll to start the climb and another roll every five minutes. Any failure means you fall (see Falling, p. 32). If you secured yourself with a rope, you will fall only to the end of the rope unless you rolled a critical failure.
 
 ---
 
-### Hiking
+## Hiking
 Sustainable cross-country speed on foot depends on ground Move. Start with Basic Move and reduce it for encumbrance (see Encumbrance and Move, p. 22), injury (see General Injury, p. 29), and exhaustion (see Lost Fatigue Points, p. 31), as applicable. The distance in miles you can march in one day, under ideal conditions, equals 10xMove. 
 
 A successful roll against Hiking skill (p. 14) increases marching distance by 20%. Roll daily. A group led by someone with Leadership skill at 12+ may make a single roll against the group’s average Hiking skill. (Hiking defaults to HT-5 for those who have not studied it.) Success lets the entire group march 20% farther; failure means the whole group must forgo the bonus. 
@@ -39,11 +43,11 @@ Once you know your ideal daily mileage, modify it for circumstances as follows (
 Adverse weather conditions – rain, snow, or ice – often reduce these values further. 
 
 ---
-### Jumping
+## Jumping
 
 When you want to jump over something much smaller than you, the GM should say, “Okay, you jumped over it,” and get on with play. Such jumps succeed automatically. But when the obstacle seems really significant, or if the GM put it there as a deliberate hazard, use the following rules. 
 
-##### Jumping Distance
+### Jumping Distance
 Your Basic Move determines jumping distance, as follows: High Jump: (6xBasic Move) - 10 inches. For example, a Basic Move of 6 lets you jump 26” straight up. For a running jump, add the number of yards you run to Basic Move in this formula. Maximum running high-jump height is twice standing high- jump height. Broad Jump: (2xBasic Move) - 3 feet. For example, a Basic Move of 6 lets you jump 9 feet from a standing start. For a running jump, add the number of yards you run to Basic Move in this formula. Maximum running broad-jump distance is twice standing broad-jump distance.
 
 | **Jump Type**  | **Standing**             | **Running**                | **Formula/Explanation**                                                   |
@@ -52,7 +56,7 @@ Your Basic Move determines jumping distance, as follows: High Jump: (6xBasic Mov
 | **Broad Jump** | 2¥Basic Move - 3 feet    | (2¥Basic Move) + run yards | Maximum running broad-jump distance is twice standing broad-jump distance |
 
 ---
-### Lifting and Moving Things
+## Lifting and Moving Things
 Basic Lift governs the weight you can pick up and move. The GM may let multiple characters add their BL (not their ST) whenever it seems reasonable; e.g., to carry a stretcher or pull a wagon. 
 
 | **Action**               | **Formula** | **Time**  | **Additional Notes**                                                                                 |
@@ -64,7 +68,7 @@ Basic Lift governs the weight you can pick up and move. The GM may let multiple 
 | **Shift Slightly**       | 50¥BL       | -         | Depending on your footing, you could shift or rock 50xBL                                             |
 
 ---
-### Running
+## Running
 
  Your running speed, or Ground Move, is equal to your Basic Move score modified for encumbrance – see Encumbrance and Move (p. 22). 
  
@@ -79,7 +83,7 @@ Basic Lift governs the weight you can pick up and move. The GM may let multiple 
 | **Paced Running** | 50% of sprinting speed   | 1/2 Sprinting Speed; HT Check / minute          | Averages exactly half the sprinting speed; avoid exhaustion |
 | **Fatigue Check** | HT roll                  | Every 15 sec (sprint), 1 min (paced)            | On failure, lose 1 FP; halved Move when at 1/3 FP or less   |
 
-### Swimming
+## Swimming
 
 Make a roll against Swimming skill (p. 17) any time you enter water over your head, and again every 5 minutes.
 
@@ -91,13 +95,13 @@ If you fail, lose 1 FP and roll again in 5 seconds, and so on until you reach 0 
 Land-dwellers such as humans have water Move equal to Basic Move/5 (round down), minimum 1 yard/second. After every minute of top-speed swimming, roll against the higher of HT or Swimming skill. On a failure, you lose 1 FP. Once you are reduced to 1/3 or less your FP, halve your water Move; see Fatigue (p. 30).
 
 ---
-### Throwing
+## Throwing
 
 You can throw anything you can pick up – that is, anything with a weight of 8xBL or less. If the object you wish to throw is not already in your hands, you must take one or more Ready maneuvers to pick it up. 
 (See Lifting and Moving Things)
 Throwing an object during combat – whether as an attack or not – requires an Attack maneuver. You can throw objects that weigh up to 2xBL using one hand; heavier objects require a two-handed throw. Roll against DX-3 to hit a specific target, or against DX to lob something into a general area. Apply the usual modifiers for target size, speed, and distance.
 
-##### Throwing Distance
+### Throwing Distance
 
 | Weight Ratio | Distance Modifier |
 | ------------ | ----------------- |
@@ -122,7 +126,7 @@ Throwing an object during combat – whether as an attack or not – requires an
 3. Read across to the Distance Modifier column and find the “distance modifier.” 
 4. Multiply your ST by the distance modifier to find the distance in yards you can throw the object.
 
-##### Throwing Damage
+### Throwing Damage
 
 Thrown objects inflict thrust damage for your ST (see Damage Table, p. 6), modified for weight as shown on the table below. Damage is usually crushing. A fragile object (or a thrown character) takes the same amount of damage it inflicts; roll damage separately for the object and the target.
 
@@ -138,40 +142,9 @@ Thrown objects inflict thrust damage for your ST (see Damage Table, p. 6), modif
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library"E PageNum > 0 
+SORT PageNum ASC
+```

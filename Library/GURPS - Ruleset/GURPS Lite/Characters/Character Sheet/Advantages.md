@@ -1,19 +1,22 @@
-### Table of Contents
+---
+PageNum: 8.1
+---
 
+## Table of Contents
 [[#General Overview]]
 [[#Advantage Table]]
 [[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 An “advantage” is a useful trait that gives you a mental, physical, or social “edge” over someone else who otherwise has the same abilities as you. Each advantage has a cost in character points. This is fixed for some advantages; others can be bought in “levels,” at a cost per level (e.g., Acute Vision costs 2 points/level, so if you want Acute Vision 6, you must pay 12 points). Advantages with “Variable” cost are more complicated; read the advantage description for details. The GM has the final say as to whether a particular advantage suits a given character concept.
 
 ---
-### Advantage Table
+## Advantage Table
 | Advantage           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Points                          | Notes                                               |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------- |
 | Acute Senses        | You have superior senses. Each Acute Sense is a separate advantage that gives +1 per level to all Sense rolls (p. 24) you make – or the GM makes for you – using that one sense. The available types are: • Acute Hearing • Acute Taste and Smell • Acute Touch • Acute Vision                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 2 points/level                  | Each type is purchased separately.                  |
 | Ambidexterity       | You can fight or otherwise act equally well with either hand, and never suffer the -4 DX penalty for using the “off” hand (see p. 5). Should some accident befall one of your arms or hands, assume it is the left one.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 5 points                        | Handy for dual-wielding or precision tasks.         |
-| Animal Empathy      | You are unusually talented at reading the motivations of animals. When you meet an animal, the GM rolls against your IQ and tells you what you “feel.” This reveals the beast’s emotional state – friendly, frightened, hostile, hungry, etc. – and whether it is under supernatural control. You may also use your Influence skills (see p. 15) on animals just as you would on sapient beings, which usually ensures a positive reaction.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | 5 points                        | Can also detect supernatural control.               |
+| Animal Empathy      | You are unusually talented at reading the motivations of animals. When you meet an animal, the GM rolls against your IQ and tells you what you “feel.” This reveals the beast’s emotional state – friendly, frightened, hostile, hungry, etc. – and whether it is under supernatural control. You may also use your Influence skills (see p. 15) on animals just as you would on sapient beings, which usually ensures a positive reaction.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 5 points                        | Can also detect supernatural control.               |
 | Catfall             | You subtract five yards from a fall automatically (treat this as an automatic Acrobatics success – don’t check again for it). In addition, a successful DX roll halves damage from any fall (see p. 32). To enjoy these benefits, your limbs must be unbound and your body free to twist as you fall.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 10 points                       | Requires freedom of movement to activate.           |
 | Combat Reflexes     | You have extraordinary reactions, and are rarely surprised for more than a moment. You get +1 to all active defense rolls (see Defending, p. 28) and +2 to Fright Checks (see Fright Checks, p. 24). You never “freeze” in a surprise situation, and get +6 on all IQ rolls to wake up, or to recover from surprise or mental “stun.”                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 15 points                       | Great for combat-heavy characters.                  |
 | Danger Sense        | You can’t depend on it, but sometimes you get this prickly feeling right at the back of your neck, and you know something’s wrong . . .The GM rolls once against your Perception, secretly, in any situation involving an ambush, impending disaster, or similar hazard. On a success, you get enough of a warning that you can take action. A roll of 3 or 4 means you get a little detail as to the nature of the danger                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 15 points                       | GM rolls Perception secretly.                       |
@@ -33,41 +36,10 @@ An “advantage” is a useful trait that gives you a mental, physical, or socia
 | Talent              | You have a natural aptitude for a set of closely related skills. “Talents” come in levels, and give a bonus of +1 per level with all affected skills, even for default use. This effectively raises your attribute scores for the purpose of those skills only; thus, this is an inexpensive way to be adept at small class of skills. You may never have more than four levels of a particular Talent. However, overlapping Talents can give skill bonuses (only) in excess of +4. The cost of a Talent depends on the size of the group of skills affected. Some examples: <br><br><h5>Artificer</h5><br>Covers Armoury, Electronics Repair, Engineer, Mechanic, and others. ***10 points/level.*** <br><br><h5>Outdoorsman</h5><br>Covers Camouflage, Naturalist, Navigation, Survival, and Tracking. ***10 points/level.*** <br><h5>Smooth Operator</h5><br>Covers all Influence skills, as well as Acting, Carousing, Leadership, and Public Speaking. ***15 points/level.*** <br><br>There are many other possibilities! GMs are encouraged to create their own Talents as needed.                                                                                                   | Variable (Can be created by DM) | Cost depends on the size of the skill group.        |
 
 ---
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

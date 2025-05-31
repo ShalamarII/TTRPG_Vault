@@ -1,5 +1,8 @@
-# Table of Contents
+---
+PageNum: 24.1
+---
 
+## Table of Contents
 [[#General Overview]]
 [[#Combat Turn Sequence]]
 [[#Maneuvers]]
@@ -8,11 +11,11 @@
 [[#Damage and Injury]]
 [[#Links to other Pages (In Order)]]
 
-# General Overview
+## General Overview
 
 The GM decides when to start using the combat rules. This will generally be when fighting seems likely and combatants begin maneuvering for tactical advantage. The GM may also use these rules to resolve “action” situations such as chases and tournaments.
 
-# Combat Turn Sequence
+## Combat Turn Sequence
 Combat takes place second by second. Each character actively involved in the combat gets one opportunity to act per second, referred to as his “turn.” After everyone has taken his turn, one second has passed. 
 
 The GM shouldn’t feel constrained by the one-second time scale. This is just a way of breaking a battle into manageable chunks! He should feel free to drop out of combat time whenever dramatically appropriate, and to resume combat time when non-combat action gives way to more fighting.
@@ -24,7 +27,7 @@ The “turn sequence” is the order in which active characters take their turns
 
 A given participant’s turn is the one-second period that stretches from when he chooses a maneuver until his next opportunity to select a maneuver. This overlaps the turns of other characters.
 
-# Maneuvers
+## Maneuvers
 
 A “maneuver” is an action that you can take on your turn. Each turn, you must choose one of the following maneuvers: Aim, All-Out Attack, All-Out Defense, Attack, Change Posture, Concentrate, Do Nothing, Move, Move and Attack, or Ready. Your choice determines what you can do on your turn, and sets your options for active defense and movement – your ability to dodge, parry, or block attacks (see Defending, p. 28). 
 
@@ -165,7 +168,7 @@ There are two basic types of attacks: melee attacks (see p. 27) and ranged attac
 | Scope    | +1 per second of Aim, up to the maximum bonus provided by the scope                                 |
 
 ---
-### Size and Speed/Range Table
+## Size and Speed/Range Table
 
 The main use for this table is ranged combat, but the GM can also use it for Sense rolls and other success rolls that size, speed, or range might believably affect. 
 
@@ -176,8 +179,8 @@ This table uses the same progression for size as it does for the sum of speed an
 Find the SM of a creature or object using the table. Simply look up the being or object’s longest dimension (e.g., height, for a humanoid) in the “Linear Measurement” column, and then read across to the “Size” column to find SM. If size falls between two values, base SM on the next-highest size. If an object is much smaller in two of three dimensions (e.g., a steel cable 100 yards long but only 2” thick), use the smallest dimension instead of the largest. 
 
 ***Target’s Speed and Range***: Speed and range only affect ranged combat. Add the target’s speed in yards/seconds to its range in yards. Find the total in the “Linear Measurement” column. Read across to the “Speed/Range” column to find the speed/range modifier. If the total falls between two values, use the higher; e.g., treat 8 yards as 10 yards. For fighters on foot, assume speed is 0 and use range by itself; for vehicles, speed in yards/second is half speed in mph.
-##### Examples
 
+##### Examples
 - A man 8 yards away is -4 to hit. 
 - A motorcycle rider 40 yards away, traveling at 30 yards/second (60 mph), has a speed/range of 40 + 30 = 70 yards, which equals -9 to hit.
 > [!Size and Speed/Range Table] Size and Speed/Range Table
@@ -197,7 +200,6 @@ Find the SM of a creature or object using the table. Simply look up the being or
 | -10                  | +10           | 100 yd             |
 
 # Defending
-
 [[#Defending]]
 [[#Defense Modifiers]]
 [[#Damage and Injury]]
@@ -221,7 +223,6 @@ The active defense you choose depends on your situation – especially the maneu
 > If you have a ready shield, add its Defense Bonus (DB) to any Dodge, Parry, or Block roll against an attack that came from in front of you or from your shield side.
 
 ---
-
 > [!Dodging] Dodging
 > A “dodge” is an active attempt to move out of the perceived path of an attack. This is often the best defense when you’re not skilled with your weapon and you have no shield, or when you’re attacked multiple times. 
 > 
@@ -234,7 +235,6 @@ The active defense you choose depends on your situation – especially the maneu
 > You only get one active defense against each attack, unless you use All-Out Defense (Double Defense), but there is no limit to the number of times you may dodge *different*
 
 ---
-
 > [!Blocking] Blocking
 > A “block” is an attempt to interpose a shield, cloak, or similar large object between yourself and an attack. This requires a ready shield. (If you’re strong enough to grab and lift someone, you can block with his body!) 
 > 
@@ -245,7 +245,6 @@ The active defense you choose depends on your situation – especially the maneu
 > You may attempt to block only one attack per turn. 
 
 ---
-
 > [!Parrying] Parrying
 > A “parry” is an attempt to deflect a blow using a weapon or your bare hands. You cannot parry unless your weapon is ready – or, if you are unarmed, you have an empty hand. You may attempt to parry only one attack per turn.
 >
@@ -263,7 +262,6 @@ The active defense you choose depends on your situation – especially the maneu
 > This roll is at -4 if your attacker used Karate. If you succeed, your parry struck the attacker’s limb squarely. He gets no defense roll against this! Roll damage normally
 
 ---
-
 > [!Unarmed Defense] Unarmed Defense
 > If you are fighting without weapons, or with at least one hand free, you may choose to parry barehanded. Beings that lack hands (like most animals) can’t parry unarmed – they can only dodge.
 >  
@@ -272,8 +270,7 @@ The active defense you choose depends on your situation – especially the maneu
 > There’s no penalty to parry another unarmed attack. You are at -3 to parry weapons, unless the attack is a thrust or you are using Karate (in either case, use your full Parry)
 
 ---
-### Defense Modifiers
-
+## Defense Modifiers
 >[!Defense Modifiers] Defense Modifiers
 > | Defender's Equipment                     | Effect                                   |
 |-------------------------------|------------------------------------------|
@@ -302,8 +299,7 @@ The active defense you choose depends on your situation – especially the maneu
 | Thrown weapon      | -1 to Parry, or -2 to Parry if small (1 lb. or less)                  |
 
 ---
-# Damage and Injury
-
+## Damage vs. Injury
 If your attack roll succeeds and your target fails his defense roll (if any), you hit him! If your attack is one that can do damage, you must now make a “damage roll.” This tells you how much basic damage you deal to your target. 
 
 Your weapon (and, for muscle-powered weapons, your ST) determines the number of dice you roll for damage. If your target has any Damage Resistance (DR) – from armor, protective magic spells, etc. – he subtracts this from your damage roll. 
@@ -313,7 +309,6 @@ If your damage roll is less than or equal to your target’s effective DR, your 
 Once you know the penetrating damage of your attack, apply the wounding modifier for damage type (this matters only for cutting, impaling, and certain types of piercing damage; see below). This gives the injury the foe suffers, which is subtracted from his Hit Points.
 
 ---
-
 > [!Damage Roll] Damage Roll
 > You usually make your own damage rolls, and the GM rolls for NPCs. Damage rolls are expressed as a number of dice, sometimes with a modifier; e.g., “6d-1” or “1d+2.” A negative modifier can’t reduce damage below 0 if the attack does crushing damage, or below 1 if it does any other type of damage. 
 > 
@@ -322,7 +317,6 @@ Once you know the penetrating damage of your attack, apply the wounding modifier
 If a ranged weapon has two range statistics, the first is its Half Damage (1/2D) range, in yards. If the target is at or beyond 1/2D range, divide basic damage by 2, rounding down.
 
 ---
-
 > [!Damage Resistance and Penetration] Damage Resistance and Penetration
 > Damage Resistance (DR) rates the degree of protection that natural or worn armor, a force field, tough skin, etc. affords against damage. Objects and vehicles have their own DR values that protect against any damage they suffer – and if you take cover behind or inside them, their DR also protects you. 
 > 
@@ -331,7 +325,6 @@ If a ranged weapon has two range statistics, the first is its Half Damage (1/2D)
 > In general, DR from multiple sources is additive; e.g., if you have a natural DR of 2 and put on a tactical vest with DR 12, your total DR is 14. Exceptions will always be noted.
 
 ---
-
 >[!Wounding Modifiers and Injury] Wounding Modifiers and Injury
 > Any damage left over after subtracting DR from basic damage is “penetrating damage.” If there is any penetrating damage, multiply it by the attack’s “wounding modifier.” This is a multiplier that depends on damage type: 
 > 
@@ -345,47 +338,14 @@ If a ranged weapon has two range statistics, the first is its Half Damage (1/2D)
 > The damage after this multiplier determines the injury: the HP lost by the target. Round fractions down, but the minimum injury is 1 HP for any attack that penetrates DR at all. Reduce the victim’s current HP total by the injury sustained.
 
 ---
-
 >[!Effects of Injury] Effects of Injury
 > The severity and type of the wound indicate what happens next. See the following section for rules on injuries and recovery. 
 > [[Injury, Illness, and Fatigue]]
 
 ---
-
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library"E PageNum > 0 
+SORT PageNum ASC
+```

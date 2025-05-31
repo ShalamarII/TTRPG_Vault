@@ -1,12 +1,17 @@
-### Table of Contents
+---
+PageNum: 19.3
+---
+
+## Table of Contents
 [[#General Overview]]
 [[#MP Ranged Weapon Table]]
+[[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 Muscle-powered ranged weapons are hurled weapons (axes, spears, etc.) and low-tech missile weapons such as bows and slings. Weapons appear under the skill required to use them, along with skill defaults. Some thrown weapons also appear on the Melee Weapon Table; use the statistics below when they are thrown.
 
 ---
-### MP Ranged Weapon Table
+## MP Ranged Weapon Table
 
 | Category   | TL | Weapon     | Damage      | Acc | Range    | Weight | RoF | Shots   | Cost        | ST  | Notes     |
 |------------|----|------------|-------------|-----|----------|--------|-----|---------|-------------|-----|-----------|
@@ -19,48 +24,16 @@ Muscle-powered ranged weapons are hurled weapons (axes, spears, etc.) and low-te
 | THROWN WEAPON (SPEAR) (DX-4) | 0  | Spear       | thr+3 imp   | 2   | ¥1/¥1.5 | 4      | 1   | T(1)  | $40   | 9   | –         |
 
 ---
-### ***Notes***  
+## ***Notes***  
 [1] An arrow or bolt for a bow or crossbow is $2.  
 [2] Cocking lever to reload a high-ST crossbow. You can reload a weapon up to 4 ST over your own with 20 one-second Ready maneuvers.
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-[[GURPS - Ruleset/GURPS Lite/Equipment/Homepage|Main Page]]
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
-
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

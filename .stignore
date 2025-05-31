@@ -1,4 +1,5 @@
 /.obsidan/**
 /.obsidian/!community-plugins
 /.obsidian/!templates
+/.obsidan/
 /.git/**

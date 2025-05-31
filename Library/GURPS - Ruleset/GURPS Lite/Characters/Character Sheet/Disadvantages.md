@@ -1,14 +1,18 @@
+---
+PageNum: 10
+---
+
 ## Table of Contents
 [[#General Overview]]
 [[#Restrictions on Disadvantages]]
 [[#Disadvantage List]]
 [[#Links to other Pages (In Order)]]
 
-### General Overview
+## General Overview
 A “disadvantage” is a problem or imperfection that renders you less capable than your attributes, advantages, and skills would indicate. In addition to the traits in this section, this includes anything with a negative point cost described earlier: low Status, below-average Wealth, etc. You are probably wondering, “Why would I want to give my character disadvantages?” Each disadvantage has a negative cost in character points. Thus, disadvantages give you extra character points, which let you improve your character in other ways. And an imperfection or two makes your character more interesting and realistic, and adds to the fun of roleplaying!
 
 ---
-### Restrictions on Disadvantages
+## Restrictions on Disadvantages
 Your GM might wish to “cap” the extra points you can gain from disadvantages. A good rule of thumb is to hold disadvantages to 50% of starting points – for instance, -75 points in a 150-point game – although this is entirely up to the GM. 
 
 Negated Disadvantages: You cannot take a disadvantage that one of your advantages would mitigate or negate! For instance, if you have Acute Hearing, you cannot take Hard of Hearing. 
@@ -16,7 +20,7 @@ Negated Disadvantages: You cannot take a disadvantage that one of your advantage
 Villain Disadvantages: Some disadvantages – Bloodlust, for instance – are not at all suitable for a “hero,” and the GM is free to forbid them to PCs. But they are often found in the more fiendish villains of adventure fiction, so they are included in the interest of good NPC creation. A few mental disadvantages don’t affect you constantly. An asterisk (*) appears next to the name of any disadvantage that gives you a chance to control your urges. In circumstances likely to trigger your problem, roll 3d against a target number of 12. A roll of 12 or less means you succeed and shrug off your disadvantage. A roll of 13 or higher means you fail and suffer its effects! This is a self-control roll. You never have to roll – it’s good roleplaying to give in willingly.
 
 ---
-### Disadvantage List
+## Disadvantage List
 
 | Disadvantage    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Points                  |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
@@ -44,41 +48,10 @@ Villain Disadvantages: Some disadvantages – Bloodlust, for instance – are no
 | Vow             | You have sworn an oath to do (or not to do) something. Whatever the oath, you take it seriously; if you didn’t, it would not be a disadvantage. This trait is especially appropriate for knights, holy men, and fanatics. The point value of a Vow should be directly related to the inconvenience it causes you. The GM is the final judge. Some examples:<br> <br><h5>Minor Vow</h5><br>Silence during daylight hours; vegetarianism; chastity (yes, for game purposes, this is minor). -5 points. <br><br><h5>Major Vow</h5><br>Use no edged weapons; keep silence at all times; never sleep indoors; own no more than your horse can carry. -10 points. <br><br><h5>Great Vow</h5><br>Never refuse any request for aid; always fight with the wrong hand; hunt a given foe until you destroy him; challenge every knight you meet to combat. -15 points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | -5 to -15 points        |
 
 ---
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```

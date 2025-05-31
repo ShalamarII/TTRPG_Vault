@@ -1,8 +1,13 @@
+---
+PageNum: 19.4
+---
+
 ### Table of Contents
 [[#General Overview]]
 [[#Pistol Table]]
 [[#Rifle Table]]
 [[#Shotgun Table]]
+[[#Links to other Pages (In Order)]]
 
 ### General Overview
 A “firearm” is any gun, rocket, or beam weapon that does not rely on muscle power. Guns are commonly available by TL4 and ubiquitous at TL5+. Beam weapons appear in late TL8 (mostly for vehicles), and may become common by TL9, ubiquitous at TL10+.
@@ -34,42 +39,10 @@ A “firearm” is any gun, rocket, or beam weapon that does not rely on muscle 
 
 ---
 
-## Links to other Pages (In Order)
-
-[[GURPS - Ruleset/GURPS Lite/Homepage|What is GURPS?]]
-[[Glossary]]
-### The Basics
-[[Tables]]
-[[Success Rolls]]
-[[Reaction Rolls]]
-[[Damage Rolls]]
-
-### Characters
-
-[[Character Overview]]
-[[Character Points]]
-[[Basic Attributes]]
-##### Character Sheet
-[[Basic Attributes#Secondary Attributes |Secondary Attributes]]
-[[Image and Looks]]
-[[Social Background]]
-[[Wealth and Influence]]
-[[Advantages]]
-[[Disadvantages]]
-[[Quirks]]
-[[Skills]]
-[[Character Improvement]]
-
-### Equipment
-
-[[Armor]]
-[[Shields]]
-[[Weapons]]
-
-### Playing The Game
-[[Physical Feats]]
-[[Mental Feats]]
-[[Library/GURPS - Ruleset/GURPS Lite/Playing The Game/Combat]]
-[[Injury, Illness, and Fatigue]]
-[[Game Worlds]]
-
+## Links to other pages (In Order)
+```dataview 
+TABLE PageNum 
+FROM "Library" 
+WHERE PageNum > 0 
+SORT PageNum ASC
+```
