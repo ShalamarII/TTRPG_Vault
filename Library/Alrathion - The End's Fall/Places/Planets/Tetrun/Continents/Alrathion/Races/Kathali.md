@@ -1,4 +1,5 @@
 The kathali are a race that look similar to humans. They tend to grow quite a bit slower than humans, reaching adult physical maturity at the age of 30, and having a lifespan up to 180 years.
+
 ### Values
 
 These are the values of the Kathali people, having held them for a multitude of years.
