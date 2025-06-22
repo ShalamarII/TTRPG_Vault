@@ -1,0 +1,1375 @@
+{
+	"version": 5,
+	"id": "B1E_J_RVWOZlqOKdh",
+	"traits": [
+		{
+			"id": "tX_b51TVcYhA0eUsR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts\\Martial Arts Traits.adq",
+				"id": "t8OlG37pAqR1fagUK"
+			},
+			"name": "Style Familiarity (Capoeira)",
+			"reference": "MA49",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tkHqLtscFDMgmEeAu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts\\Martial Arts Traits.adq",
+				"id": "tKyqtFwOeGWrJ9jPL"
+			},
+			"name": "Skill Adaptation (Acrobatic Feints)",
+			"reference": "MA51",
+			"notes": "Lets you base Techniques on different skill.",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tL_-GVN3w63leZYr8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts\\Martial Arts Traits.adq",
+				"id": "tKyqtFwOeGWrJ9jPL"
+			},
+			"name": "Skill Adaptation (Acrobatic Kicks)",
+			"reference": "MA51",
+			"notes": "Lets you base Techniques on different skill.",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t3QuSpO1gmq3puud2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts\\Martial Arts Traits.adq",
+				"id": "tKyqtFwOeGWrJ9jPL"
+			},
+			"name": "Skill Adaptation (Razor Kicks)",
+			"reference": "MA51",
+			"notes": "Lets you base Techniques on different skill.",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tZoF8MDrxj9w2nNpZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts\\Martial Arts Traits.adq",
+				"id": "tkVsbjWdnjKn5-E8O"
+			},
+			"name": "Technique Mastery (Kicking)",
+			"reference": "MA52",
+			"notes": "Increases your maximum level in a technique",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "TcPMPZ0i93YZ8qNeg",
+			"name": "Optional Traits",
+			"children": [
+				{
+					"id": "TxInrhZd5IayE-Fli",
+					"name": "Advantages",
+					"children": [
+						{
+							"id": "tUNBwGi-fTohQbiJU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tABjxMAPO3RzcQAhj"
+							},
+							"name": "Claim to Hospitality",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Social"
+							],
+							"modifiers": [
+								{
+									"id": "mso-lg45P29awAdmP",
+									"name": "@Friend with crash space@ (crash space)",
+									"cost": 1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mTvL30qVZPk90w_JF",
+									"name": "@Group@ - @Services@",
+									"cost": 1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m51MOMUBw_HKTOli2",
+									"name": "@Group@ - Has @Resources@",
+									"cost": 2,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mK5VsfBywVmBTAQKJ",
+									"name": "@Large Group@ - Has @Lots of Services@",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mUeFS_NwFD9BJKF4P",
+									"name": "@Vast Group@ - @Complete Services@",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tMtBbLxtev4jUVZuQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tNxhI7CrefYdy90UI"
+							},
+							"name": "Talent (Musical Ability)",
+							"reference": "B90,PU3:13",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Group Performance"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Conducting"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Musical Composition"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Musical Influence"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Musical Instrument"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Singing"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from audiences and critics",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "t8A_mIaaYpeESdycf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tw1Ad0oSMw2ATM4X1"
+							},
+							"name": "Language: Portuguese",
+							"reference": "B24",
+							"tags": [
+								"Advantage",
+								"Language",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Language Talent"
+										},
+										"level": {
+											"compare": "at_least"
+										}
+									}
+								]
+							},
+							"modifiers": [
+								{
+									"id": "mgDaP6kzY4xme-ysr",
+									"name": "Native",
+									"reference": "B23",
+									"cost": -6,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mVF_GjgNqK06gC0gH",
+									"name": "Spoken",
+									"reference": "B24",
+									"notes": "None",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mgjY6uhJ9KvCrJiFn",
+									"name": "Spoken",
+									"reference": "B24",
+									"notes": "Broken",
+									"cost": 1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mFGHLERnwoEaAY4QM",
+									"name": "Spoken",
+									"reference": "B24",
+									"notes": "Accented",
+									"cost": 2,
+									"cost_type": "points"
+								},
+								{
+									"id": "mItyjYjVmfR79gAV5",
+									"name": "Spoken",
+									"reference": "B24",
+									"notes": "Native",
+									"cost": 3,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mALqEjO-qsm1tOVY1",
+									"name": "Written",
+									"reference": "B24",
+									"notes": "None",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m2NAFs2hObtaglHRe",
+									"name": "Written",
+									"reference": "B24",
+									"notes": "Broken",
+									"cost": 1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mKDN5BR-8Vyc5w_ti",
+									"name": "Written",
+									"reference": "B24",
+									"notes": "Accented",
+									"cost": 2,
+									"cost_type": "points"
+								},
+								{
+									"id": "mMT58k3XVQ4dY0_yf",
+									"name": "Written",
+									"reference": "B24",
+									"notes": "Native",
+									"cost": 3,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "tUVFefQH1QlcbRZCH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "twGsZPV8OE0NLFaXl"
+							},
+							"name": "Enhanced Dodge",
+							"reference": "B51,MA43",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"points_per_level": 15,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dodge",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "ts60gTDMJrzin7zrZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "teRggYn926_I1YeWO"
+							},
+							"name": "High Pain Threshold",
+							"reference": "B59",
+							"notes": "Never suffer shock penalties when injured",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 10,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "on all HT rolls to avoid knockdown and stunning",
+									"amount": 3
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to resist torture",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 34
+					}
+				},
+				{
+					"id": "TR8Wib-gYXhbPu_HU",
+					"name": "Disadvantages",
+					"children": [
+						{
+							"id": "tqrWIXW2f6e8pzc5w",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tmRX0o0iO20zWIVyo"
+							},
+							"name": "Bloodlust",
+							"reference": "B125",
+							"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tg7Kb3hbPA--tpC9s",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tPbL1_rekOzkM86wz"
+							},
+							"name": "Overconfidence",
+							"reference": "B148",
+							"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from young or naive individuals who believe you are as good as you say you are",
+									"amount": 2
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from experienced NPCs",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tmXVLGQAEblyFNOzj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Traits.adq",
+								"id": "tj478Y8UdHYlqGNf2"
+							},
+							"name": "Bad Reputation",
+							"reference": "B26,MA54",
+							"notes": "Uses dirty tricks",
+							"tags": [
+								"Disadvantage",
+								"Social"
+							],
+							"modifiers": [
+								{
+									"id": "mIQn17MFChEAhlzaD",
+									"name": "People Affected",
+									"reference": "B27",
+									"notes": "Almost everyone",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mq8wFwljj6yoFhMCU",
+									"name": "People Affected",
+									"reference": "B27",
+									"notes": "Almost everyone except @large class of people@",
+									"cost": 0.67,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mXiDxXPp9fzwMiU5t",
+									"name": "People Affected",
+									"reference": "B27",
+									"notes": "@Large class of people@",
+									"cost": 0.5,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mYoVpcMO5_FYM__lV",
+									"name": "People Affected",
+									"reference": "B27",
+									"notes": "@Small class of people@",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mjpiI5vlzrCfhB8EZ",
+									"name": "Recognized all the time",
+									"reference": "B28",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "m6rg9PSGqe4cMtPC-",
+									"name": "Recognized sometimes",
+									"reference": "B28",
+									"notes": "10-",
+									"cost": 0.5,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mJkhNRru3QiQgNnuJ",
+									"name": "Recognized occasionally",
+									"reference": "B28",
+									"notes": "7-",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"points_per_level": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others aware of your reputation",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				}
+			],
+			"calc": {
+				"points": 14
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "S2vjTbkrVQxcFjJvv",
+			"name": "Skills",
+			"children": [
+				{
+					"id": "sN8oZsPyMhF1CNc0S",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sX8y2AmeL5DLlQl17"
+					},
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s5rEvtOUjdTlY7RzD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sU4bjpp9TsvnRavPN"
+					},
+					"name": "Karate",
+					"reference": "B203,MA57",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"encumbrance_penalty_multiplier": 1,
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Karate"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						},
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Karate"
+							},
+							"level": {
+								"compare": "at_least",
+								"qualifier": 1
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sSHW6W76v04WOMtSx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "s8parl7zgbXys0OF2"
+					},
+					"name": "Wrestling",
+					"reference": "B228,MA61",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SJWdfB_9TDyz7tmOu",
+			"name": "Perks"
+		},
+		{
+			"id": "SXAe4NEi87E77WbLh",
+			"name": "Techniques",
+			"children": [
+				{
+					"id": "qiX1aoHL2ZBS3Nr17",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qU8qAxzftMtqQAx-t"
+					},
+					"name": "Acrobatic Stand",
+					"reference": "MA65",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"default": {
+						"type": "skill",
+						"name": "Acrobatics",
+						"modifier": -6
+					},
+					"limit": 0,
+					"points": 1
+				},
+				{
+					"id": "qar-94t31TTz-YN5I",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qAF6pR24LnNOXwI7h"
+					},
+					"name": "Axe Kick",
+					"reference": "MA67",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -4
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "q4nFQcRiPm41bdmON",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "ql4Rz8TWzfHl29zZT"
+					},
+					"name": "Back Kick",
+					"reference": "MA67",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -4
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "qkM7wV_P_oL4jJfPL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "q6uYY8gfayZz8SFMj"
+					},
+					"name": "Ear Clap",
+					"reference": "MA70",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"default": {
+						"type": "skill",
+						"name": "@Unarmed Striking Skill@",
+						"modifier": -3
+					},
+					"limit": -1,
+					"points": 1
+				},
+				{
+					"id": "q2tdva0N-L8vLsqeh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qiYEUG-NHMy-HJ8xl"
+					},
+					"name": "Feint",
+					"reference": "MA73",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "@Unarmed or Melee Weapon Skill@"
+					},
+					"limit": 4,
+					"points": 2
+				},
+				{
+					"id": "qq3i39JCIumFan6Gf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qIH2E-PoSZUWECHR2"
+					},
+					"name": "Hammer Fist",
+					"reference": "MA73",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -1
+					},
+					"limit": 0,
+					"points": 1
+				},
+				{
+					"id": "qLUw6Z5_1_HLVh2ZT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qdextp3yPBLwJkPuE"
+					},
+					"name": "Head Butt",
+					"reference": "MA74",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -1
+					},
+					"limit": 0,
+					"weapons": [
+						{
+							"id": "wfR0jZgaR2G_EzkGl",
+							"damage": {
+								"type": "",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Head Butt",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Head Butt"
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -1
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -1
+								}
+							],
+							"calc": {
+								"damage": "thr-1"
+							}
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "q31sFTC7zEmP0mMJA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qgehV_KJ6mxoqDhR-"
+					},
+					"name": "Jump Kick",
+					"reference": "MA75",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -4
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "qfgWzfcQdmW9L5aRr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qBxu77d0D4Gn7QiVN"
+					},
+					"name": "Kicking",
+					"reference": "MA75",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -2
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "qquXw8BPAgniwVsv5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qN96P5g5n94lWo4de"
+					},
+					"name": "Scissors Hold",
+					"reference": "MA79",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Wrestling",
+						"modifier": -2
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "qvUsDrRYb0_rBhXc7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qPhpfUytXHeF4C7Az"
+					},
+					"name": "Sweep",
+					"reference": "MA81",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "@Unarmed or Melee Weapon Skill@",
+						"modifier": -3
+					},
+					"limit": 0,
+					"points": 2
+				}
+			]
+		},
+		{
+			"id": "S2iVnrzq2ETMF8DwM",
+			"name": "Cinematic Skills",
+			"children": [
+				{
+					"id": "s1_OcmTrhPINl366Z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "s85wQHwMo5pSvfiZv"
+					},
+					"name": "Flying Leap",
+					"reference": "B196,MA57",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "iq/h",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "weapon master"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "trained by a master"
+										}
+									}
+								]
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "power blow"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "jumping"
+								}
+							}
+						]
+					},
+					"points": 1
+				},
+				{
+					"id": "sw1_7zNEHWSukusIy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sBCZF1apRHAng7GFF"
+					},
+					"name": "Power Blow",
+					"reference": "B215,MA58",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "weapon master"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								}
+							}
+						]
+					},
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SRvKyzSD5V93hWWhY",
+			"name": "Cinematic Techniques",
+			"children": [
+				{
+					"id": "qx8ihVY7ULdXLjkRN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qJjbEn1aAWWEWY6_Y"
+					},
+					"name": "Roll with Blow",
+					"reference": "MA87",
+					"tags": [
+						"Cinematic Techniques",
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "Acrobatics",
+						"modifier": -2
+					},
+					"limit": 0,
+					"points": 2
+				},
+				{
+					"id": "q3xfpNRjy35gBay_v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Martial Arts\\Martial Arts Skills.skl",
+						"id": "qtVvajTv77ctY-oDx"
+					},
+					"name": "Springing Attack",
+					"reference": "MA87",
+					"tags": [
+						"Cinematic Techniques",
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"default": {
+						"type": "skill",
+						"name": "@Combat Skill@",
+						"modifier": -2
+					},
+					"limit": 0,
+					"points": 2
+				}
+			]
+		},
+		{
+			"id": "S7y_bJfuPGaXmievl",
+			"name": "Optional Skills",
+			"children": [
+				{
+					"id": "sWMqKaP5tUitDyf2X",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sksrUWDcZ36TbMPjP"
+					},
+					"name": "Dancing",
+					"reference": "B187",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sWem-ekBsfo8cMqiQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "slOONrK6jDHvcRoGx"
+					},
+					"name": "Knife",
+					"reference": "B208",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "svNEyw74893xV_43d",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sZhLALSTNRZIxx-GS"
+					},
+					"name": "Musical Instrument",
+					"reference": "B211",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "Berimbau",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "skzsZ9_mKY3B0zb1M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "s7nXHa7mrKbU2X3wz"
+					},
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Dojo",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Games",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "su8D55XL0z-gqeBNX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "s-DdOtFsU7dX4Ttfz"
+					},
+					"name": "Shortsword",
+					"reference": "B209",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sj_Z83fo-LDEBvpxL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "snPJCUJooMh6l1Da2"
+					},
+					"name": "Singing",
+					"reference": "B220",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "ht/e",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sM11ejJfVEmwL_txN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Skills.skl",
+						"id": "sS4hZ6hj6EE25ergR"
+					},
+					"name": "Smallsword",
+					"reference": "B208",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		}
+	]
+}

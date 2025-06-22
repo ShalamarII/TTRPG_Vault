@@ -1,0 +1,229 @@
+{
+  "monsters": [],
+  "defaultLayouts": {},
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "9b4909199b3b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "99a9ea39ebd8",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "-",
+              "hasRule": true,
+              "diceCallback": ""
+            },
+            {
+              "type": "group",
+              "id": "381918e86be8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "6ad84a2ba98a",
+                  "properties": [],
+                  "nested": []
+                }
+              ]
+            },
+            {
+              "type": "ifelse",
+              "id": "39089858db6b",
+              "conditions": [
+                {
+                  "nested": [
+                    {
+                      "type": "group",
+                      "id": "78689af9e8b9",
+                      "properties": [],
+                      "nested": [
+                        {
+                          "type": "subheading",
+                          "id": "68ea8b288908",
+                          "properties": [
+                            "spell_class",
+                            "resistedW"
+                          ],
+                          "fallback": "-",
+                          "separator": ", Resisted by ",
+                          "conditioned": false
+                        }
+                      ]
+                    }
+                  ],
+                  "condition": "return monster.resistedW != 'undefined'"
+                },
+                {
+                  "nested": [
+                    {
+                      "type": "group",
+                      "id": "b91acb9a081a",
+                      "properties": [],
+                      "nested": [
+                        {
+                          "type": "subheading",
+                          "id": "09a879db8a49",
+                          "properties": [
+                            "spell_class"
+                          ],
+                          "fallback": "-",
+                          "conditioned": false
+                        }
+                      ]
+                    }
+                  ],
+                  "condition": "return monster.resistedW == 'undefined'"
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "3b3bf90bf918",
+              "properties": [],
+              "nested": [],
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "285b5a0958cb",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "09ca68a89ab9",
+              "properties": [
+                "duration"
+              ],
+              "fallback": "-",
+              "display": "Spell Duration:"
+            },
+            {
+              "type": "property",
+              "id": "88c85b989a4b",
+              "properties": [
+                "casting_cost"
+              ],
+              "fallback": "-",
+              "display": "Spell Cost:"
+            },
+            {
+              "type": "property",
+              "id": "0a6ad9c9eada",
+              "properties": [
+                "maintenance_cost"
+              ],
+              "fallback": "-",
+              "display": "Maintenance Cost:",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "eae9d84bf92a",
+              "properties": [
+                "casting_time"
+              ],
+              "fallback": "-",
+              "display": "Casting Time:"
+            }
+          ],
+          "heading": "",
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "596a7b4a389b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "1aabf8f9195a",
+              "properties": [
+                "prerequisites"
+              ],
+              "fallback": "-",
+              "display": "Prerequisites:"
+            },
+            {
+              "type": "property",
+              "id": "6958d8b948f9",
+              "properties": [
+                "college"
+              ],
+              "fallback": "-",
+              "display": "Spell College(s):"
+            },
+            {
+              "type": "property",
+              "id": "0aebba5958c8",
+              "properties": [
+                "spellTags"
+              ],
+              "fallback": "-",
+              "display": "Spell Tags:"
+            }
+          ],
+          "hasRule": true,
+          "heading": ""
+        },
+        {
+          "type": "group",
+          "id": "6b3b0bfae978",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "38f8eabbdb89",
+              "properties": [
+                "difficulty"
+              ],
+              "fallback": "-",
+              "display": "Difficulty:",
+              "conditioned": true
+            }
+          ]
+        }
+      ],
+      "name": "GCS - Layout",
+      "id": "e8984ae8cb08",
+      "cssProperties": {
+        "subheadingFontStyle": "italic",
+        "subheadingFontSize": "18px",
+        "subheadingFontWeight": "bold"
+      },
+      "diceParsing": []
+    }
+  ],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 9,
+    "patch": 1
+  },
+  "paths": [
+    "/",
+    "Library/GURPS Spells/MagicAsSkills"
+  ],
+  "autoParse": false,
+  "disableSRD": true,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

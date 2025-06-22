@@ -1,0 +1,210 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ppZeDCJ0Ss1U_Q8Ln",
+			"name": "Change Places",
+			"notes": "This spell allows the mage to change places with the subject, as long as the subject is within his line of sight.\nThe mage and the subject retain their relative speeds and orientations, except that the mage can increase or decrease his speed by up to 20% and change is facing by one hex side. The subject can also alter his speed and orientation.\nUnwilling subjects roll vs. IQ to resist changing places with the mage. Even if the resistance roll fails, the subject can still alter his facing and speed, as above.\nThe mage can also use this spell to allow two subjects to change places. In this case, the mage must touch one of the subjects when the spell is cast. Either subject may roll vs. IQ to resist if they are unwilling.\nIn other respects, this spell is like the Teleportation spell.\nThis is also a Gate spell.",
+			"tags": [
+				"Support",
+				"Utility"
+			],
+			"vtt_notes": "This spell allows the mage to change places with the subject, as long as the subject is within his line of sight.\nThe mage and the subject retain their relative speeds and orientations, except that the mage can increase or decrease his speed by up to 20% and change is facing by one hex side. The subject can also alter his speed and orientation.\nUnwilling subjects roll vs. IQ to resist changing places with the mage. Even if the resistance roll fails, the subject can still alter his facing and speed, as above.\nThe mage can also use this spell to allow two subjects to change places. In this case, the mage must touch one of the subjects when the spell is cast. Either subject may roll vs. IQ to resist if they are unwilling.\nIn other respects, this spell is like the Teleportation spell.\nThis is also a Gate spell.",
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Gate"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Resisted by IQ",
+			"casting_cost": "5",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pass"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "pSv6OMYS_515Xta5j",
+			"name": "Coward Weapon",
+			"notes": "This spell will make weapons swerve away from their target.\nUnless the user can roll vs. ST, any melee weapon he uses is at -2 to hit. Any thrown or missile weapons he uses are at are at -4 to hit. ",
+			"tags": [
+				"Utility"
+			],
+			"vtt_notes": "This spell will make weapons swerve away from their target.\nUnless the user can roll vs. ST, any melee weapon he uses is at -2 to hit. Any thrown or missile weapons he uses are at are at -4 to hit. ",
+			"difficulty": "iq/h",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2 per pound of weapon",
+			"maintenance_cost": "same to maintain",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Winged Knife"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "pAgl8wJK-JMhagVV_",
+			"name": "Command Rope",
+			"notes": "This spell makes a rope or ropelike object of up to 50 feet length to obey the caster's commands.\nThe possible commands are: Coil (form a neat coiled stack), Coil and Knot, Loop, Loop and Knot, Tie and Knot and the reverses of all the above. The rope can also be ordered to wrap itself around a target.\nThe rope cannot move more than one foot by itself, so it may need to be thrown near the target.\nIf a rope is commanded to grapple its target, it attacks with DX 12. The subject can Block or Dodge the attack like he would any other attack. Weapon Parries automatically attack the rope. Unarmed Parries result in an automatic grapple.\nIf the victim is Grappled, he may attempt to escape each turn, as if he were breaking free from a normal Grapple. The ST of the rope is equal to the twice the HP required to cut it. If the victim is Pinned, it is assumed that the rope has tied the victim in place. The victim can't make further escape attempts unless he has the Escape skill.\nIf the rope is cut or broken, the spell automatically ends. ",
+			"tags": [
+				"Utility"
+			],
+			"vtt_notes": "This spell makes a rope or ropelike object of up to 50 feet length to obey the caster's commands.\nThe possible commands are: Coil (form a neat coiled stack), Coil and Knot, Loop, Loop and Knot, Tie and Knot and the reverses of all the above. The rope can also be ordered to wrap itself around a target.\nThe rope cannot move more than one foot by itself, so it may need to be thrown near the target.\nIf a rope is commanded to grapple its target, it attacks with DX 12. The subject can Block or Dodge the attack like he would any other attack. Weapon Parries automatically attack the rope. Unarmed Parries result in an automatic grapple.\nIf the victim is Grappled, he may attempt to escape each turn, as if he were breaking free from a normal Grapple. The ST of the rope is equal to the twice the HP required to cut it. If the victim is Pinned, it is assumed that the rope has tied the victim in place. The victim can't make further escape attempts unless he has the Escape skill.\nIf the rope is cut or broken, the spell automatically ends. ",
+			"difficulty": "iq/h",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "10 seconds",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Apportation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "p31jYIPuuwwIJvLSh",
+			"name": "Entrapment Area",
+			"notes": "This spell makes a net or piece of fabric in the area of effect automatically fall on or wrap up a character.\nIf the subject enters the same hex as, or a hex adjacent to the fabric, it will attempt to grapple him. The victim must win a Contest of his DX (or his Wrestling skill), vs. the fabric's DX of 12. If the fabric wins the contest, it will entangle the victim for 1d-2 turns per hex of area covered by the fabric. For example, a rug that occupies 3 hexes would entangle the subject for 3d-6 turns.\nThis is also a Force spell.",
+			"tags": [
+				"Utility"
+			],
+			"vtt_notes": "This spell makes a net or piece of fabric in the area of effect automatically fall on or wrap up a character.\nIf the subject enters the same hex as, or a hex adjacent to the fabric, it will attempt to grapple him. The victim must win a Contest of his DX (or his Wrestling skill), vs. the fabric's DX of 12. If the fabric wins the contest, it will entangle the victim for 1d-2 turns per hex of area covered by the fabric. For example, a rug that occupies 3 hexes would entangle the subject for 3d-6 turns.\nThis is also a Force spell.",
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Force"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "DX",
+			"casting_cost": "2 per hex",
+			"maintenance_cost": "same to maintain",
+			"casting_time": "1 sec",
+			"duration": "1 minute",
+			"points": 1
+		},
+		{
+			"id": "pN_xKdRtlv_raPcnL",
+			"name": "Pass",
+			"notes": "When this spell is cast, the mage, along with his vehicle or mount, trades places with another moving object of the same general sort.\nThe vehicle or mount can be placed as many hexes in front of the moving object, as it previously was behind that object, up to 10 seconds of traveling distance at the mage's current rate of speed. The two objects retain their relative speeds and orientation, although the mage can increase or decrease the speed of his vehicle or mount by up to 20%, within the normal limits of the vehicle. He can also change the conveyance's front facing by 1 hex side (60 degrees), within the limitations of his vehicle or mount, just as if he was travelling without any obstruction ahead of him. No control roll is required to make these maneuvers.\nIn order to cast this spell, the mage (or his mount) must be able to see the desired end location and the object to be passed. There must also be clear, safe path, ignoring the object to be passed, from the mage's current location to his desired end location.\nThis spell will not work unless the object to be passed is a person, animal or vehicle which is in motion or which is capable of motion. The mage can't use this spell to go through walls or other immovable objects!\nFor example, a modern mage needs to make a fast getaway down a narrow country road that has no places to pass slower traffic. He soon finds himself stuck behind a little old lady in a white Buick, traveling with her left turn signal on, going 20 miles below the speed limit.\nAs long as the mage can see around the car ahead of him, and his car can travel to the desired location normally, he can cast the Pass spell. If the mage is 20 yards behind the slower car when the spell is cast, he can place himself up to 20 yards ahead of it when the spell is cast. However, no matter how far he is behind the other car, he can never move more than 10 seconds ahead of it. For example, if he were traveling at Move 100, he would be limited to (100 x 10), 1,000 yards of distance, maximum.\nIf needs be, the can also increase or decrease his vehicle's speed by 20%, as long as he doesn't exceed the maximum top speed for the vehicle. He can change the vehicle's facing by up to 60 degrees to better anticipate upcoming curves.\nIf the mage was driving a 1,500 lb. sports car, it would cost him 3 points, plus 6 (1,500/250) points to move the mass of his car, for a base cost of 9 points to pass the rolling roadblock.\nNote that it is considered cheating to use this spell during a race!\nThis is also a Gate spell. ",
+			"vtt_notes": "When this spell is cast, the mage, along with his vehicle or mount, trades places with another moving object of the same general sort.\nThe vehicle or mount can be placed as many hexes in front of the moving object, as it previously was behind that object, up to 10 seconds of traveling distance at the mage's current rate of speed. The two objects retain their relative speeds and orientation, although the mage can increase or decrease the speed of his vehicle or mount by up to 20%, within the normal limits of the vehicle. He can also change the conveyance's front facing by 1 hex side (60 degrees), within the limitations of his vehicle or mount, just as if he was travelling without any obstruction ahead of him. No control roll is required to make these maneuvers.\nIn order to cast this spell, the mage (or his mount) must be able to see the desired end location and the object to be passed. There must also be clear, safe path, ignoring the object to be passed, from the mage's current location to his desired end location.\nThis spell will not work unless the object to be passed is a person, animal or vehicle which is in motion or which is capable of motion. The mage can't use this spell to go through walls or other immovable objects!\nFor example, a modern mage needs to make a fast getaway down a narrow country road that has no places to pass slower traffic. He soon finds himself stuck behind a little old lady in a white Buick, traveling with her left turn signal on, going 20 miles below the speed limit.\nAs long as the mage can see around the car ahead of him, and his car can travel to the desired location normally, he can cast the Pass spell. If the mage is 20 yards behind the slower car when the spell is cast, he can place himself up to 20 yards ahead of it when the spell is cast. However, no matter how far he is behind the other car, he can never move more than 10 seconds ahead of it. For example, if he were traveling at Move 100, he would be limited to (100 x 10), 1,000 yards of distance, maximum.\nIf needs be, the can also increase or decrease his vehicle's speed by 20%, as long as he doesn't exceed the maximum top speed for the vehicle. He can change the vehicle's facing by up to 60 degrees to better anticipate upcoming curves.\nIf the mage was driving a 1,500 lb. sports car, it would cost him 3 points, plus 6 (1,500/250) points to move the mass of his car, for a base cost of 9 points to pass the rolling roadblock.\nNote that it is considered cheating to use this spell during a race!\nThis is also a Gate spell. ",
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Gate"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3 points, plus 1 point per 250 lbs. of mass to be moved. Can't be maintained. ",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Gate"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Teleport Other"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "pcwYbFx8I4R2w6ECs",
+			"name": "Extension",
+			"difficulty": "iq/h",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "25% of the magic's cost (Rounded Up)",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		}
+	]
+}

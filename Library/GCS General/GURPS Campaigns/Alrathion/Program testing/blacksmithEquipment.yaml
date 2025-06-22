@@ -1,0 +1,797 @@
+  - 0:
+    name: "Spurs"
+    cost: 20
+    weight: 0 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: "N/A"
+  - 1:
+    name: Blowpipe
+    cost: 30
+    weight: 1 lb
+    reach: N/A
+    RoF: 1
+    bulk: -6
+    damage: 1d-3 pi-
+    recoil: N/A
+    STreq: 2
+  - 2:
+    name: Wooden Stake
+    cost: 4
+    weight: 0.5 lb
+    reach: C
+    RoF: N/A
+    bulk: -6
+    damage: thr(0.5) imp
+    recoil: N/A
+    STreq: 5
+  - 3:
+    name: Arrow
+    cost: 2
+    weight: 0.1 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 4:
+    name: Traveler's Rations
+    cost: 2
+    weight: 0.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 5:
+    name: Throwing Axe
+    cost: 60
+    weight: 4 lb
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: sw+2 cut
+    recoil: N/A
+    STreq: 11
+  - 6:
+    name: Spear
+    cost: 40
+    weight: 4 lb
+    reach: 1*
+    RoF: 1
+    bulk: -6
+    damage: thr+2 imp (Thrust) / thr+3 imp (Thrown)
+    recoil: N/A
+    STreq: 9
+  - 7:
+    name: Atlatl w/Dart
+    cost: 20
+    weight: 1 lb
+    reach: N/A
+    RoF: 1
+    bulk: -3
+    damage: sw-1 imp
+    recoil: N/A
+    STreq: 5
+  - 8:
+    name: Atlatl w/Javelin
+    cost: 30
+    weight: 2 lb
+    reach: N/A
+    RoF: 1
+    bulk: -4
+    damage: sw+1 imp
+    recoil: N/A
+    STreq: 6
+  - 9:
+    name: Small Knife
+    cost: 30
+    weight: 0.5 lb
+    reach: C,1
+    RoF: N/A
+    bulk: -1
+    damage: sw-3 cut / thr-1 imp (Thrust) / thr-1 imp (Thrown)
+    recoil: N/A
+    STreq: 5
+  - 10:
+    name: Sling Stone
+    cost: 0
+    weight: 0.05 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 11:
+    name: Sling
+    cost: 20
+    weight: 0.5 lb
+    reach: N/A
+    RoF: 1
+    bulk: -4
+    damage: sw pi
+    recoil: N/A
+    STreq: 6
+  - 12:
+    name: Shoulder Quiver
+    cost: 10
+    weight: 0.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 13:
+    name: Short Staff
+    cost: 20
+    weight: 1 lb
+    reach: 1
+    RoF: N/A
+    bulk: N/A
+    damage: sw cr / thr cr
+    recoil: N/A
+    STreq: 6
+  - 14:
+    name: Short Bow
+    cost: 50
+    weight: 2 lb
+    reach: x10/x15
+    RoF: 1
+    bulk: -6
+    damage: thr imp
+    recoil: N/A
+    STreq: 7
+  - 15:
+    name: Saw
+    cost: 150
+    weight: 3 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 16:
+    name: Axe
+    cost: 50
+    weight: 4 lb
+    reach: 1
+    RoF: N/A
+    bulk: N/A
+    damage: sw+2 cut
+    recoil: N/A
+    STreq: 11
+  - 17:
+    name: Sandals
+    cost: 25
+    weight: 0.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 18:
+    name: Rope, 3/8", 20 yards
+    cost: 10
+    weight: 3 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+    notes: Supports 300 lbs.
+  - 19:
+    name: Rope, 3/8", 10 yards
+    cost: 5
+    weight: 1.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+    notes: Supports 300 lbs.
+  - 20:
+    name: Regular Bow
+    cost: 100
+    weight: 2 lb
+    reach: x15/x20
+    RoF: 1
+    bulk: -7
+    damage: thr+1 imp
+    recoil: N/A
+    STreq: 10
+  - 21:
+    name: Quarterstaff
+    cost: 10
+    weight: 4 lb
+    reach: 1-2
+    RoF: N/A
+    bulk: N/A
+    damage: sw+2 cr
+    recoil: N/A
+    STreq: 7
+  - 22:
+    name: Pole, 10'
+    cost: 8
+    weight: 5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 23:
+    name: Pole, 6'
+    cost: 5
+    weight: 3 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 24:
+    name: Personal Basics
+    cost: 5
+    weight: 1 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 25:
+    name: Maul
+    cost: 80
+    weight: 12 lb
+    reach: 1-2*
+    RoF: 1
+    bulk: -2
+    damage: sw+4 cr
+    recoil: 0
+    STreq: 13‡
+  - 26:
+    name: Longbow
+    cost: 200
+    weight: 3 lb
+    reach: x15/x20
+    RoF: 1
+    bulk: -8
+    damage: thr+2 imp
+    recoil: 0
+    STreq: 11†
+  - 27:
+    name: Light Club
+    cost: 5
+    weight: 3 lb
+    reach: 1
+    RoF: 1
+    Bulk: -1
+    damage: sw+1 cr
+    recoil: 0
+    STreq: 10
+  - 28:
+    name: Large Knife
+    cost: 40
+    weight: 1 lb
+    reach: C,1
+    RoF: 1
+    bulk: -2
+    damage: sw-2 cut
+    recoil: 0
+    STreq: 6
+  - 29:
+    name: Hip Quiver
+    cost: 15
+    weight: 1 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 30:
+    name: Hatchet
+    cost: 40
+    weight: 2 lb
+    reach: 1
+    RoF: 1
+    bulk: N/A
+    damage: sw cut
+    recoil: 0
+    STreq: 8
+  - 31:
+    name: Garrote
+    cost: 2
+    weight: 0.01 lb
+    reach: C
+    RoF: N/A
+    bulk: N/A
+    damage: see B405
+    recoil: N/A
+    STreq: N/A
+  - 32:
+    name: Baton
+    cost: 20
+    weight: 1 lb
+    reach: 1
+    RoF: N/A
+    bulk: 0
+    damage: sw cr
+    recoil: N/A
+    STreq: 6
+  - 33:
+    name: Baton (Thrust)
+    cost: 20
+    weight: 1 lb
+    reach: 1
+    RoF: N/A
+    bulk: 0
+    damage: thr cr
+    recoil: N/A
+    STreq: 6
+  - 34:
+    name: Bolas
+    cost: 20
+    weight: 2 lb
+    reach: x3
+    RoF: 1
+    bulk: -2
+    damage: thr-1 cr (see B411)
+    recoil: N/A
+    STreq: 7
+  - 35:
+    name: Blowpipe Darts
+    cost: 0.1
+    weight: 0.05 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 36:
+    name: Scythe
+    cost: 15
+    weight: 5 lb
+    reach: 1
+    RoF: N/A
+    bulk: 0U
+    damage: sw+2 cut
+    recoil: N/A
+    STreq: 11‡
+  - 37:
+    name: Scythe (Thrust)
+    cost: 15
+    weight: 5 lb
+    reach: 1
+    RoF: N/A
+    bulk: 0U
+    damage: sw imp
+    recoil: N/A
+    STreq: 11‡
+  - 38:
+    name: Steel Short Sword
+    cost: 200
+    weight: 2
+    reach: 1
+    RoF: 1
+    bulk: -1
+    damage: 1d6
+    recoil: 0
+    STreq: 10
+  - 39:
+    name: Steel Long Sword
+    cost: 500
+    weight: 3
+    reach: 1
+    RoF: 1
+    bulk: -2
+    damage: 1d8
+    recoil: 0
+    STreq: 10
+  - 40:
+    name: Steel Greatsword
+    cost: 1000
+    weight: 6
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: 2d6
+    recoil: 0
+    STreq: 12
+  - 41:
+    name: Steel Shortspear
+    cost: 150
+    weight: 3
+    reach: 2
+    RoF: 1
+    bulk: -1
+    damage: 1d6
+    recoil: 0
+    STreq: 10
+  - 42:
+    name: Steel Spear
+    cost: 300
+    weight: 5
+    reach: 3
+    RoF: 1
+    bulk: -2
+    damage: 1d8
+    recoil: 0
+    STreq: 10
+  - 43:
+    name: Steel Polearm
+    cost: 600
+    weight: 8
+    reach: 3
+    RoF: 1
+    bulk: -3
+    damage: 2d6
+    recoil: 0
+    STreq: 12
+  - 44:
+    name: Steel Dagger
+    cost: 50
+    weight: 1
+    reach: 1
+    RoF: 1
+    bulk: -1
+    damage: 1d4
+    recoil: 0
+    STreq: 8
+  - 45:
+    name: Steel Mace
+    cost: 300
+    weight: 4
+    reach: 1
+    RoF: 1
+    bulk: -2
+    damage: 2d6
+    recoil: 0
+    STreq: 10
+  - 46:
+    name: Steel Warhammer
+    cost: 500
+    weight: 5
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: 2d8
+    recoil: 0
+    STreq: 12
+  - 47:
+    name: Steel Battleaxe
+    cost: 500
+    weight: 7
+    reach: 1
+    RoF: 1
+    bulk: -2
+    damage: 2d6
+    recoil: 0
+    STreq: 12
+  - 48:
+    name: Steel Greataxe
+    cost: 1000
+    weight: 10
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: 3d6
+    recoil: 0
+    STreq: 14
+  - 49:
+    name: Whip, 1 yard long
+    cost: 20
+    weight: 2 lb
+    reach: 1
+    RoF: N/A
+    bulk: N/A
+    damage: sw-2(0.5) cr
+    recoil: N/A
+    STreq: 6
+  - 50:
+    name: Bottle, Ceramic
+    cost: 3
+    weight: 1 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+  - 51:
+    name: Brass Knuckles
+    cost: 10
+    weight: 0.25 lb
+    reach: C
+    RoF: N/A
+    bulk: N/A
+    damage: thr cr
+    recoil: N/A
+    STreq: N/A
+  - 52:
+    name: Flanged Mace
+    cost: 100
+    weight: 5
+    reach: 1
+    RoF: 1
+    bulk: -2
+    damage: 7
+    recoil: 0
+    STreq: 10
+  - 53:
+    name: War Hammer
+    cost: 120
+    weight: 6
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: 8
+    recoil: 0
+    STreq: 11
+  - 54:
+    name: Longsword
+    cost: 150
+    weight: 4
+    reach: 1
+    RoF: 1
+    bulk: -2
+    damage: 6
+    recoil: 0
+    STreq: 9
+  - 55:
+    name: Battleaxe
+    cost: 130
+    weight: 7
+    reach: 1
+    RoF: 1
+    bulk: -3
+    damage: 9
+    recoil: 0
+    STreq: 12
+  - 56:
+    name: Halberd
+    cost: 180
+    weight: 12
+    reach: 2
+    RoF: 1
+    bulk: -4
+    damage: 10
+    recoil: 0
+    STreq: 13
+  - 57:
+    name: Spear
+    cost: 80
+    weight: 5
+    reach: 2
+    RoF: 1
+    bulk: -3
+    damage: 6
+    recoil: 0
+    STreq: 9
+  - 58:
+    name: Crossbow
+    cost: 200
+    weight: 8
+    reach: 10
+    RoF: 1
+    bulk: -4
+    damage: 12
+    recoil: 1
+    STreq: 10
+  - 59:
+    name: Shortbow
+    cost: 100
+    weight: 2
+    reach: 10
+    RoF: 2
+    bulk: -3
+    damage: 9
+    recoil: 0
+    STreq: 8
+  - 60:
+    name: Longbow
+    cost: 150
+    weight: 3
+    reach: 10
+    RoF: 2
+    bulk: -4
+    damage: 10
+    recoil: 0
+    STreq: 10
+  - 61:
+    name: Dagger
+    cost: 50
+    weight: 1
+    reach: 1
+    RoF: 1
+    bulk: -1
+    damage: 4
+    recoil: 0
+    STreq: 6
+  - 62:
+    name: Sap
+    cost: 20
+    weight: 1 lb
+    damage: thr cr
+    reach: C
+    parry: 0
+    STreq: 7
+  - 63:
+    name: Cloth Armor
+    cost: 30
+    weight: 6 lb
+    notes: Flexible, concealable
+    DR: "1 (Groin, Torso, Vitals)"
+  - 64:
+    name: Tent, 20-Man
+    cost: 300
+    weight: "100 lb"
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+  - 65:
+        name: Portable Tool Kit, Carpentry
+        cost: 300
+        weight: "20 lb"
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 66:
+        name: Composite Bow
+        cost: 900
+        weight: 4 lb
+        reach: x20/x25
+        RoF: 1
+        bulk: -7
+        damage: thr+3 imp
+        recoil: N/A
+        STreq: 10†
+  - 67:
+        name: Portable Tool Kit, Armoury
+        cost: 600
+        weight: 20 lb
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 68:
+        name: Copper Farthing
+        cost: 1
+        weight: 0.008 lb
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 69:
+        name: Staff Sling
+        cost: 20
+        weight: 2 lb
+        reach: x10/x15
+        RoF: 1
+        bulk: -6
+        damage: sw+1 pi
+        recoil: N/A
+        STreq: 7†
+  - 70:
+        name: Lead Pellet (Prodd)
+        cost: 0.1
+        weight: 0.06 lb
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 71:
+        name: Lead Pellet (Sling)
+        cost: 0.1
+        weight: 0.05 lb
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 72:
+        name: Small Mace
+        cost: 35
+        weight: 3 lb
+        reach: 1
+        RoF: 0
+        bulk: 0
+        damage: sw+2 cr
+        recoil: 0
+        STreq: 10
+  - 73:
+        name: Crowbar, 3'
+        cost: 20
+        weight: 3 lb
+        reach: 1
+        RoF: 0
+        bulk: 0
+        damage: sw+2 cr
+        recoil: 0
+        STreq: 10
+  - 74:
+        name: Crossbow Bolt
+        cost: 2
+        weight: 0.06 lb
+        reach: N/A
+        RoF: N/A
+        bulk: N/A
+        damage: N/A
+        recoil: N/A
+        STreq: N/A
+  - 75:
+        name: Flail
+        cost: 100
+        weight: 8 lb
+        reach: 1-2
+        RoF: 0
+        bulk: 0
+        damage: sw+4 cr
+        recoil: 0
+        STreq: 13
+  - 76:
+        name: Shortsword
+        cost: 400
+        weight: 2 lb
+        reach: 1
+        RoF: 1
+        bulk: 0
+        damage: sw cut / thr imp
+        recoil: 0
+        STreq: 8
+  - 77:
+        name: Harpoon
+        cost: 60
+        weight: 6 lb
+        reach: 1
+        RoF: 1
+        bulk: -6
+        damage: thr+5 imp
+        recoil: 0
+        STreq: 11
+  - 78:
+        name: Scorpion
+        cost: 5000
+        weight: 110 lb
+        reach: 415/520
+        RoF: 1
+        bulk: -10
+        damage: 5d imp
+        recoil: 0
+        STreq: 45
+  - 79:
+        name: Thrusting Broadsword
+        cost: 600
+        weight: 3 lb
+        reach: 1
+        RoF: 1
+        bulk: 0
+        damage: sw+1 cut / thr+2 imp
+        recoil: 0
+        STreq: 10

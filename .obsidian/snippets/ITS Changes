@@ -1,0 +1,7 @@
+#no-after {
+    after::
+}
+
+h3.no-after {
+    after{content: "";}
+}

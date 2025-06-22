@@ -1,5 +1,11 @@
 {
-  "enabledCssSnippets": [],
-  "cssTheme": "ITS Theme",
+  "enabledCssSnippets": [
+    "Languages",
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "FormattingTools",
+    "ITS Changes"
+  ],
+  "cssTheme": "Everforest",
   "theme": "obsidian"
 }

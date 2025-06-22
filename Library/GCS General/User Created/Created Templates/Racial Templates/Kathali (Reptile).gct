@@ -1,0 +1,470 @@
+{
+	"version": 5,
+	"id": "BGMhxmEW_ejvT5NJZ",
+	"traits": [
+		{
+			"id": "toT0EtRbY3xK_mz_y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Traits.adq",
+				"id": "tEFtRoCNBxTe9vjsG"
+			},
+			"name": "Dark Vision",
+			"reference": "B47,P46",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mb6fI8K6nGdgn5edW",
+					"name": "Can see colors in the dark",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mSaerorer-vbb0q9m",
+					"name": "Hypersensory",
+					"reference": "P46",
+					"cost": 40,
+					"disabled": true
+				}
+			],
+			"base_points": 25,
+			"calc": {
+				"points": 25
+			}
+		},
+		{
+			"id": "tRtqJSqKxRWcXnuLp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Traits.adq",
+				"id": "t5LlXpm2lmMK5KcVN"
+			},
+			"name": "Blunt Claws",
+			"reference": "B42,MA42",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 3,
+			"weapons": [
+				{
+					"id": "wegAD5_-5NlzjRbFf",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1",
+						"modifier_per_die": 1
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 (+1 per die) cr"
+					}
+				},
+				{
+					"id": "wvxZpHuEqArPo24Nv",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr (+1 per die) cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 3
+			}
+		},
+		{
+			"id": "tJQnzkan8ekP7CFcy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Traits.adq",
+				"id": "t6VlhoSldlKRmJr7i"
+			},
+			"name": "Maintenance",
+			"reference": "B143",
+			"local_notes": "Must keep skin moisturized",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mNpJkVD1wQLfRwu96",
+					"name": "People Required: 1",
+					"reference": "B143",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mqpQ87eZ-CdG8MFXG",
+					"name": "People Required: 2",
+					"reference": "B143",
+					"cost": -20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mMtruGLKcztd9w5bc",
+					"name": "People Required: 3-5",
+					"reference": "B143",
+					"cost": -30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "muniV6MLG6EhgieEL",
+					"name": "People Required: 6-10",
+					"reference": "B143",
+					"cost": -40,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mq0j780mybGat8lbg",
+					"name": "People Required: 11-20",
+					"reference": "B143",
+					"cost": -50,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "myyDfjX3S13yIF0CL",
+					"name": "People Required: 21-50",
+					"reference": "B143",
+					"cost": -60,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mKr813y7taZncqNm_",
+					"name": "People Required: 51-100",
+					"reference": "B143",
+					"cost": -70,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mKZMHVkyH_e63BnKk",
+					"name": "People Required: 101-200",
+					"reference": "B143",
+					"cost": -80,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m--c1a40-YsKaD-yo",
+					"name": "People Required: 201-400",
+					"reference": "B143",
+					"cost": -90,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mGqrK9D38BLDTvA10",
+					"name": "People Required: 401-800",
+					"reference": "B143",
+					"cost": -100,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mnRjBGc1jnOSjI1AI",
+					"name": "People Required: 801-1600",
+					"reference": "B143",
+					"cost": -110,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m0czPr1Vmzcufft64",
+					"name": "People Required: 1601-3200",
+					"reference": "B143",
+					"cost": -120,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mXlv9lyFVc6EnFXN4",
+					"name": "People Required: 3201-6400",
+					"reference": "B143",
+					"cost": -130,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mRXBNivxNriH_V9O7",
+					"name": "People Required: 6401-12800",
+					"reference": "B143",
+					"cost": -140,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m9i_5zX6TKtBCg0WC",
+					"name": "People Required: 12801-25600",
+					"reference": "B143",
+					"cost": -150,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "msJWelINntpFa6Sg9",
+					"name": "Frequency: Monthly",
+					"reference": "B143",
+					"cost": 0.2,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mgR8yadv37JBHkXrf",
+					"name": "Frequency: Bi-weekly",
+					"reference": "B143",
+					"cost": 0.3333,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mWAPuIxLYwDnVk_iu",
+					"name": "Frequency: Weekly",
+					"reference": "B143",
+					"cost": 0.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mRsYoirpOf_v9aSoa",
+					"name": "Frequency: Every other day",
+					"reference": "B143",
+					"cost": 0.75,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mklmvAjFC1C1XxEjP",
+					"name": "Frequency: Daily",
+					"reference": "B143",
+					"cost": 1,
+					"cost_type": "multiplier"
+				},
+				{
+					"id": "mE5si-t2UWudOWpC_",
+					"name": "Frequency: Twice daily",
+					"reference": "B143",
+					"cost": 2,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mA5_ftskGdH4JAA33",
+					"name": "Frequency: Three to five times daily",
+					"reference": "B143",
+					"cost": 3,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "m2CzPDYhc8mLUWcDT",
+					"name": "Frequency: Constant",
+					"reference": "B143",
+					"cost": 5,
+					"cost_type": "multiplier",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"body_type": {
+		"name": "Humanoid",
+		"roll": "3d",
+		"locations": [
+			{
+				"id": "eye",
+				"choice_name": "Eyes",
+				"table_name": "Eyes",
+				"hit_penalty": -9,
+				"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+				"calc": {
+					"roll_range": "-"
+				}
+			},
+			{
+				"id": "skull",
+				"choice_name": "Skull",
+				"table_name": "Skull",
+				"slots": 2,
+				"hit_penalty": -7,
+				"dr_bonus": 2,
+				"description": "An attack that misses by 1 hits the torso instead. Wounding\nmodifier is x4. Knockdown rolls are at -10. Critical hits\nuse the Critical Head Blow Table (B556). Exception: These\nspecial effects do not apply to toxic (tox) damage.",
+				"calc": {
+					"roll_range": "3-4"
+				}
+			},
+			{
+				"id": "face",
+				"choice_name": "Face",
+				"table_name": "Face",
+				"slots": 1,
+				"hit_penalty": -5,
+				"description": "An attack that misses by 1 hits the torso instead. Jaw,\ncheeks, nose, ears, etc. If the target has an open-faced\nhelmet, ignore its DR. Knockdown rolls are at -5. Critical\nhits use the Critical Head Blow Table (B556). Corrosion\n(cor) damage gets a x1½ wounding modifier, and if it\ninflicts a major wound, it also blinds one eye (both eyes on\ndamage over full HP). Random attacks from behind hit the\nskull instead.",
+				"calc": {
+					"roll_range": "5"
+				}
+			},
+			{
+				"id": "leg",
+				"choice_name": "Leg",
+				"table_name": "Right Leg",
+				"slots": 2,
+				"hit_penalty": -2,
+				"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+				"calc": {
+					"roll_range": "6-7"
+				}
+			},
+			{
+				"id": "arm",
+				"choice_name": "Arm",
+				"table_name": "Right Arm",
+				"slots": 1,
+				"hit_penalty": -2,
+				"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+				"calc": {
+					"roll_range": "8"
+				}
+			},
+			{
+				"id": "torso",
+				"choice_name": "Torso",
+				"table_name": "Torso",
+				"slots": 2,
+				"calc": {
+					"roll_range": "9-10"
+				}
+			},
+			{
+				"id": "groin",
+				"choice_name": "Groin",
+				"table_name": "Groin",
+				"slots": 1,
+				"hit_penalty": -3,
+				"description": "An attack that misses by 1 hits the torso instead. Human\nmales and the males of similar species suffer double shock\nfrom crushing (cr) damage, and get -5 to knockdown rolls.\nOtherwise, treat as a torso hit.",
+				"calc": {
+					"roll_range": "11"
+				}
+			},
+			{
+				"id": "arm",
+				"choice_name": "Arm",
+				"table_name": "Left Arm",
+				"slots": 1,
+				"hit_penalty": -2,
+				"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+				"calc": {
+					"roll_range": "12"
+				}
+			},
+			{
+				"id": "leg",
+				"choice_name": "Leg",
+				"table_name": "Left Leg",
+				"slots": 2,
+				"hit_penalty": -2,
+				"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+				"calc": {
+					"roll_range": "13-14"
+				}
+			},
+			{
+				"id": "hand",
+				"choice_name": "Hand",
+				"table_name": "Hand",
+				"slots": 1,
+				"hit_penalty": -4,
+				"description": "If holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4. Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
+				"calc": {
+					"roll_range": "15"
+				}
+			},
+			{
+				"id": "foot",
+				"choice_name": "Foot",
+				"table_name": "Foot",
+				"slots": 1,
+				"hit_penalty": -4,
+				"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+				"calc": {
+					"roll_range": "16"
+				}
+			},
+			{
+				"id": "neck",
+				"choice_name": "Neck",
+				"table_name": "Neck",
+				"slots": 2,
+				"hit_penalty": -5,
+				"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
+				"calc": {
+					"roll_range": "17-18"
+				}
+			},
+			{
+				"id": "vitals",
+				"choice_name": "Vitals",
+				"table_name": "Vitals",
+				"hit_penalty": -3,
+				"description": "An attack that misses by 1 hits the torso instead. Heart,\nlungs, kidneys, etc. Increase the wounding modifier for an\nimpaling (imp) or any piercing (pi-, pi, pi+, pi++) attack\nto x3. Increase the wounding modifier for a tight-beam\nburning (burn) attack to x2. Other attacks cannot target the\nvitals.",
+				"calc": {
+					"roll_range": "-"
+				}
+			}
+		]
+	}
+}

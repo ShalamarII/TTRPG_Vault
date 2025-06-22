@@ -1,0 +1,49 @@
+---
+tags:
+  - Spell
+  - SpellsAsMagic
+spellID:  
+spellName: Percieve Illusions
+spellCollege: [Knowledge]
+spellDifficulty: 
+spellClass: Regular
+spellResisted: 
+spellDuration: '"1 minute"'
+spellCastingTime: '"10 seconds"'
+spellCost: "6 can't be maintained"
+spellMaintenance: "same to maintain"
+spellPrerequisites: [History]
+spellPrereqText: History
+spellSource: Codex Arcanum
+spellReference: GOCA294
+spellLink: [[Codex Arcanum.pdf#page=294&search=Percieve Illusions]]
+spellPoints: 1
+spellTags: None Given
+spellWeapons: 
+---
+
+ [[Codex Arcanum.pdf#page=294&search=Percieve Illusions|Spell Link]]
+
+---
+
+~~~datacorejsx
+return function View(){
+    return <dc.Markdown content={`~~~statblock
+layout: GCS - Layout 
+name: [[${dc.currentFile().field("spellLink").raw}|${dc.currentFile().field("spellName").raw}]]
+spell_class: ${dc.currentFile().field("spellClass").raw}
+resistedW: ${dc.currentFile().field("spellResisted").raw}
+difficulty: ${dc.currentFile().field("spellDifficulty").raw}
+duration: ${dc.currentFile().field("spellDuration").raw}
+casting_cost: ${dc.currentFile().field("spellCost").raw}
+maintenance_cost: ${dc.currentFile().field("spellMaintenance").raw}
+casting_time: '${dc.currentFile().field("spellCastingTime").raw}'
+college: ${dc.currentFile().field("spellCollege").raw}
+prerequisites: ${dc.currentFile().field("spellPrereqText").raw}
+reference: ${dc.currentFile().field("spellReference").raw}
+spellLink: ${dc.currentFile().field("spellLink").raw}
+spellTags: ${dc.currentFile().field("spellTags").raw}
+source: ${dc.currentFile().field("spellSource").raw}
+~~~`}/>
+}
+~~~

@@ -1,0 +1,159 @@
+- 0:
+    name: Bronze Armbands
+    cost: 180
+    weight: 9 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 1:
+    name: Bronze Breastplate
+    cost: 400
+    weight: 20 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 2:
+    name: Bronze Corselet
+    cost: 1300
+    weight: 40 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 3:
+    name: Bronze Greaves
+    cost: 270
+    weight: 17 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 4:
+    name: Bronze Helmet
+    cost: 160
+    weight: 7.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 5:
+    name: Light Shield
+    cost: 25
+    weight: 2 lb
+    reach: 1
+    RoF: N/A
+    DR: 5
+    notes: DR 5, HP 20
+    damage: thr cr
+
+- 6:
+    name: Cloth Armor
+    cost: 30
+    weight: 6 lb
+    notes: Flexible, Concealable
+    DR: 1
+
+- 7:
+    name: Light Buckler with Spike
+    cost: 45
+    weight: "7 lb"
+    reach: 1
+    RoF: N/A
+    bulk: N/A
+    damage: thr+1 cr
+    recoil: N/A
+    STreq: N/A
+
+- 8:
+    name: Studded Leather Skirt
+    cost: 60
+    weight: 4 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 9:
+    name: Light Buckler
+    cost: 25
+    weight: 2 lb
+    reach: 1
+    RoF: 1
+    bulk: -6
+    damage: thr cr
+    recoil: N/A
+    STreq: N/A
+
+- 10:
+    name: Portable Tool Kit, Armoury
+    cost: 600
+    weight: 20 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 11:
+    name: Large Shield
+    cost: 90
+    weight: 25 lb
+    reach: 1
+    RoF: N/A
+    bulk: -2
+    damage: thr cr
+    recoil: N/A
+    STreq: N/A
+
+- 12:
+    name: Small Buckler with Spike
+    cost: 60
+    weight: 13 lb
+    reach: 1
+    RoF: 0
+    bulk: 0
+    damage: thr+1 cr
+    recoil: 0
+    STreq: N/A
+
+- 13:
+    name: Mail Sleeves
+    cost: 70
+    weight: 9 lb
+    reach: N/A
+    RoF: 0
+    bulk: 0
+    damage: N/A
+    recoil: 0
+    STreq: N/A
+
+- 14:
+    name: Legionary Helmet
+    cost: 150
+    weight: 6 lb
+    reach: 0
+    RoF: 0
+    bulk: 0
+    damage: 4 DR (face, skull)
+    recoil: 0
+    STreq: 0

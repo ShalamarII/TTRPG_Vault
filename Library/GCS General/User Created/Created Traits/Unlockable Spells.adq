@@ -1,0 +1,5389 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "TABrJlBKWYtW7MIYL",
+			"name": "Electro-Stimulation",
+			"local_notes": "This allows you to efficiently harness your body's electricity, enhancing your capabilities. This lasts 10 minutes per point of mana you put in.",
+			"tags": [
+				"Weather"
+			],
+			"children": [
+				{
+					"id": "tLt9Pr7VGxi6zbp4p",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tXdQAf2xW67_aFjzE"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mKRRzXkwPVYFcyfuq",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mzMPGpSrUJQh9QHz8",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "mg-kZOs4bRRuAElYP",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mP7OwSaRaaiSgI6jg",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mlq4MtMLjztcTsas0",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "moMkRyOttHv3E-Ms5",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mxckFdiOgNmniR3FG",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m8n7w2lCxP02BbX-i",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mkBv40AMGIs53DxRL",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mgNi5ndFBbMMzsaNT",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mTN0EEWOooJv0K0kU",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mYCZZ68gARLzQc4u1",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "ms2TKYG7XyRifgbqp",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m1-3QAAGh6H5Xn2KU",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mEdni2ZhC7AKxdrWF",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mjgGwgcTYzts0LOxt",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mlLWnNkC1mTfL9ryM",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mPC7--d2KFiPxiFlQ",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mBbn0vBG-Hr8tc2Ks",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m5XN26mHi_d_zCxc5",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mVbjDLtBRFaqnisbs",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "meRgU15mODlrTAaIj",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mq7bAG95rWtj-hL99",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "m8JvJxpbqoYVZ-wkj",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "mFiKQRP5198osBVAG",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mycIlpDR7eQG1xDx2",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mkQkKXzJE9RVMbKYq",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mC24H7cnMob7AlcYE",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "moX_WEAQK5n5WnsbP",
+							"name": "Advantage, See granted advantage"
+						},
+						{
+							"id": "mrzz2SeupW1HelFBE",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "m16c4DAAtXqlKNg4l",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "mgRtkjiwlCUTUuOFt",
+							"name": "No Signature",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mYGkS2_MM6HBPAYUb",
+							"name": "Increased 1/2D, 10x",
+							"cost": 15
+						},
+						{
+							"id": "mr-Z09JMcgHwZgfNs",
+							"name": "Extended Duration, 10x",
+							"cost": 40
+						},
+						{
+							"id": "mjDip1UR6XDTnyzdV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mZ6n0ZDsrzwxwFOSe"
+							},
+							"name": "Requires Gestures",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mNpEOWYLw1X1WR0ax",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "m21igBdWYgdcpw-2W"
+							},
+							"name": "Requires Magic Words",
+							"reference": "PU8:5",
+							"cost": -10
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 12
+					}
+				},
+				{
+					"id": "Tdz8vgRHWAXQxInII",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "TFFk1YA9LE_H1SmxV"
+					},
+					"name": "Granted Advantage",
+					"children": [
+						{
+							"id": "tJWi6oR3KtyWWdGhu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "twlnxl3rmxUKtA2sE"
+							},
+							"name": "Alternate Form",
+							"reference": "B83",
+							"tags": [
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mybtHjygwhOsSTjbd",
+									"name": "Cosmetic",
+									"reference": "B84",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "m4PYOaihJpYz5Qe8Q",
+									"name": "Absorptive Change",
+									"reference": "P75",
+									"local_notes": "@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@",
+									"cost": 5,
+									"levels": 1
+								},
+								{
+									"id": "mwV-i2SqIZ3P61bd_",
+									"name": "Active Change",
+									"reference": "P75",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mKs_prVfTgu7rLFKI",
+									"name": "Non-Reciprocal Damage",
+									"reference": "P75",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mqS3cuAJCLrAzHbnZ",
+									"name": "Once On, Stays On",
+									"reference": "P75",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mD8Kq9AHzGQaykeqZ",
+									"name": "Reciprocal Rest",
+									"reference": "P75",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mGiGPvU4V-_6LUSWq",
+									"name": "Projected Form",
+									"reference": "P75",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mTvbEbVs2a-wPJUD6",
+									"name": "Takes Extra Time",
+									"reference": "B115",
+									"cost": -10,
+									"levels": 1
+								},
+								{
+									"id": "m8L5m--Wu2jaDIitr",
+									"name": "Can Carry Objects, No Encumbrance",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "msCjSrvaoUA9SITG4",
+									"name": "Magical",
+									"cost": -10
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 13
+							}
+						},
+						{
+							"id": "tu79dLx7HiIDYV9y8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "tBRhYcTOticN2JzHz"
+							},
+							"name": "Alternate Form Meta-trait",
+							"tags": [
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mDYB5cgwR5I4QF2Pr",
+									"name": "Alternate Form",
+									"cost": 0.9,
+									"cost_type": "multiplier"
+								}
+							],
+							"base_points": 2,
+							"calc": {
+								"points": 2
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				}
+			],
+			"calc": {
+				"points": 27
+			}
+		},
+		{
+			"id": "TAiHeMOuntSnS5IrR",
+			"name": "Lightning Aura",
+			"local_notes": "You project an aura of lightning from yourself. Any enemy within 1yd of you takes 1d for each point of mana you put into this spell. This effect lasts 1 minute.",
+			"tags": [
+				"Weather"
+			],
+			"modifiers": [
+				{
+					"id": "mjQaEnoH9gdfRGB9a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers\\Powers Modifiers.adm",
+						"id": "mTvkmxweTpZMphMq8"
+					},
+					"name": "Magical",
+					"reference": "P27",
+					"local_notes": "Requires ambient Mana, and vulnerable to anti-powers.",
+					"cost": -10
+				}
+			],
+			"children": [
+				{
+					"id": "tQrs7kVeE80PoLd_5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tuvstBu3EtRU0qAa9"
+					},
+					"name": "Innate Attack (Burn)",
+					"reference": "B61,P53,MA45",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mMbBZl5hu2pOM59u2",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mzpslhRsKNY4rJXka",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mTpTr6A2HhVoCfsJO",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min",
+							"cost": 40,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mGbpt43b4Hex4PP99",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "msn5x9TS27M3w7S7i",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mAoWzfoFqrj60vgFG",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec; Resistible",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "moJZvc0vFvYnz6jfj",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec; Resistible",
+							"cost": 25,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mHdymt70CsnOGqT7M",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min; Resistible",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mcG41I9Tl92y-Ljw1",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr; Resistible",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mrM9DEOsxUb7_sWyd",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day; Resistible",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mX7ex_WQkw-MfLIG5",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Mildly",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "meZKMJofPUkEWGp7b",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Highly",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mvKQHaLtrz7ZhoXrE",
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"local_notes": "1HP per 10 dmg",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mUrT8gvYJazDM3cJQ",
+							"name": "Explosion",
+							"reference": "B104",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m6lSRGOEeCIvTbXWo",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mHvGZiwQ8RcWkEd1f",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"local_notes": "Hot",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m4mVt0j5YtLAqaVT2",
+							"name": "Radiation",
+							"reference": "B104",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mG1q3SfSeQ88jz-gJ",
+							"name": "Surge",
+							"reference": "B104",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mmQSOLnxpTdq0FAuC",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "2",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mqh4-cK53UyzTbboM",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "3",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m9h1mNCPhUo3-694Z",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "5",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "m3cMIXMpL-8Yoi-SA",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "10",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mfzIFg02C84X0KIpR",
+							"name": "Side Effect",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mWcTdALjTyFtylesL",
+							"name": "Symptoms",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mt4hTMS3eg6AYO-S1",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.5",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "m9jW0nrrrBX5RCvi6",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.2",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mu13SgMsk93dmOOT8",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.1",
+							"cost": -70,
+							"disabled": true
+						},
+						{
+							"id": "mS5eqEgc2JrM37O0m",
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mv4syZfG4OjQ3uiyJ",
+							"name": "Surge, Arcing",
+							"reference": "PSI20",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mm_LDMzBh12sWS-FN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mszPouI4XpFXHn0RW"
+							},
+							"name": "Aura",
+							"reference": "B102,P100",
+							"cost": 80
+						},
+						{
+							"id": "m_nbsxL8WuPFpr872",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m7d5aNJp86rcfMm9w"
+							},
+							"name": "Selective Effect",
+							"reference": "PU4:16",
+							"cost": 20
+						},
+						{
+							"id": "m3FV49fFYKwgRYPPY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "mVtDQj3J1f5GAAQ-J"
+							},
+							"name": "Melee Attack",
+							"reference": "B112,P103",
+							"local_notes": "Reach C",
+							"cost": -30
+						},
+						{
+							"id": "mVdDjLYplx-8bKzhX",
+							"name": "Nuisance Effect, Behaves erratically around conductors",
+							"cost": -5
+						},
+						{
+							"id": "mGazEWwvvsBvT5Qwo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "muEQgd1AMcL_VeozB"
+							},
+							"name": "Independent",
+							"reference": "PU4:15",
+							"cost": 40
+						},
+						{
+							"id": "mHSZA-O8zBNZL5_Zf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "m21igBdWYgdcpw-2W"
+							},
+							"name": "Requires Magic Words",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mP2iCM3ObeK7fkUlQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mIgewYjuzmPvs7Jx9"
+							},
+							"name": "2x Increased Range",
+							"reference": "B106",
+							"cost": 10
+						},
+						{
+							"id": "mi2lbl-yrKa4Nwnlo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost": 10
+						}
+					],
+					"points_per_level": 5,
+					"weapons": [
+						{
+							"id": "WD_hWrDpHhmevtaCJ",
+							"damage": {
+								"type": "burn",
+								"base": "1d"
+							},
+							"accuracy": "3",
+							"range": "10/100",
+							"rate_of_fire": "1",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Innate Attack",
+									"specialization": "@Attack Type@"
+								},
+								{
+									"type": "skill",
+									"name": "Innate Attack",
+									"modifier": -2
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d burn"
+							}
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 11
+					}
+				}
+			],
+			"calc": {
+				"points": 11
+			}
+		},
+		{
+			"id": "T_BCJVytPBnV2uZWb",
+			"name": "Bio-Electric Kinesis",
+			"tags": [
+				"Weather"
+			],
+			"children": [
+				{
+					"id": "tTWcdLeFjyEN4WSX2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tDHschYOgUSlMTOYN"
+					},
+					"name": "Compartmentalized Mind",
+					"reference": "B43,PSI13",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "ms46KYpDTTxW9k17n",
+							"name": "Massively Parallel",
+							"reference": "SU26",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mK7gvI-aOspAl1JJZ",
+							"name": "Controls",
+							"reference": "B43",
+							"cost": -25,
+							"cost_type": "points",
+							"affects": "base_only",
+							"disabled": true
+						},
+						{
+							"id": "mbuQc5or3W7RcKQmf",
+							"name": "Dedicated Controls",
+							"reference": "B43",
+							"cost": -40,
+							"cost_type": "points",
+							"affects": "base_only",
+							"disabled": true
+						},
+						{
+							"id": "m95GhPj7wfS5U1nmr",
+							"name": "Limited, One Ability",
+							"reference": "PSI13",
+							"local_notes": "@Ability@",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mgrkO1_ST0JF--iS5",
+							"name": "Limited, One Power",
+							"reference": "PSI13",
+							"local_notes": "@Power@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m0UrEZpEBSj19pbLb",
+							"name": "Mental Separation Only",
+							"reference": "PSI13",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mA2P9XzWWoweD86U-",
+							"name": "Mentalism",
+							"reference": "PSI14",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mB_j2Iy6csHzrw8RD",
+							"name": "No Mental Separation",
+							"reference": "PSI14",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mD_tI2N2paJBZkegp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m6pU09qTmV5dvX1ER"
+							},
+							"name": "Mana Sensitive",
+							"reference": "B34",
+							"local_notes": "Does not work in no mana, -5 to die rolls in low mana",
+							"cost": -10
+						},
+						{
+							"id": "myM_Ihu3p9yqb6IOQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost": 10
+						},
+						{
+							"id": "mHAO1Zc556VEQuH_O",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "mubvZew3d5GYkJFuZ"
+							},
+							"name": "Unconscious Only",
+							"reference": "B115",
+							"cost": -20
+						},
+						{
+							"id": "mFsxJ93r9sjDGYsmz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "m21igBdWYgdcpw-2W"
+							},
+							"name": "Requires Magic Words",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mO_0accy1W7MKRr_c",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "msfBlspKdZoitW8Ne"
+							},
+							"name": "Cerebral Stress",
+							"reference": "PU8:12",
+							"local_notes": "Every 10 minutes",
+							"cost": -20
+						},
+						{
+							"id": "md9J6PXk75dQVM0qX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mu6BoGxC1mwZWkT-N"
+							},
+							"name": "Maximum Duration",
+							"reference": "PU8:15",
+							"local_notes": "Up to 10 Minutes",
+							"cost": -50
+						},
+						{
+							"id": "mYz3W-D3oaaIzrx53",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mQ7yALf2YtsIN3s3k"
+							},
+							"name": "10x Duration",
+							"reference": "B105",
+							"cost": 40
+						},
+						{
+							"id": "mj6jXHsxMvbz5oIAq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "ma-ZXeGiuAjy0CZtp"
+							},
+							"name": "Unsupported",
+							"reference": "PU8:19",
+							"cost": -25
+						}
+					],
+					"points_per_level": 50,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10
+					}
+				}
+			],
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "TAi9pBsRBURDaf25O",
+			"name": "Lightning Discharge",
+			"tags": [
+				"Weather"
+			],
+			"children": [
+				{
+					"id": "ts30cuudHFMCQN9gK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "trUV-dtFgMs1vSSlr"
+					},
+					"name": "Mindlink",
+					"reference": "B70",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "mfczWYC_OwgRaEUJg",
+							"name": "Single person",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ma6RvJKJNiBqnVOHN",
+							"name": "2-9 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mkjYGJuaNxmPFljeO",
+							"name": "10-99 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mQuV6BIDNYiyjFZqt",
+							"name": "100-999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mz5x_GmhnnT1WXS2w",
+							"name": "1000-9999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mz2cljFKk-BDTTMg-",
+							"name": "10000-99999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 50,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mFiK5Al6GSowQ1c24",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mAs5r4yo_6NYRjQGE",
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mnXzkiB5E4Vij6U0B",
+							"name": "Sensory",
+							"reference": "B69",
+							"cost": 20
+						},
+						{
+							"id": "mk71VsTsOBgj_GUti",
+							"name": "Universal",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mavHZXvpdN9UsKI8Z",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mEUILRFt3IfV73cbo",
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "myji7PAZO5nIgRb4t",
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mN-EzkkhVK0vo1co3",
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m-lDu0zL7WSXMoflT",
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mJJKBrRsPfIOWKbO4",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mAH-QiTevdQkj-nv3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost": 10
+						},
+						{
+							"id": "mtog6mT-aC4GUnUeN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mXLmAYS2DNM53cSM5"
+							},
+							"name": "Visible",
+							"reference": "PU8:19",
+							"cost": -10
+						}
+					],
+					"calc": {
+						"points": 12
+					}
+				}
+			],
+			"calc": {
+				"points": 12
+			}
+		},
+		{
+			"id": "TU0zax5JvlduRZmcI",
+			"name": "Electrokinetic Surfing",
+			"local_notes": "Keywords: Buff\nFull Cost:  points/level. \nCasting Roll: None. Use Innate Attack () to hit.\nRange:  \nDuration: \n\n\nYou manifest a field of electricity underneath your feet, creating a buffer between you and the ground, mitigating terrain differences. Additionally, you can move double your move for 20 turns. You may attach this to an ally for the duration.",
+			"tags": [
+				"Weather"
+			],
+			"vtt_notes": "You manifest a field of electricity underneath your feet, creating a buffer between you and the ground, mitigating terrain differences. Additionally, you can move double your move for 20 seconds (turns). You may attach this to an ally for the duration. It costs 1 vraul per minute (same for maintenance)",
+			"children": [
+				{
+					"id": "tITvnzkbSI5x364ZS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tZw_ze3n_bPxiK86s"
+					},
+					"name": "Terrain Adaptation (@Terrain Type@)",
+					"reference": "B93,P83",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Terrain Type": "Universal"
+					},
+					"modifiers": [
+						{
+							"id": "mAu9v56FyOr2QAIGr",
+							"name": "Unstable on solid ground",
+							"reference": "B93",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mk12bqeDN9qNzshzm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers\\Powers Modifiers.adm",
+								"id": "mTvkmxweTpZMphMq8"
+							},
+							"name": "Magical",
+							"reference": "P27",
+							"local_notes": "Requires ambient Mana, and vulnerable to anti-powers.",
+							"cost": -10
+						},
+						{
+							"id": "m4Xr_fNsmXdH6FKQW",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost": 10
+						},
+						{
+							"id": "m8GfeTtiSFPduPzNv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m7d5aNJp86rcfMm9w"
+							},
+							"name": "Selective Effect",
+							"reference": "PU4:16",
+							"cost": 20
+						},
+						{
+							"id": "mciu9kLmwVYkW9E9Y",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mZ6n0ZDsrzwxwFOSe"
+							},
+							"name": "Requires Gestures",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mAIajswPGEyQ1EoPC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "m21igBdWYgdcpw-2W"
+							},
+							"name": "Requires Magic Words",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "motq82fULbAAvVHgU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m5-BUzlcq67FhxgFH"
+							},
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"local_notes": "DR 3-5",
+							"cost": -15
+						},
+						{
+							"id": "mae7dn2UvpgI70FB7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m3JXyTOmjIZwhY1_g"
+							},
+							"name": "Costs Vraul",
+							"reference": "B111,P101",
+							"local_notes": "Has maintenance cost",
+							"cost": -10,
+							"levels": 1
+						}
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 4
+					}
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		},
+		{
+			"id": "TF2c_AnPyXrn4Q1x6",
+			"source": {
+				"library": "/dm_folder",
+				"path": "Enraged Eggplant Things\\Sorcery Spells.adq",
+				"id": "TpBdXdjNT7oXstAIg"
+			},
+			"name": "Call Lightning",
+			"local_notes": "Keywords: Missile, Obvious. \nFull Cost: 11 points/level. \nCasting Roll: None. Use Innate Attack (Gaze) to hit. \nRange: 100 yards. \nDuration: Instantaneous\n\nWhen you have storm clouds above your head, you can cause a lightning to strike your victim, dealing 1d burning surge damage per level. Metallic armor counts as DR 1 against this attack, but nonmetallic armor protects normally. Targets stuck by this attack must make an HT roll, at -1 per 2 points of penetrating damage, or be physically stunned. On subsequent turns, they can roll HT to recover. Lightning behaves unpredictably around conductors; see Lightning (GURPS Magic, p. 196) for more details. \n\nThis spell bypasses any cover that does not provide overhead protection, and negates attack penalties to hit crouching, kneeling, sitting, or prone targets. (If you are already above or below your target, adjust this appropriately.)",
+			"tags": [
+				"Air",
+				"Weather"
+			],
+			"vtt_notes": "Keywords: Missile, Obvious. \nFull Cost: 11 points/level. \nCasting Roll: None. Use Innate Attack (Gaze) to hit. \nRange: 100 yards. \nDuration: Instantaneous\n\nWhen you have storm clouds above your head, you can cause a lightning to strike your victim, dealing 1d burning surge damage per level. Metallic armor counts as DR 1 against this attack, but nonmetallic armor protects normally. Targets stuck by this attack must make an HT roll, at -1 per 2 points of penetrating damage, or be physically stunned. On subsequent turns, they can roll HT to recover. Lightning behaves unpredictably around conductors; see Lightning (GURPS Magic, p. 196) for more details. \n\nThis spell bypasses any cover that does not provide overhead protection, and negates attack penalties to hit crouching, kneeling, sitting, or prone targets. (If you are already above or below your target, adjust this appropriately.)",
+			"children": [
+				{
+					"id": "t8jBi_EcZAFaLOrqt",
+					"source": {
+						"library": "/dm_folder",
+						"path": "Enraged Eggplant Things\\Sorcery Spells.adq",
+						"id": "tWsVaI6e2LVrMaEvA"
+					},
+					"name": "Innate Attack (Burn)",
+					"reference": "B61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m6kJRvagsw_JKSlOS",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m1cckc2UucgUr4EX2",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "myCxFIyFXTudkkIBH",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min",
+							"cost": 40,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mxJ0IkQmZY02RXcK_",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mJewYicnPXjDgsSHx",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mJcsDfc7OW8Q6uufT",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec; Resistible",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mRrNHE5VEQhcEsWJX",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec; Resistible",
+							"cost": 25,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mzHt9Zje_Xegq7fG8",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min; Resistible",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m27pEy1R_MmFE1eQ9",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr; Resistible",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mCs12zMxbU6jkA8u5",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day; Resistible",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mmeXsRmSBcU3Vp5If",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Mildly",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mkYcnTbGvl5AlzSoD",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Highly",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mxDsZcfuNxopRmSAe",
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"local_notes": "1HP per 10 dmg",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mY4pgbnqHOLw80R9B",
+							"name": "Explosion",
+							"reference": "B104",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m_993QiL4alCfzPaR",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m2beuNjY8i7JuKT-E",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"local_notes": "Hot",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mk21Nnr7p2Xocn0rI",
+							"name": "Radiation",
+							"reference": "B104",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mpv-skUQg9L2ZJGEO",
+							"name": "Surge",
+							"reference": "B104",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "meqtqkK7EonPLk-GF",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "2",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mowIGqHEsjSxUNC40",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "3",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m2m8ZKX1WsMcIjaP_",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "5",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mYQAd0zKoXWA4u0f3",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "10",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mWeNvcXhFXgyx7PSx",
+							"name": "Side Effect",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mxLes_dDG0mRYBatb",
+							"name": "Symptoms",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mZnXx1v6cq6I9rSbB",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.5",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mMGf-YrV1vEiQLXaZ",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.2",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mLOcAjyP1EU2v0mTL",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.1",
+							"cost": -70,
+							"disabled": true
+						},
+						{
+							"id": "miSpdRVWaxIHSlKYt",
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m1t--BXi2NQ8CvBHm",
+							"name": "Surge, Arcing",
+							"reference": "PSI20",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m7d3Jw6be3Rvu0278",
+							"name": "Environmental, Storm",
+							"cost": -40
+						},
+						{
+							"id": "mqZpbxr1LmcjAHozg",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "mse9Fmp79FdVjlu7R",
+							"name": "Surge, Arcing",
+							"cost": 100
+						},
+						{
+							"id": "m-sYX9ThXDwF0w41G",
+							"name": "Side Effect, Stunning",
+							"cost": 50
+						},
+						{
+							"id": "mfGXytgy4XyqpHNGq",
+							"name": "Overhead",
+							"cost": 30
+						},
+						{
+							"id": "msHzs0QRYXitSdE77",
+							"name": "Nuisance Effect, Behaves erratically around conductors",
+							"cost": -5
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 11
+					}
+				}
+			],
+			"calc": {
+				"points": 11
+			}
+		},
+		{
+			"id": "T6lbsEldIc6IOGAfO",
+			"name": "Viscous Pressure",
+			"children": [
+				{
+					"id": "t3l9gkHEZ1-z47m-4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tee3TAraFeD_6BYeZ"
+					},
+					"name": "Control (Water)",
+					"reference": "P90",
+					"tags": [
+						"Advantage",
+						"Physical",
+						"Water"
+					],
+					"modifiers": [
+						{
+							"id": "m7WO4KctjDaO0yr5-",
+							"name": "Persistent",
+							"reference": "P91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "m7zsvauoXdIlW7uwS",
+							"name": "Ranged",
+							"reference": "P91",
+							"cost": 40
+						},
+						{
+							"id": "m4YL-iCV75Lvh6rC-",
+							"name": "Collective",
+							"reference": "P92",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mPraqOzez3YjA0hlW",
+							"name": "Natural Phenomena",
+							"reference": "P92",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mKqLQpcEajZ6PYhv-",
+							"name": "Cosmetic",
+							"reference": "P92",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "m6y34h262xf8w0zLW",
+							"name": "Super-Effort",
+							"reference": "SU26",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mBYsZgvCQdO1p49js",
+							"name": "Rare",
+							"reference": "P90",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m5K51bsR3Yq3HiWLw",
+							"name": "Occasional",
+							"reference": "P90",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m3E_s1S8BoaVoYDR6",
+							"name": "Common",
+							"reference": "P90",
+							"cost": 4,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "muEBG6UF6_BbnsKS7",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "mhX1U3G0hn6CVapiU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "myAwLyguN1mnI0NxT"
+							},
+							"name": "Affects Others",
+							"reference": "PU4:12",
+							"cost": 50,
+							"levels": 1
+						},
+						{
+							"id": "mVT74Fgnh1GV3Kl_j",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "mb8dKIbPtFmqDLYaM"
+							},
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 1
+						},
+						{
+							"id": "m3NWI56DPPn1rSKjf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "mKEOStlk_5M2lC_K3"
+							},
+							"name": "Nuisance Effect",
+							"reference": "B112,P104",
+							"local_notes": "Affected by water nearby (-1 to aim)",
+							"cost": -5
+						},
+						{
+							"id": "mrcsc7jDLmYAct6fx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m-F3ACfcl680ioFta"
+							},
+							"name": "Resistible",
+							"reference": "B115,P105",
+							"local_notes": "HT + (level - 6) to resist",
+							"cost": -5,
+							"levels": 1
+						},
+						{
+							"id": "mh8pNTx854-UArrEV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mZ6n0ZDsrzwxwFOSe"
+							},
+							"name": "Requires Gestures",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mVnxr-yWOQsuJU1dV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "m21igBdWYgdcpw-2W"
+							},
+							"name": "Requires Magic Words",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mvN7WO-6MXcVSoxx9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m9qu6zy-gjsxl3Jjw"
+							},
+							"name": "Blood Agent",
+							"reference": "B110,P100",
+							"cost": -40
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 20
+					}
+				}
+			],
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "TLZlDmwPZwnUmG4Hy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+				"id": "TnuHRiB-uNkTL7bzN"
+			},
+			"name": "Frost Weapon",
+			"tags": [
+				"Cold",
+				"Water"
+			],
+			"children": [
+				{
+					"id": "tk0mk_UfaPXZGq5IE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tR_Mng2yQCtD0QCkV"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mLR-nmtCSaN08Az-n",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m384Vq89jzGTgmREq",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "m9ojc55cFkfyxGPG5",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mLj6lh9BYW0mcT8zS",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mSAHFMOHbJU6z7Kgc",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "mAyKHQSyOzBKUwp-s",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mcssTwJDKyyd9WcK3",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mmcrolc1bquKbqzUb",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mwTa9Qr6Oxui_TIs7",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mlFrdU1RbKgPWQTHG",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mC9ojMq7jvRcX1W9W",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mQss3hKHsIv6vqvCH",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mscDGWRIwTf-uLQzP",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mbCRCrPDn9LpjcPpK",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mogyx_fL8cq0YAhCL",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mVoAUPkmp9cRr_dp-",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mfvOxxa53ZTRR5TVD",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mmXbleSSFb4ATQCox",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mLeHLULz26rNP8Ara",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mWscm5fjjvWqYO04R",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mSjuq9hGDE8ucDJ3x",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mbW249ghj1BkdznrF",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mQ69VCar9GGatsL4k",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mINXz3pU9FMrXVR-0",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "mzmAjeqahVn-9HZrp",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "miF4Y3xDtx-XMT016",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mBp11LlJgkXwzq_67",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mzirR7LKT5JP5VZzj",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mxd8b2OOplNVW2Pl0",
+							"name": "Advantage, See granted advantage"
+						},
+						{
+							"id": "m49NUtN_qVWRw5Ql8",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "mCL6OUjWgwX-5raGZ",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "m5HHjLumh1S9-CX9x",
+							"name": "No Signature",
+							"cost": 20
+						},
+						{
+							"id": "m9uW2cOsIXMaHuEiu",
+							"name": "Increased 1/2D, 10x",
+							"cost": 15
+						},
+						{
+							"id": "mVOaz9dvF9yXPIf80",
+							"name": "Accessibility, Only on weapons",
+							"cost": -20
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TFoxD2dDpIt33lJxp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "TaaJzuJYkGR_GYArc"
+					},
+					"name": "Granted Advantage",
+					"children": [
+						{
+							"id": "tIoX9ErTF8Ss0ZVTl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "thDH9Setb6ntMvL4q"
+							},
+							"name": "Frost Strike",
+							"tags": [
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mDqmPwmcHFJOQNCra",
+									"name": "Magical",
+									"cost": -10
+								}
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t6_to5DWc7nhJ80D2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "tZLDkro6twWKf1BD6"
+							},
+							"name": "Frost Weapon",
+							"tags": [
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mouyVweB-ac16Q_7r",
+									"name": "Magical",
+									"cost": -10
+								},
+								{
+									"id": "m9OUF7U9krJm2N_-Q",
+									"name": "Cosmic, No die roll required",
+									"cost": 100
+								},
+								{
+									"id": "m7FW3pzYy6Vzu-stm",
+									"name": "Reduced Fatigue Cost",
+									"cost": 20,
+									"levels": 1
+								},
+								{
+									"id": "m48A0MrPhGSoIpvaE",
+									"name": "Visible",
+									"cost": -10
+								}
+							],
+							"base_points": 13,
+							"points_per_level": 4,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 34
+							}
+						}
+					],
+					"calc": {
+						"points": 35
+					}
+				}
+			],
+			"calc": {
+				"points": 45
+			}
+		},
+		{
+			"id": "TwT0O16_v5YV0qp2N",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+				"id": "TRLbu2TAWPixNiRXf"
+			},
+			"name": "Ice Shield",
+			"tags": [
+				"Ice",
+				"Water"
+			],
+			"children": [
+				{
+					"id": "tAz2kHuJeoPIaQOvy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tGxGu49PJhoTlZqWX"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mgdz7sHa5fakUvxPB",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mZjG0C1Is61tw3-yR",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "mzADDqul3bKFSXoEF",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mNtAaRz8F3WqT6F2B",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mI6ubNVbW4unxKQjR",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "mH1_z4g2icN1Gk6gR",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mn-_a25yYUQTiCgQw",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mwcN785TALWWGgcyG",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mTqIylaSWpe3msZ0z",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mh_HEOppVB04CHbFr",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mHBxwnVs_8U3wfr2Q",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m5Aea-Kt7oQb-Uywh",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "modB4ZJidhCwSLqCj",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "my3gl5ChsU8z__W4D",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "m8Y357zzkwEjS6n8H",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "m2zW_Ssg7uPAEzlMv",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "m3KibTvlntK_R1wdC",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mMsDIZGvTNaPauigZ",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m_4iZvpgO33l2e7LO",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m50oQSRlyt7r4umj0",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mU8EuyTFrI3gsWA87",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "m-_tOXWrZSkXRHcOi",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mo4NcZM7_d3LsyFS0",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "muf1TUxaUO6m-tnib",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "m6OJbCOg0uOPnEysP",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m8-5GYzhvmNMo5UCL",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mGI507mhVBHfk_lOV",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mdWo1z2f9Za2dMpPy",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mu_qxuPpflD6QwgxC",
+							"name": "Advantage, See granted advantage"
+						},
+						{
+							"id": "mb7Y5n0UJtknTD_Mp",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "m4aLUXh_gnkfRfMVP",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "m_RU0Ni1h7rEr57u_",
+							"name": "No Signature",
+							"cost": 20
+						},
+						{
+							"id": "mxzgJA2FrL7rCA_vW",
+							"name": "Increased 1/2D, 10x",
+							"cost": 15
+						},
+						{
+							"id": "m9QClMeN-GTrJqGtO",
+							"name": "Extended Duration, 30x",
+							"cost": 60
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 18
+					}
+				},
+				{
+					"id": "TfNhNriTaByS4JGLs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "TJYo_umzq_iQoJOLd"
+					},
+					"name": "Granted Advantage",
+					"children": [
+						{
+							"id": "tTsRhF30xr-9b7jQ8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "tVyESg8xLLmb6DT2N"
+							},
+							"name": "Damage Resistance",
+							"reference": "B47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mnmmwBXa1HVkLM7nw",
+									"name": "Force Field",
+									"reference": "B47",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mwefk60y9u8UKwRVf",
+									"name": "Hardened",
+									"reference": "B47",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mRJ_CxhhXYycNUGl7",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Enhances @Trait@",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mSAuXgNFjUvCsUO-K",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Healing only",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mio1rqzhHQDT4yYAT",
+									"name": "Absorption",
+									"reference": "B46",
+									"local_notes": "Enhances any trait",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mEwMY0pu35kyyriiq",
+									"name": "Reflection",
+									"reference": "B47",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mKgkaPy6WkrBDix8m",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Rare@",
+									"cost": -1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mKzO8WWP2oE-NSLwf",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Occasional@",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "m4SXRLM908GxpZiz5",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Common@",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mV_EaitZaXuWYHvEk",
+									"name": "Bane",
+									"reference": "H14",
+									"local_notes": "@Very Common@",
+									"cost": -15,
+									"disabled": true
+								},
+								{
+									"id": "mb9LKFZUoWvTkdctO",
+									"name": "Directional",
+									"reference": "B47",
+									"local_notes": "Front",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "msSv1Li1Vp3f1-FXx",
+									"name": "Flexible",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mkkh6krkUyCHA3WLm",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Very Common Attack Form@",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "m9uNWOknnXGyd_sKR",
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mxutS765iMFaMh6zJ",
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m5zZDSqT_ZG204TS9",
+									"name": "Directional",
+									"reference": "B47",
+									"local_notes": "@Direction: Back, Right, Left, Top or Underside@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mD-m2Uw9PHjjPs91G",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Common Attack Form@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mge9teUa7tBpgfSCl",
+									"name": "Tough Skin",
+									"local_notes": "Effects that just require skin contact or a scratch ignore this DR",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m2ovNqF45HfC8Fetm",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Occasional Attack Form@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "mxDgBteSRo-tyFWYF",
+									"name": "Ablative",
+									"reference": "B47",
+									"cost": -80
+								},
+								{
+									"id": "mKZo330ztZIjacr85",
+									"name": "Limited",
+									"reference": "B46",
+									"local_notes": "@Rare Attack Form@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "m5T6JftcxXAI2hDxC",
+									"name": "Laminate",
+									"reference": "RSWL18",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mO3aErZuWWgEUWD72",
+									"name": "Malediction-Proof",
+									"reference": "PSI14",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mDgBEOcVvwXfo_imU",
+									"name": "Maledictions Only",
+									"reference": "PSI14",
+									"disabled": true
+								},
+								{
+									"id": "mn72NmIzr6HoAHT1v",
+									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+									"reference": "B47",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mMfG3QFKlZhcxj0Xm",
+									"name": "Magical",
+									"cost": -10
+								},
+								{
+									"id": "mIQXMWXXBW3cV24Mg",
+									"name": "Includes Eyes",
+									"cost": 10
+								}
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 15,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				}
+			],
+			"calc": {
+				"points": 33
+			}
+		},
+		{
+			"id": "TXzaSMRg5Wcuq7Qzv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+				"id": "TxEtAnX4fYMsh8xlG"
+			},
+			"name": "Cure Wounds",
+			"tags": [
+				"Healing"
+			],
+			"children": [
+				{
+					"id": "Tq9tCjOlu8tNRqJE7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "Tsf3mC4YSFmyZDlnd"
+					},
+					"name": "Alternative Abilities",
+					"container_type": "alternative_abilities",
+					"children": [
+						{
+							"id": "tTz3bSq0QRM_OWJD_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "toa47tryG7Xp00H05"
+							},
+							"name": "Cure Wounds",
+							"reference": "B59",
+							"local_notes": "Keywords: None. \nFull Cost: 45 points.\nCasting Roll: IQ for healing. Use DX or unarmed combat skills to hit. \nRange: Touch. \nDuration: Instantaneous. \n\nWhen casting this spell, you must declare whether you are trying to heal a living subject or harm an undead subject. Thus, if you are somehow deceived by the appearance and try to heal an undead subject or harm a living subject, the spell fails. \n\nOn living subjects, this spell works identically to Minor Healing (GURPS Thaumatology: Sorcery, p. 17). However, it can affect any living creature, not only humans and similar races, and the caster cannot affect himself. \n\nOn undead subjects, this spell deals 1d injury regardless of DR and insubstantiality.",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Mental"
+							],
+							"vtt_notes": "Keywords: None. \nFull Cost: 45 points.\nCasting Roll: IQ for healing. Use DX or unarmed combat skills to hit. \nRange: Touch. \nDuration: Instantaneous. \n\nWhen casting this spell, you must declare whether you are trying to heal a living subject or harm an undead subject. Thus, if you are somehow deceived by the appearance and try to heal an undead subject or harm a living subject, the spell fails. \n\nOn living subjects, this spell works identically to Minor Healing (GURPS Thaumatology: Sorcery, p. 17). However, it can affect any living creature, not only humans and similar races, and the caster cannot affect himself. \n\nOn undead subjects, this spell deals 1d injury regardless of DR and insubstantiality.",
+							"modifiers": [
+								{
+									"id": "mroftVMJasCArc9uT",
+									"name": "Faith Healing",
+									"reference": "B59",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "m4cqRx2yWTLIzzuGw",
+									"name": "Xenohealing",
+									"reference": "B59",
+									"local_notes": "All Mammals",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mo9kyNhFJPANNa_4Q",
+									"name": "Xenohealing",
+									"reference": "B59",
+									"local_notes": "All Earthly Life",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "mxmGJbhUT-XTH04AZ",
+									"name": "Xenohealing",
+									"reference": "B59",
+									"local_notes": "All Carbon-Based Life",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "maGhlHnt-_Rdob8_R",
+									"name": "Xenohealing",
+									"reference": "B59",
+									"local_notes": "Anything Alive",
+									"cost": 80
+								},
+								{
+									"id": "mjPB6cli5Z2MQJld2",
+									"name": "Xenohealing",
+									"reference": "B59",
+									"local_notes": "Anything Animate",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mRKzrT9wUCeUi9b06",
+									"name": "Disease Only",
+									"reference": "B59",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mndwtAu6I8cNYWJY3",
+									"name": "Injuries Only",
+									"reference": "B59",
+									"cost": -20
+								},
+								{
+									"id": "mhU4ZgicxKQBNrIox",
+									"name": "Own Race Only",
+									"reference": "B59",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mMgU9OaVtE_tfDiR_",
+									"name": "Psychic Healing",
+									"reference": "B59",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mpfcJmLmfobzqLyQE",
+									"name": "Affects Self",
+									"reference": "P51",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mwBJeg8CYLtQPz2Eg",
+									"name": "Cure Affliction",
+									"reference": "P51",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "mV5JYAXVRakqhUNOy",
+									"name": "Affliction Only",
+									"reference": "P51",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "miI_vihMZmYjAjF5K",
+									"name": "Capped",
+									"reference": "P51",
+									"local_notes": "2 FP",
+									"cost": -25
+								},
+								{
+									"id": "muFG-601_ZPmrLDpb",
+									"name": "Capped",
+									"reference": "P51",
+									"local_notes": "4 FP",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mjt2HFbC7ADRO0mE7",
+									"name": "Capped",
+									"reference": "P51",
+									"local_notes": "6 FP",
+									"cost": -15,
+									"disabled": true
+								},
+								{
+									"id": "mlhicJIXkF2Oc_0KB",
+									"name": "Capped",
+									"reference": "P51",
+									"local_notes": "8 FP",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mRXyx4MgPObc2oVog",
+									"name": "Capped",
+									"reference": "P51",
+									"local_notes": "10 FP",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "my-J__I0UggqKOyMn",
+									"name": "Empathic",
+									"reference": "P51",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mo-1NY4FnsiD0Sp3Q",
+									"name": "Restore Limbs",
+									"reference": "PSI14",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mE5X48m6q68l7hACS",
+									"name": "Magical",
+									"cost": -10
+								},
+								{
+									"id": "mD8dkJuPZU8PMsikl",
+									"name": "Reduced Fatigue Cost",
+									"cost": 20,
+									"levels": 1
+								},
+								{
+									"id": "mBbgxpDCUGtpc6IEY",
+									"name": "Cannot restore crippled limbs",
+									"cost": -10
+								},
+								{
+									"id": "m_SbeOEdqrXAIngVa",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "m4vNrXD6aCrzWBJ8e"
+									},
+									"name": "Touch Based",
+									"reference": "PU8:17",
+									"local_notes": "Skin Contact",
+									"cost": -20
+								},
+								{
+									"id": "mKy1iMrRe1ZMtEV-u",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "mZ6n0ZDsrzwxwFOSe"
+									},
+									"name": "Requires Gestures",
+									"reference": "PU8:5",
+									"cost": -10
+								},
+								{
+									"id": "mON4QaR9c0MXPGmIi",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "m21igBdWYgdcpw-2W"
+									},
+									"name": "Requires Magic Words",
+									"reference": "PU8:5",
+									"cost": -10
+								},
+								{
+									"id": "mCWmW21LPJYZf4SkF",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "mnXv6kra7QDSGy2f5"
+									},
+									"name": "Immediate Preparation Required",
+									"reference": "PU8:14",
+									"local_notes": "1 minute",
+									"cost": -30
+								}
+							],
+							"base_points": 30,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "te1sJvSpRYZsVrzuj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+								"id": "tbDuotnAwCWBZqN14"
+							},
+							"name": "Innate Attack (Crush)",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m5HfJAXH6Lz4bm0lD",
+									"name": "Explosion",
+									"reference": "B104",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mbw9QSmrYcIOGQmF1",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "m8b17rMnvDuJqB34j",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"local_notes": "Hot",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mni94Io15uZqykpYs",
+									"name": "Surge",
+									"reference": "B104",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mjmKprdnEYiMMlTxG",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"local_notes": "2",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mxHZhOcJazVuCEhIo",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"local_notes": "3",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mpKoQY2JkfgQtlnVQ",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"local_notes": "5",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "mvOGIDupExrFkGyMz",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"local_notes": "10",
+									"cost": 200,
+									"disabled": true
+								},
+								{
+									"id": "mZh5wFcc0Qt-XEpv-",
+									"name": "Side Effect",
+									"reference": "B109",
+									"local_notes": "@Effect@",
+									"disabled": true
+								},
+								{
+									"id": "mN0_EuAEOn5uQrYLx",
+									"name": "Symptoms",
+									"reference": "B109",
+									"local_notes": "@Effect@",
+									"disabled": true
+								},
+								{
+									"id": "mewHTEUKXKxcDUf2_",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"local_notes": "0.5",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "md8Et5hOKmYPsGSIz",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"local_notes": "0.2",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mZpRP0hjpHTrQjzEu",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"local_notes": "0.1",
+									"cost": -70,
+									"disabled": true
+								},
+								{
+									"id": "mbhYqc0cxtGRzb-5r",
+									"name": "No Blunt Trauma",
+									"reference": "B111",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "muJ-BgdBEOcKx-IZe",
+									"name": "No Knockback",
+									"reference": "B111",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mf9WtSIyjBQX8aMDM",
+									"name": "No Wounding",
+									"reference": "B111",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "m58bjUPkGeDqRTWJG",
+									"name": "Double Knockback",
+									"reference": "B104",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mc6dklXRgC5cfgs49",
+									"name": "Incendiary",
+									"reference": "B104",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mT0glaL5pW6GZr7XQ",
+									"name": "Accessibility, Only on undead",
+									"cost": -50
+								},
+								{
+									"id": "m86GWAGBwAyONMSlg",
+									"name": "Affects Insubstantial",
+									"cost": 20
+								},
+								{
+									"id": "m9hjyXQZV7eOw_e5b",
+									"name": "Cosmic, Irresistible Attack",
+									"cost": 300
+								},
+								{
+									"id": "mocWowTBzrQWpWB9x",
+									"name": "Melee Attack, Reach C, Cannot Parry",
+									"cost": -35
+								},
+								{
+									"id": "mqTW_FJQ_lUp6stBJ",
+									"name": "No Knockback",
+									"cost": -10
+								},
+								{
+									"id": "mgtDWKitZywML2gl_",
+									"name": "Sorcery",
+									"cost": -15
+								}
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 16
+							}
+						}
+					],
+					"calc": {
+						"points": 24
+					}
+				},
+				{
+					"id": "TjBjUN7qrGszKpr5d",
+					"name": "Dampen Mind",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 24
+			}
+		},
+		{
+			"id": "TULjkw27SxjkNRccL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+				"id": "TUroMxzrbwPGaTj3o"
+			},
+			"name": "Geyser 1",
+			"local_notes": "Improved versions add Area Effect (+50%/level) to all advantages [+15].",
+			"tags": [
+				"Water"
+			],
+			"children": [
+				{
+					"id": "toZaYEfBBStYDfkvd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tvmagfIlfWEg63z8v"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m-FPWDQfyZBYsI9zv",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mwFw0Rln7NXS_chPE",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "mvqVBUK42oL6489br",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mLcoF_Ok4pxE2j8MJ",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "muKC6ZcRVLYynhblT",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "mLWYrUeR7YCj6UfWC",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mxT4jd5SCMnZEZn-q",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mgCsqMtFx8MWSbio8",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mZJJYwE1NjV1YSi-j",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mwvgFrA8MBe4Kef2f",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mJBDioD3WxWeZYID0",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m4LrBUcsrw6ID3rCk",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mO2PJ8potLotZlRCP",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mh61QK6FF6MTggjN4",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mVDUqqmdzYQHu8SoO",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "m9k47UWm9-25BxOcV",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "moWc9itoUlUJh4dB0",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "m24a-4p-LnvL-kQyc",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mn3pYNn8k4OOIoaLL",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mvO5DyTdbBiHs4m4L",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mKzBdcDqqk77DNez0",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mPwXXyXQ2U4J2N9vz",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mtUOvqTQCczz0oXP9",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mJb9t6zKBHHB7thl2",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "mzFBbxpY_VMatKkOE",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "myOgKpMCQIi96fuXW",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mYEyr-JU6ZsWH27gK",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "m65C3n6AhAuw-CBaT",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mNkqh0a13GKxz8zfR",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mnFzkqyq1xQVzv2co"
+							},
+							"name": "All-Out, Concentrate",
+							"reference": "PU8:11",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "mdbkuRi0Rn4E25u4N",
+							"name": "Accessibility, Legs and similar supportive body parts only",
+							"cost": -20
+						},
+						{
+							"id": "m5ZV_l6LZ4uArdV7q",
+							"name": "Area Effect",
+							"cost": 50,
+							"levels": 1
+						},
+						{
+							"id": "mX821EbWhLcg6K2wP",
+							"name": "Based on DX",
+							"cost": 20
+						},
+						{
+							"id": "m2YqRPI9b4Xw0q6Dr",
+							"name": "Environmental, Ground",
+							"cost": -20
+						},
+						{
+							"id": "mD4QqWTJya7rL8XAE",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "mvUoEDfpLX0hfZi-m",
+							"name": "Link",
+							"cost": 10
+						},
+						{
+							"id": "msJgf3KcG1p0nFe8v",
+							"name": "No fatigue loss from Seizure",
+							"cost": -20
+						},
+						{
+							"id": "m_1xRdzyb3bKS1GQ3",
+							"name": "No Signature",
+							"cost": 20
+						},
+						{
+							"id": "mAuRzSCU3DzYIhurE",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "m2nmz6t8CaV7lUiqK",
+							"name": "Reduced Duration, 1/180",
+							"cost": -40
+						},
+						{
+							"id": "mruAMnF7NhY-U5mbM",
+							"name": "Variable, Area",
+							"cost": 5
+						},
+						{
+							"id": "mjfX-x0AznkBOdzwB",
+							"name": "Cosmic, Irresistible Attack",
+							"cost": 300
+						},
+						{
+							"id": "mKtIhCjgdY_uEx4oH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mZlDUysMUbS2swLt0"
+							},
+							"name": "All-Out",
+							"reference": "PU8:11",
+							"cost": -25
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 37
+					}
+				},
+				{
+					"id": "tDSH9rEEURxToCZ8k",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tgJ2Bp88mhhDlrUma"
+					},
+					"name": "Innate Attack (Burn)",
+					"reference": "B61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mKWuLOwAu7Pr2pE5d",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mOi4PK52eG5WM4NUk",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mOHYysPHaskL_Wy0j",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min",
+							"cost": 40,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mS295NjeRrl-hieq1",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m35ne2B77QshoYidl",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mYTz-0NcZyxMFLSWU",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec; Resistible",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mGhiCOuSbYR5D1F5n",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec; Resistible",
+							"cost": 25,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mvxhTchWef8wL2_6O",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min; Resistible",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mTLf-BNOEOqG1ZE2t",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr; Resistible",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mcfaN6_cYLCngFJeS",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day; Resistible",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m_skNyuO1uNMOiZt_",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Mildly",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mfXYbXHuJptub5TI-",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Highly",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mOqEK3CVmJ7mCWYr6",
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"local_notes": "1HP per 10 dmg",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mIufrUBsJhFrQHKUv",
+							"name": "Explosion",
+							"reference": "B104",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mHjLL1UIzDU3glOSk",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mH5pHoo_mXxvLhucy",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"local_notes": "Hot",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mH3X0_GFS6VsE47OI",
+							"name": "Radiation",
+							"reference": "B104",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mHk1Wa2_2wp6HwDgj",
+							"name": "Surge",
+							"reference": "B104",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m9o4QhAN4nG-BVIFj",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "2",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mqwxuaRG2heQrRI4g",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "3",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mMv_l8ermYHRlHvPY",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "5",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mXYnFJo7se1ExLG7-",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "10",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mR7NxG_BW2mbt4Hw1",
+							"name": "Side Effect",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mwfqoQtan8YGXLEaN",
+							"name": "Symptoms",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mxDgspxjQyeFMCQXN",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.5",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "m1Ws2Mar-p6OFlx8T",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.2",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "muPCmvCi8eVViYERU",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.1",
+							"cost": -70,
+							"disabled": true
+						},
+						{
+							"id": "mAmHe9iuPqiT-fPaw",
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mDq8vw1roVqDiriy5",
+							"name": "Surge, Arcing",
+							"reference": "PSI20",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "msLAsOwc8ikZhICXx",
+							"name": "Area Effect",
+							"cost": 50,
+							"levels": 2
+						},
+						{
+							"id": "mY2_74MjKlnfcPcrg",
+							"name": "Based on DX",
+							"cost": 20
+						},
+						{
+							"id": "mkw1FOquGinen0011",
+							"name": "Environmental, Ground",
+							"cost": -20
+						},
+						{
+							"id": "mdzRoYBAjOSSWW8R0",
+							"name": "Link",
+							"cost": 10
+						},
+						{
+							"id": "mSRrg3frFMPy2cfqa",
+							"name": "Magical",
+							"cost": -10
+						},
+						{
+							"id": "mUSVnI7uGvFttJXph",
+							"name": "No Incendiary Effect",
+							"cost": -10
+						},
+						{
+							"id": "m0atEQo-hMusROf2a",
+							"name": "Variable, Area",
+							"cost": 5
+						},
+						{
+							"id": "mNrI1-UAK8Bj4z2aq",
+							"name": "Delay, 2 seconds"
+						},
+						{
+							"id": "mlrqlos7xIGCNz9D4",
+							"name": "Overhead",
+							"cost": 30
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 12
+					}
+				},
+				{
+					"id": "tgYjyN1YMw4KcaC2k",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tTPqCUAzdydSpQhz5"
+					},
+					"name": "Innate Attack (Burn)",
+					"reference": "B61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mn1Go1K36W-e84oN5",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mAH74y2vwUzGv3WTA",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mlVVvYJU4ZvbGr7xc",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min",
+							"cost": 40,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mlzrMmB920NbCcmTn",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mSNcViiqb_dGQU646",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mt7TM0eZOIOQbJLlI",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 sec; Resistible",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mqrAH86VVktbP27VU",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "10 sec; Resistible",
+							"cost": 25,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mEpzGq1thnIjgKcK1",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 min; Resistible",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mixEm5tGIkWbQTub8",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 hr; Resistible",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m41jh7rpdbWsHwxt4",
+							"name": "Cyclic",
+							"reference": "B103",
+							"local_notes": "1 day; Resistible",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mkoiPNvbWRznKhaIU",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Mildly",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "meQT48RkcaUNaud6J",
+							"name": "Contagious",
+							"reference": "B103",
+							"local_notes": "Highly",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m8TepgIvggOxaZ0qy",
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"local_notes": "1HP per 10 dmg",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m8uuQao1W4cgeJ7uU",
+							"name": "Explosion",
+							"reference": "B104",
+							"cost": 50,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "ma_XMvIV3AKuQtUfP",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mj2NHBlZUonauwEA8",
+							"name": "Fragmentation",
+							"reference": "B104",
+							"local_notes": "Hot",
+							"cost": 15,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mm45qhjQLd-N2LeQB",
+							"name": "Radiation",
+							"reference": "B104",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mDJ__cpEGw9nWrrsT",
+							"name": "Surge",
+							"reference": "B104",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m1mh1QxkSIEzX_b5y",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "2",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mrdJcEvcLrNEYE5-S",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "3",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mTM3I1SeTK2Wht1Mh",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "5",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "m4nvQQq1f8a-rjdvo",
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"local_notes": "10",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mim9lYAmax8zFni6n",
+							"name": "Side Effect",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mn9l8HLWMwNrPFgA9",
+							"name": "Symptoms",
+							"reference": "B109",
+							"local_notes": "@Effect@",
+							"disabled": true
+						},
+						{
+							"id": "mkPjcoWVEGVp_ll-r",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.5",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mLRZCSQUbZ6TXvmmZ",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.2",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mLh2PrCKlIKK2ySLo",
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"local_notes": "0.1",
+							"cost": -70,
+							"disabled": true
+						},
+						{
+							"id": "my8CjX-EiEtFVZhdg",
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mJdJpnvDx0ZJRChy5",
+							"name": "Surge, Arcing",
+							"reference": "PSI20",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "myY-hpefBgI8VsH3t",
+							"name": "Area Effect",
+							"cost": 50,
+							"levels": 1
+						},
+						{
+							"id": "mtEg350ID3C8T-Gxx",
+							"name": "Based on DX",
+							"cost": 20
+						},
+						{
+							"id": "m-iV1-vZCv6YxUFD7",
+							"name": "Environmental, Ground",
+							"cost": -20
+						},
+						{
+							"id": "mEzr2ufsIFxjb4eAs",
+							"name": "Link",
+							"cost": 10
+						},
+						{
+							"id": "mJLcBOwAMxjygKDXy",
+							"name": "Magical",
+							"cost": -10
+						},
+						{
+							"id": "mOAS7YGE2QGVBlq0N",
+							"name": "No Incendiary Effect",
+							"cost": -10
+						},
+						{
+							"id": "mZwUA-y0kD1K5VtWn",
+							"name": "Variable, Area",
+							"cost": 5
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 22
+					}
+				}
+			],
+			"calc": {
+				"points": 71
+			}
+		},
+		{
+			"id": "T4wMdqw3n6y3lkHbj",
+			"name": "Snap-Freeze",
+			"local_notes": "Create Water, Freeze Water",
+			"tags": [
+				"Water"
+			],
+			"children": [
+				{
+					"id": "tzJcEkWCc-FHB6kCS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t9fwzDbdQy1S9CHUx"
+					},
+					"name": "Affliction",
+					"reference": "B35,P39,PSI13",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "MQcJGuPmiZsBMDMlf",
+							"name": "Attribute Penalties",
+							"children": [
+								{
+									"id": "moDxk7TCKV-w6PX8x",
+									"name": "DX Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to DX per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mYElpdPh1GojJefNw",
+									"name": "HT Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to HT per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mAPtveRBzuWqbKz15",
+									"name": "IQ Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to IQ per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "m9OdGG9Iv2vQGvok7",
+									"name": "ST Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to ST per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "m0YvNQQBeAvW9oISl",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mT3qUbNTHdT3jI9h2",
+							"name": "Cumulative",
+							"reference": "B36",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "MSjgO-9zbkM4-Mhal",
+							"name": "Incapacitation",
+							"reference": "B36",
+							"children": [
+								{
+									"id": "mMJSXco4jpp1Qdl7Y",
+									"name": "Agony",
+									"reference": "B428",
+									"local_notes": "Lose 1 FP per minute",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mderaQlXMV-UaFh68",
+									"name": "Choking",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "m2x_DmENzM2C3i9nl",
+									"name": "Daze",
+									"reference": "B428",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mqv7qP7Wri6jZghfF",
+									"name": "Ecstasy",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mqdto3htbo3tPbFJ4",
+									"name": "Hallucination",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mk_axk1JrP5ZdIJ8_",
+									"name": "Paralysis",
+									"reference": "B429",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "mTxkpzBtzzwWMYOVj",
+									"name": "Retching",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mL9ooQOZU5XRGw0q0",
+									"name": "Seizure",
+									"reference": "B429",
+									"local_notes": "Lose 1d FP at the end of the seizure",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mCHGbs_wTYSlrB9Cf",
+									"name": "Sleep",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "mTyg_9cnNS6MFI4Nm",
+									"name": "Unconsciousness",
+									"reference": "B429",
+									"cost": 200,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MlbGiCGuDFRiGGZvf",
+							"name": "Irritations",
+							"reference": "B36",
+							"children": [
+								{
+									"id": "mmr5EnEjxQ9hiKgjj",
+									"name": "Coughing",
+									"reference": "B428",
+									"local_notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mbzNn-3mVzpx-XSVs",
+									"name": "Drunk",
+									"reference": "B428",
+									"local_notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mNguqk9VP01jK7U-5",
+									"name": "Euphoria",
+									"reference": "B428",
+									"local_notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mNk5GVWIbGxQHaGHX",
+									"name": "Moderate Pain",
+									"reference": "B428",
+									"local_notes": "-2 to all DX, IQ, skill and self-control rolls",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mw8CgmTbb4scZVIen",
+									"name": "Nauseated",
+									"reference": "B428",
+									"local_notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mYojxx7dmO7AviX5u",
+									"name": "Severe Pain",
+									"reference": "B428",
+									"local_notes": "-4 to all DX, IQ, skill and self-control rolls",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "m5B7CAL4fMDYeXhD2",
+									"name": "Terrible Pain",
+									"reference": "B428",
+									"local_notes": "-6 to all DX, IQ, skill and self-control rolls",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "mnH57dfozNIje5yaK",
+									"name": "Tipsy",
+									"reference": "B428",
+									"local_notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+									"cost": 10,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MjoOWn2P-P0eDseVr",
+							"name": "Mortal Conditions",
+							"children": [
+								{
+									"id": "mgeg2ydlwCcMWy82g",
+									"name": "Coma",
+									"reference": "B429",
+									"cost": 250,
+									"disabled": true
+								},
+								{
+									"id": "mIQafycrMuwoLXrvd",
+									"name": "Heart Attack",
+									"reference": "B429",
+									"cost": 300,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "mMhSvnVXYmt8fLyKX",
+							"name": "Stunning",
+							"reference": "B36",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "MLps35NsHpJde9XmV",
+							"name": "Traits",
+							"children": [
+								{
+									"id": "mLEO-lnI54fQBmydF",
+									"name": "Gives @Advantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mJzgjAGZ2UwrFnKMV",
+									"name": "Gives @Disadvantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "m9eK9IGjQWncP9Acf",
+									"name": "Negates @Advantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mMnPMxRkKPorFCGKA",
+									"name": "Sorcery",
+									"cost": -15
+								},
+								{
+									"id": "mNeQ74jMKUvD-2M2h",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "mZ6n0ZDsrzwxwFOSe"
+									},
+									"name": "Requires Gestures",
+									"reference": "PU8:5",
+									"cost": -10
+								},
+								{
+									"id": "mNik0i3lWiPyGjB5_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "m21igBdWYgdcpw-2W"
+									},
+									"name": "Requires Magic Words",
+									"reference": "PU8:5",
+									"cost": -10
+								},
+								{
+									"id": "mCUmFSIvQ3nsosVVA",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+										"id": "mxRNBA06vtsaQacuQ"
+									},
+									"name": "Blockable",
+									"reference": "PU8:12",
+									"cost": -5
+								},
+								{
+									"id": "mpj6WrBiN2t3M7h1k",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+										"id": "mcXN1MCeZnZB4Jz2e"
+									},
+									"name": "Follow-Up",
+									"reference": "B105,P102",
+									"local_notes": "1d damage per level"
+								}
+							]
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 6
+					}
+				}
+			],
+			"calc": {
+				"points": 6
+			}
+		},
+		{
+			"id": "TnMElyf_MkpfO_NVZ",
+			"name": "Dampen Mind",
+			"tags": [
+				"Psychic",
+				"Area"
+			],
+			"children": [
+				{
+					"id": "tHAGAsIEO5qLCCDc4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tFowhvn3fxXiiqI8v"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Area",
+						"Exotic",
+						"Physical",
+						"Resisted"
+					],
+					"modifiers": [
+						{
+							"id": "mgnIsTL9GhnqdCzYL",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "myg78-AE--yP0EDiQ",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "mnhp4CEEZxa4R43wp",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "moxIrdpxFArss-vk8",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "m-O7ZnNnIvthfW-hw",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "mLtQnSnmlX2q3ndJJ",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mk0AxahFeDIFEhHut",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mn6DKNH_VbGi2Nd16",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mtKSyuK_tHHiGgVdJ",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m7gK6ASWj6-3ud1vp",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mnQwV3GSNDeC-Mumc",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m1q1W29HYZF7XdIm2",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m4B3BDEp-FrtpX7f7",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mSlSKZPsHd1icjVC2",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mv6otowiBd11tlhXI",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mdVJCAAwGdl9wGrEC",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "msf09WiG0iGoVyOXI",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mKstlo6UwHUcdilIy",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "muBdKyy8PRxXy4UKo",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mQuRZcifMHlcrgCiO",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mvinaYo_DNJP5NoNN",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mkwTZYZyJ0M_RIgho",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "m2Jickhml8DBE-XGy",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mHpr-0QBI3uFBBNMR",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "mwTCNtGOLuRaTw2FB",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mAprPTzxohWcrI-1F",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "maHnFSO9X7fUbz9Jp",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mUuDhQxTMrxfN_bpB",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mSOFz7zMDaEuE-v3_",
+							"name": "No Signature",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mpt68NLH_BmJ4YEwW",
+							"name": "Malediction 2",
+							"cost": 150
+						},
+						{
+							"id": "mU4gsYEBe8vqh2Wk0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "ma-ZXeGiuAjy0CZtp"
+							},
+							"name": "Unsupported",
+							"reference": "PU8:19",
+							"cost": -25
+						},
+						{
+							"id": "mFF_5bSPOlZgD29Vt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mnoT9U3D13wxCQAOF"
+							},
+							"name": "Visible",
+							"reference": "PU8:19",
+							"local_notes": "Usually Invisible Attack",
+							"cost": -20
+						},
+						{
+							"id": "menNMX4IXyJa6fvXj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m6pU09qTmV5dvX1ER"
+							},
+							"name": "Mana Sensitive",
+							"reference": "B34",
+							"local_notes": "Does not work in no mana, -5 to die rolls in low mana",
+							"cost": -10
+						},
+						{
+							"id": "mHt-5c4NorFF2LUka",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "mw6IRIqYo5yG9m2Tu",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "mFaLma4FLMTRh0hkw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "m2IwCpU9KwYmjiSSA"
+							},
+							"name": "Accessibility",
+							"reference": "B110,P99",
+							"local_notes": "Only works on Sapient Beings",
+							"cost": -10
+						},
+						{
+							"id": "mqm0I3ZwlH47LhNOq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mbO8GjGu_NuPTLz6e"
+							},
+							"name": "Area Effect",
+							"reference": "B102,P100",
+							"local_notes": "2^level radius",
+							"cost": 50,
+							"levels": 1
+						},
+						{
+							"id": "mdqIR5Oc6sFfSIJVz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "m6a1aTfBRAaUvv1sr"
+							},
+							"name": "Based on Will",
+							"reference": "B102",
+							"cost": 20
+						},
+						{
+							"id": "mKN1CZUs8pmx9bkwB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+								"id": "mk76f3SlpNhhWuzRi"
+							},
+							"name": "Emanation",
+							"reference": "B112,P102",
+							"cost": -20
+						},
+						{
+							"id": "m899EeGGlTcgin7w2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mBUqeaOCkjZbdZXTV"
+							},
+							"name": "Variable",
+							"reference": "B109,P107",
+							"local_notes": "Area",
+							"cost": 5
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 23
+					}
+				}
+			],
+			"calc": {
+				"points": 23
+			}
+		},
+		{
+			"id": "ThdsC5mzDdGAiSN5s",
+			"name": "Amplify Sound",
+			"tags": [
+				"Psychic"
+			],
+			"children": [
+				{
+					"id": "t4Jni2QTUaY4eoAJT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Home Brew\\Enraged Eggplant\\Magic\\Sorcery Spells.adq",
+						"id": "tSGMLeNnOTVOB_-5M"
+					},
+					"name": "Affliction",
+					"reference": "B35",
+					"tags": [
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mTUHDsaI0Zw4ETn-Z",
+							"name": "Advantage; one point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mk6fqtjAxFP9vQtc4",
+							"name": "Atribute Penalty; -1 to ST or HT per level",
+							"cost": 5,
+							"disabled": true
+						},
+						{
+							"id": "muHuLamYxTxZwnyz5",
+							"name": "Atribute Penalty; -1 to DX or IQ per level",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "m3SCR_PafoG_j7U9K",
+							"name": "Mortal Condition; Coma",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "mwzoYXTKI2zV1C7GS",
+							"name": "Mortal Condition; Heart Attack",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "mkIeZyWLqQ-4KU2Rn",
+							"name": "Disadvantage; one point per level",
+							"cost": 1,
+							"disabled": true
+						},
+						{
+							"id": "mQmIwFonQbbdBQN_Y",
+							"name": "Incapacitating Condition; Daze",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "milr9LuWnAN2PY2k_",
+							"name": "Incapacitating Condition; Hallucination",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m5cbrzsUA5rzuIvY2",
+							"name": "Incapacitating Condition; Retching",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mAZyjkMcVgWhJlyfA",
+							"name": "Incapacitating Condition; Agony",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "maNVZcg8rVVZR5L3T",
+							"name": "Incapacitating Condition; Choking",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m5-WRm3Svc3NdUoF4",
+							"name": "Incapacitating Condition; Ecstasy",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mEjfyBjGJo9iMMPlT",
+							"name": "Incapacitating Condition; Seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mE8ETgTYOfJGfpGMF",
+							"name": "Incapacitating Condition; Paralysis",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "mIc3Pys3jGeTGybTS",
+							"name": "Incapacitating Condition; Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "muOv3nRelA198ihwE",
+							"name": "Incapacitating Condition; Unconsciousness",
+							"cost": 200,
+							"disabled": true
+						},
+						{
+							"id": "mwhON5x3vFhGL4y7o",
+							"name": "Irritating Condition; Tipsy",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "m2uxXq7Jk6dqi_eXD",
+							"name": "Irritating Condition; Coughing",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mi3WCxyHXUmn6zHbr",
+							"name": "Irritating Condition; Drunk",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m6_u1enyEFEEZIJf5",
+							"name": "Irritating Condition; Moderate Pain",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mXJ2-_ZQIVpk6lcNT",
+							"name": "Irritating Condition; Euphoria",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mYBIxtUJEe4f1RkNi",
+							"name": "Irritating Condition; Nauseated",
+							"cost": 30
+						},
+						{
+							"id": "mO0JHhqEZMgBtL8tg",
+							"name": "Irritating Condition; Severe Pain",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mbdEpdhtAUb-CDysG",
+							"name": "Irritating Condition; Terrible Pain",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "m7jHFEvKcAix5HHsB",
+							"name": "Negated Advantage; one point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m_6x7t_xIU7SBGVzY",
+							"name": "Stunning",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "m7oWQfPZFiMmqdveW",
+							"name": "Cumulative",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "mjUi4gXh5LnHLX44D",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mCKMOZ-XcJxQ2C6rr",
+							"name": "Malediction 2",
+							"cost": 150
+						},
+						{
+							"id": "mnyeuL9047PrKKDWC",
+							"name": "No Signature",
+							"cost": 20
+						},
+						{
+							"id": "mGg3-WuKpyH1zpcYE",
+							"name": "Fixed Duration"
+						},
+						{
+							"id": "meNJ-j4UBNEkYWCXC",
+							"name": "Sorcery",
+							"cost": -15
+						},
+						{
+							"id": "mCO4ejI44ycQmQFkA",
+							"name": "Reduced Duration, 1/20",
+							"cost": -25
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 26
+					}
+				}
+			],
+			"calc": {
+				"points": 26
+			}
+		},
+		{
+			"id": "Te80gCwJ-tmuHFY0B",
+			"name": "Harmonize",
+			"tags": [
+				"Psychic"
+			],
+			"children": [
+				{
+					"id": "tsRSonVgaa6L98J5v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tqyRvrXKWtUMlIEQe"
+					},
+					"name": "Alternate Form",
+					"reference": "B83",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m4FPnY8NFSngSN3u6",
+							"name": "Cosmetic",
+							"reference": "B84",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mjAkVb7juxz9iOzqY",
+							"name": "Absorptive Change",
+							"reference": "P75",
+							"local_notes": "@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mapXx8lbhb3WooysV",
+							"name": "Active Change",
+							"reference": "P75",
+							"cost": 20
+						},
+						{
+							"id": "m3bzHM4vqRS4rTXDL",
+							"name": "Non-Reciprocal Damage",
+							"reference": "P75",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mlWKE0J1WYzYk8FhT",
+							"name": "Once On, Stays On",
+							"reference": "P75",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mLLzN614P0BxlOtg6",
+							"name": "Reciprocal Rest",
+							"reference": "P75",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "mVa8JDrossH2vY4Wi",
+							"name": "Projected Form",
+							"reference": "P75",
+							"cost": -50
+						},
+						{
+							"id": "mnTKkLSA96zS5pPlE",
+							"name": "Takes Extra Time",
+							"reference": "B115",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 11
+					}
+				}
+			],
+			"calc": {
+				"points": 11
+			}
+		},
+		{
+			"id": "TcTyk7aOQSqiPU_U8",
+			"name": "Distort Equilibrium",
+			"tags": [
+				"Psychic"
+			],
+			"children": [
+				{
+					"id": "tbtbqTXFMLQAw5Ujp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t9fwzDbdQy1S9CHUx"
+					},
+					"name": "Affliction",
+					"reference": "B35,P39,PSI13",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "MMm_pOKmdn1neMDCh",
+							"name": "Attribute Penalties",
+							"children": [
+								{
+									"id": "mxDYM56KXbHtHSxxx",
+									"name": "DX Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to DX per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mAtypXB_olQ7LgWAp",
+									"name": "HT Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to HT per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mcbNF-N58C73-r9Q0",
+									"name": "IQ Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to IQ per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mbLkTuy3-h67YlwBC",
+									"name": "ST Penalty",
+									"reference": "B36",
+									"local_notes": "Gives -1 to ST per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "moVIEfnRg9s2DFxte",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "mOUzTI8HXg56hDBTO",
+							"name": "Cumulative",
+							"reference": "B36",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "Mi2oqYu7pg4GGEx90",
+							"name": "Incapacitation",
+							"reference": "B36",
+							"children": [
+								{
+									"id": "mn9byudiiE407WBrI",
+									"name": "Agony",
+									"reference": "B428",
+									"local_notes": "Lose 1 FP per minute",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mlFE7owJYytAXRpai",
+									"name": "Choking",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mMaRPTF8Y8j8P7Azp",
+									"name": "Daze",
+									"reference": "B428",
+									"cost": 50
+								},
+								{
+									"id": "mDztVjWUoWYbtO9bA",
+									"name": "Ecstasy",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "muCE66-6_9K8CPadq",
+									"name": "Hallucination",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "m5wKpXX9bigXVrV4B",
+									"name": "Paralysis",
+									"reference": "B429",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "mOg0dCy_GT4MK1A-Y",
+									"name": "Retching",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "m-_KdqzMJ_SpRHflC",
+									"name": "Seizure",
+									"reference": "B429",
+									"local_notes": "Lose 1d FP at the end of the seizure",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "mqzBgjhVmG-nNcoCD",
+									"name": "Sleep",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "mwr1PuDQqHvqcF51P",
+									"name": "Unconsciousness",
+									"reference": "B429",
+									"cost": 200,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MitF3Axk40F-hvVOP",
+							"name": "Irritations",
+							"reference": "B36",
+							"children": [
+								{
+									"id": "m7yFNDCRqTdg1-lJm",
+									"name": "Coughing",
+									"reference": "B428",
+									"local_notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "m1HUvFhTG2cKI9RG4",
+									"name": "Drunk",
+									"reference": "B428",
+									"local_notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mxHaT-IBucqpi9WTR",
+									"name": "Euphoria",
+									"reference": "B428",
+									"local_notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mwhr5LqvnzyiT3E-_",
+									"name": "Moderate Pain",
+									"reference": "B428",
+									"local_notes": "-2 to all DX, IQ, skill and self-control rolls",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mXLvc8ibHys18zT_B",
+									"name": "Nauseated",
+									"reference": "B428",
+									"local_notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mCIMXJmPMGo9z8laI",
+									"name": "Severe Pain",
+									"reference": "B428",
+									"local_notes": "-4 to all DX, IQ, skill and self-control rolls",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "m25mDAsDgCUf2KfNY",
+									"name": "Terrible Pain",
+									"reference": "B428",
+									"local_notes": "-6 to all DX, IQ, skill and self-control rolls",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "m4ZpnUjZKFxJpgJFZ",
+									"name": "Tipsy",
+									"reference": "B428",
+									"local_notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+									"cost": 10,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MPieqQ7oX4zUiK1kD",
+							"name": "Mortal Conditions",
+							"children": [
+								{
+									"id": "m65PU5Axs17Rf02oJ",
+									"name": "Coma",
+									"reference": "B429",
+									"cost": 250,
+									"disabled": true
+								},
+								{
+									"id": "m4jtT3xGCwvlpfOWv",
+									"name": "Heart Attack",
+									"reference": "B429",
+									"cost": 300,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "mdPRjU2pgtP_3KRAM",
+							"name": "Stunning",
+							"reference": "B36",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "MCmCyt7dh9Koss9kY",
+							"name": "Traits",
+							"children": [
+								{
+									"id": "mimxC8A0sAu5BZhLe",
+									"name": "Gives @Advantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mMDREIxIG_R0TEnHF",
+									"name": "Gives @Disadvantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mrxmje-IJ-I-46blQ",
+									"name": "Negates @Advantage@",
+									"reference": "B36",
+									"local_notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "m-_70cn7ODZi9efSt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost": 10
+						},
+						{
+							"id": "mzrNjyxelr0jho1Bb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups\\Power Ups 8 Limitations Limitation Modifiers.adm",
+								"id": "mnFzkqyq1xQVzv2co"
+							},
+							"name": "All-Out, Concentrate",
+							"reference": "PU8:11",
+							"cost": -25
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 14
+					}
+				},
+				{
+					"id": "tHADKZETktdrBSr5Z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "trUV-dtFgMs1vSSlr"
+					},
+					"name": "Mindlink",
+					"reference": "B70",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "mt0CAA4yBWHeJF7mD",
+							"name": "Single person",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "moVB5yWAd9_6VWmTh",
+							"name": "2-9 people",
+							"reference": "B70",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mQ6l6x8SIKpl8vrlI",
+							"name": "10-99 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mgqrPnEBuulxSddC9",
+							"name": "100-999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-Yd-HJA8EP5ls531",
+							"name": "1000-9999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mj_VjDYRC3ECZAFWj",
+							"name": "10000-99999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 50,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mLhXDAdhkLSsLjDuX",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mIV2BIyD05kDPw59d",
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mrRnl_34IdKOdVwvQ",
+							"name": "Sensory",
+							"reference": "B69",
+							"cost": 20
+						},
+						{
+							"id": "mSVnYEw5xxBs6m8Xi",
+							"name": "Universal",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mcy26Hd2urubCnDqZ",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mHJkybEio5SGLepL5",
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mrc-jsphEKjV0o8r0",
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m-P6jD5DGZMjrOdW0",
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mD-7JxKPlCWyf1hbt",
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mfpJkTXAXpNWezY4T",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mrRHfOi_ZEwQLwscm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+								"id": "mVIPwP64p4POxRhkL"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"local_notes": "Affliction, Nauseating, must be used as a single ability",
+							"cost": 10
+						}
+					],
+					"calc": {
+						"points": 13
+					}
+				}
+			],
+			"calc": {
+				"points": 27
+			}
+		}
+	]
+}

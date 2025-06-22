@@ -1,0 +1,164 @@
+- 0:
+    name: Sandals
+    cost: 25
+    weight: 0.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 1:
+    name: Fur Tunic
+    cost: 25
+    weight: 2 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: DR 1 (Torso, Vitals)
+    recoil: N/A
+    STreq: N/A
+
+- 2:
+    name: Fur Loincloth
+    cost: 10
+    weight: 0 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: DR 1 (Groin)
+    recoil: N/A
+    STreq: N/A
+
+- 3:
+    name: Leather Helm
+    cost: 20
+    weight: 0.5 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 5:
+    name: Heavy Leather Sleeves
+    cost: 50
+    weight: 2 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 6:
+    name: Cloth Cap
+    cost: 5
+    weight: "0 lb"
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 7:
+    name: Cloth Gloves
+    cost: 15
+    weight: "0 lb"
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 8:
+    name: Cloth Sleeves
+    cost: 20
+    weight: "2 lb"
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 9:
+    name: Light Cloak
+    cost: 20
+    weight: "2 lb"
+    reach: C,1
+    RoF: N/A
+    bulk: N/A
+    damage: See B404 / See B411
+    recoil: N/A
+    STreq: 5
+
+- 10:
+    name: Shoes
+    cost: 40
+    weight: 2 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 11:
+    name: Leather Pants
+    cost: 40
+    weight: 3 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 12:
+    name: Leather Leggings
+    cost: 40
+    weight: 2 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 13:
+    name: Leather Jacket
+    cost: 50
+    weight: 4 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 14:
+    name: Spurs
+    cost: 20
+    weight: 0 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A
+
+- 15:
+    name: Lanyard, Leather
+    cost: 1
+    weight: 0 lb
+    reach: N/A
+    RoF: N/A
+    bulk: N/A
+    damage: N/A
+    recoil: N/A
+    STreq: N/A

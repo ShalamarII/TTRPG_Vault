@@ -1,0 +1,88 @@
+--March 12, 2024
+-Removed the vitals hit location from skeletons and twig blight
+Aberrant Head
+Air Elemental
+Black Pudding
+Boneyard
+Brown Pudding
+Carcass Eater
+Cauchemar
+Crystal Ooze
+Dullahan
+Dun Pudding
+Earth Elemental
+Elder Black Pudding
+Gelatinous Cube
+Gnashing Head
+Gray Ooze
+Greater Stone Golem
+Illithocyte
+Lesser Nightmare
+Mustard Jelly
+Nightmare
+Ochre Jelly
+Petrifying Head
+Pixie
+Slithering Tracker
+Stone Golem
+White Pudding
+
+--February 11, 2024
+-Fixed Albatross, Barracuda, Griffon, and Wolf body types
+-Removed FP from undead and constructs
+-New templates:
+Aballin
+Abeil Soldier
+Abeil Queen
+Aboleth
+Aboleth Mage
+Amphibious Aboleth
+Animated Manacles
+Cataphract
+Choker
+Giant Queen Ant
+Giant Soldier Ant
+Giant Worker Ant
+Goblin Skeleton
+Goblin Zombie
+Hill Giant
+Hook Horror
+Human Commoner Skeleton
+Human Commoner Zombie
+Iron Golem
+Master Ninja
+Scrag
+Stygian Aboleth
+Texas Cowboy
+Troll
+Troll Hunter
+Troll Skeleton
+Uobilyth (Aerial Aboleth)
+Wolf Skeleton
+Wolf Zombie
+
+--26 Dec 2023
+-New templates:
+Albatross
+Archer
+Barracuda
+Bugbear Hunter
+Bugbear Warrior
+Crusafer
+Goblin Basher
+Goblin Healer
+Griffon
+Halberdier
+Half-Elf Swashbuckler
+Half-Orc Infiltrator
+Hobgoblin Warrior
+Hobgoblin Chief
+Kabal
+Kobold Sorcerer
+Kobold Warrior
+Marksman
+Monk
+Ogre Barbarian
+Orc Warrior
+Pikeman
+Swordsman

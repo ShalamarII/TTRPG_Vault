@@ -1,0 +1,330 @@
+{
+	"version": 5,
+	"id": "BT9rnSKzoPDRypcAH",
+	"traits": [
+		{
+			"id": "Tte5pYTUPo5KChOvL",
+			"name": "Heirloom Parasite",
+			"children": [
+				{
+					"id": "tozXQVkJ4kduXyC1d",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tUJz4wvVveMiGDX0R"
+					},
+					"name": "Extended Lifespan",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "tVd2TNFtDmh8klkSa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "td5zyb9sBhZkHhkmv"
+					},
+					"name": "Dependency (Ranil)",
+					"reference": "B130",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mB8aNGMsUsnpZZBIL",
+							"name": "Rarity: Rare",
+							"reference": "B130",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mPh10gY--njvvSEXH",
+							"name": "Rarity: Occasional",
+							"reference": "B130",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mse6rZMYdJGjAnXOj",
+							"name": "Rarity: Common",
+							"reference": "B130",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mpPHvSK5uy0ZPsrgv",
+							"name": "Rarity: Very Common",
+							"reference": "B130",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mx4nY8cIv4Qz_Vvug",
+							"name": "Illegal",
+							"reference": "B130",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mIVahgikqrUp4JM6o",
+							"name": "Frequency: Constantly",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per minute without it",
+							"cost": 5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "maXzD0vEoi8O0stod",
+							"name": "Frequency: Hourly",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per 10 minutes after missing a hourly dose",
+							"cost": 4,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mrwVIT-pI16lddCqB",
+							"name": "Frequency: Daily",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per hour after missing a daily dose",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mwtxmXqodv1D0_REZ",
+							"name": "Frequency: Weekly",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per six hours after missing a weekly dose",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mGbQogw0W1kklyfmP",
+							"name": "Frequency: Monthly",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per day after missing a monthly dose",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mJtl1a83pt8umqY-F",
+							"name": "Frequency: Seasonally",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per 3 days after missing a seasonal dose",
+							"cost": 0.3333,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "maaAMklSIxYqjOC7T",
+							"name": "Frequency: Yearly",
+							"reference": "B130",
+							"local_notes": "Lose 1 HP per 2 weeks after missing a yearly dose",
+							"cost": 0.1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mTGdXlh8lVOjA_rTF",
+							"name": "Aging",
+							"reference": "B130",
+							"local_notes": "Age 2 years for each HP lost due to this dependency",
+							"cost": 30,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "ts_cHULN7i7Pelu87",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "thdJ55ghf__io9AQa"
+					},
+					"name": "Longevity",
+					"reference": "B66",
+					"local_notes": "You fail aging rolls only on a 17 or 18, or only on an 18 if your modified HT is 17 or better",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 2,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "tjLSf_6F1IH-Hnk-0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "trUV-dtFgMs1vSSlr"
+					},
+					"name": "Mindlink",
+					"reference": "B70",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "mA_lao9zTNzh0h7Vk",
+							"name": "Single person",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-umLD4Z2FtqlTe4c",
+							"name": "2-9 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mIpfwZXaDR-7Ni4Iv",
+							"name": "10-99 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mZ_HtWQfYEeV9hjrH",
+							"name": "100-999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m2GMK955DLp7KNcak",
+							"name": "1000-9999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-maJDFmNAeW3x3s2",
+							"name": "10000-99999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost": 50,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m7YWZw6J3_seHGCEE",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mi-6gim0xcWCfSwGM",
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mLNWE55Zr3LdzH3K5",
+							"name": "Sensory",
+							"reference": "B69",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mSt80FI2cokf8eT_9",
+							"name": "Universal",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m5gwdO4F-nVMf9sdS",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mEmqrEg-QQgYamLCr",
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mJBE8ElPK7ODQNqSx",
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mEzjtkQy8BEF2y3Wr",
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mGQISuq0tP7KCAQTn",
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "md_6UstjTZUqJYTJr",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		}
+	]
+}
