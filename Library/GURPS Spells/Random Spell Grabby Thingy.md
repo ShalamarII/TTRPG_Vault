@@ -4,7 +4,7 @@
 const { useState } = dc
 
 return function View(){
-    const spells = dc.useQuery(`@page and #SpellsAsMagic and path("TTRPG Systems")`);
+    const spells = dc.useQuery(`@page and #SpellsAsMagic and path("Library")`);
 
     // Set minimums and maximums
     let min = 0
