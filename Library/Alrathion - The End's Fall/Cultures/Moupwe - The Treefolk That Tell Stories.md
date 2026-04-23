@@ -14,20 +14,3 @@ The Moupwe help upkeep the Menari's Heart-Trees in exchange for the protection t
 ^89fe16
 
 The Great Book contains the tribes history themselves. They are a part of the Heart-Trees, a staple of the Moupwe people. The Heart-Trees are originally created by the Moupwe in conjunction with La'Hamar. Each Heart-Tree has a portion of the Great Book, and they are created when the knowledge is passed between Heart-Trees (See [[The Awakening]])
-
-# Plot Hooks
-
-### Tetrun Hooks
-##### Attack of the Idra
-^minor-hook
-The Idra have ramped up their attacks, under the leadership of the Sveltegarde (Holsfang will win regardless of the party's help). Many of the tribes leaders have had their tomes taken and used by Holsfang. The party must stop them before the Idra drive the Moupwe to ruin.   
-
-##### The Fusion of The Locket and The Great Book
-^major-hook
-When the [[Menari - The People of Nature#^8475f9 |Locket of La'Hamar]] and the [[#The Great Book]] fuse, they show a chart of the stars. This chart can then bring them to planets marked upon them, but must absorb energy to be recharged. The only planet the map will have access to from the start is the planet Vularis (Home of the Troi). 
-
-### Vularis Hooks
-
-##### The Ancestors of the Moupwe
-^major-hook
-The ancestor of the Moupwe is a "God" from the planet of Vularis. She discovered the other planets, and devised methods of travel between them. The Star Chart is an object of her and La'Hamar's creation.
