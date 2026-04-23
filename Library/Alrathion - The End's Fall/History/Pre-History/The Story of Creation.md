@@ -1,0 +1,6 @@
+
+## Preface
+This is the most widely accepted creation myth.
+
+## Origins
+Long ago, there was the God Maestrum, the God of Knowledge. He was one of kindness, love, and adoration. He created the universe with the help of Arajak (arājak), the Goddess of Change. Fantastical lands, numerous planes, and many beautiful creatures were created by them. One day, Arajak came to Maestrum wanting to create beings like them. "Godkin", she called them. Maestrum did not like this idea, but after quite some time petitioning him, Arajak convinced him. And so they worked, Maestrum creating the vessel, Arajak giving it being. But there was a jealous God, Ghira ([għira](https://www.indifferentlanguages.com/words/envy/maltese)). He tempted the Godkin, sowing envy and discord. But Maestrum noticed something was off, as the people played and created. They oftentimes lacked the spirit given to them by Arajak, influenced by something else. Maestrum lived amongst them, teaching them remedies for this loss of spirit. The Umbrae are these remedies. The Godkin created and innovated, but some people realized that they had great power, and corrupted these gifts. Maestrum abandoned them, but Arajak couldn't bring herself to. And so she proclaimed her own order meant to face this corruption, The Ottava Soprano.
